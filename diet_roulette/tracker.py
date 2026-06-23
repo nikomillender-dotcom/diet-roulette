@@ -7,7 +7,7 @@ do the math (totals, budget) are pure so they're trivial to test.
 from __future__ import annotations
 
 import json
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 from typing import Optional
 
@@ -50,6 +50,26 @@ def accept(meal: dict, path: Path = STATE_FILE) -> list[dict]:
 def todays_picks(path: Path = STATE_FILE) -> list[dict]:
     """Return the meals accepted today (empty list if none)."""
     return _load(path).get(_today_key(), [])
+
+
+def recent_names(days: int, path: Path = STATE_FILE) -> set[str]:
+    """Names of meals accepted within the last ``days`` days (today counts as day 1).
+
+    Drives the ``--fresh`` no-repeat spin so you stop being handed the same dinners.
+    """
+    if not days or days <= 0:
+        return set()
+    data = _load(path)
+    cutoff = date.today() - timedelta(days=days - 1)
+    out: set[str] = set()
+    for key, picks in data.items():
+        try:
+            when = date.fromisoformat(key)
+        except ValueError:
+            continue
+        if when >= cutoff:
+            out.update(p["name"] for p in picks)
+    return out
 
 
 def reset(path: Path = STATE_FILE) -> None:

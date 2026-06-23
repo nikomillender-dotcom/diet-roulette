@@ -12,9 +12,10 @@ Commands:
 from __future__ import annotations
 
 import argparse
+import random
 import sys
 
-from diet_roulette import __version__, tracker
+from diet_roulette import __version__, prefs as prefs_mod, tracker
 from diet_roulette.htmlreport import render_recipe_html, render_week_html, save_html
 from diet_roulette.planner import (
     GOAL_RULES,
@@ -36,10 +37,20 @@ from diet_roulette.wheel import (
     filter_foods,
     format_meal,
     format_recipe,
+    lean_subset,
     load_foods,
+    matches_any_term,
+    meal_for_hour,
     pick,
     spin_animation,
 )
+
+
+def _split_terms(text: str | None) -> list[str]:
+    """Parse a comma/space separated free-text list into lowercase terms."""
+    if not text:
+        return []
+    return [t.strip().lower() for t in text.replace(";", ",").split(",") if t.strip()]
 
 GOAL_CHOICES = sorted(GOAL_RULES.keys())
 
@@ -52,30 +63,93 @@ def _bar(pct: int, width: int = 24) -> str:
     return f"{color}{'█' * filled}{DIM}{'░' * (width - filled)}{RESET}"
 
 
+def _run_bracket(candidates: list[dict], seed: int | None) -> dict:
+    """This-or-that: show two meals at a time, let the user pick, bracket to a winner."""
+    rng = random.Random(seed)
+    field = rng.sample(candidates, min(4, len(candidates)))
+    rnd = 1
+    while len(field) > 1:
+        print(f"\n{BOLD}{CYAN}Round {rnd}{RESET}  {DIM}({len(field)} in the running){RESET}")
+        winners: list[dict] = []
+        i = 0
+        while i < len(field):
+            if i + 1 >= len(field):
+                winners.append(field[i])  # odd one out gets a bye
+                break
+            a, b = field[i], field[i + 1]
+            print(f"  {BOLD}A){RESET} {a['emoji']}  {a['name']}  {DIM}({a['kcal']} kcal){RESET}")
+            print(f"  {BOLD}B){RESET} {b['emoji']}  {b['name']}  {DIM}({b['kcal']} kcal){RESET}")
+            ans = input(f"  {BOLD}Which sounds better? [A/b]{RESET} ").strip().lower()
+            winners.append(b if ans in ("b", "2") else a)
+            i += 2
+        field = winners
+        rnd += 1
+    return field[0]
+
+
 def cmd_spin(args: argparse.Namespace) -> int:
     foods = load_foods()
     interactive = sys.stdin.isatty() and not args.no_anim and not args.accept
+    avoid = _split_terms(args.avoid)
+    have = _split_terms(args.have)
 
-    # Ask which protein they want, unless they passed --protein or aren't interactive.
+    # Clock-aware: if --now and no explicit --meal, pick the meal type from the time.
+    meal = args.meal
+    if args.now and not meal:
+        from datetime import datetime
+
+        now = datetime.now()
+        meal = meal_for_hour(now.hour)
+        print(f"{DIM}It's {now:%H:%M}, so let's find you something for {meal}.{RESET}")
+
+    # Ask which protein they want, unless passed, in surprise mode, or non-interactive.
     protein = args.protein
-    if protein is None and interactive:
+    if protein is None and interactive and not args.surprise:
         protein = input(
             f"{BOLD}What protein are you feeling?{RESET} "
             f"{DIM}(steak, chicken, tofu, ground beef… or Enter for any){RESET} "
         ).strip() or None
 
-    candidates = filter_foods(
-        foods, meal=args.meal, max_kcal=args.max_kcal, tag=args.tag,
-        cuisine=args.cuisine, protein=protein,
-    )
+    # Build the candidate pool.
+    if args.surprise:
+        # Chaos mode ignores the usual filters, but still respects allergens.
+        candidates = [f for f in foods if not matches_any_term(f, avoid)]
+        print(f"{CYAN}🎰 Chaos mode: anything goes!{RESET}")
+    else:
+        candidates = filter_foods(
+            foods, meal=meal, max_kcal=args.max_kcal, tag=args.tag,
+            cuisine=args.cuisine, protein=protein, avoid=avoid, have=have,
+        )
+        if args.spicy:
+            candidates = [f for f in candidates if "spicy" in f.get("tags", [])]
+        if args.quick:
+            candidates = [f for f in candidates if "quick" in f.get("tags", [])]
+        if args.lean:
+            candidates = lean_subset(candidates)
+
+    # No-repeat: drop anything eaten recently, but never empty the wheel over it.
+    if args.fresh:
+        recent = tracker.recent_names(args.fresh)
+        fresh = [f for f in candidates if f["name"] not in recent]
+        if fresh:
+            candidates = fresh
+        elif candidates:
+            print(f"{DIM}(You've had everything matching lately, so re-runs are allowed.){RESET}")
+
+    # Rig the wheel: drop blocked meals and weight favorites up (unless opted out).
+    weights = None
+    if not args.no_rig:
+        candidates, weights = prefs_mod.apply_prefs(candidates, prefs_mod.load_prefs())
 
     if not candidates:
         print("😕 No meals match those filters.", file=sys.stderr)
         if protein:
             without = filter_foods(
-                foods, meal=args.meal, max_kcal=args.max_kcal, tag=args.tag,
-                cuisine=args.cuisine,
+                foods, meal=meal, max_kcal=args.max_kcal, tag=args.tag,
+                cuisine=args.cuisine, avoid=avoid, have=have,
             )
+            if not args.no_rig:
+                without, weights = prefs_mod.apply_prefs(without, prefs_mod.load_prefs())
             if without and interactive:
                 ans = input(
                     f"Nothing with {BOLD}{protein}{RESET}. "
@@ -86,14 +160,27 @@ def cmd_spin(args: argparse.Namespace) -> int:
         if not candidates:
             return 1
 
+    # This-or-that bracket is its own interactive flow.
+    if args.bracket and interactive and len(candidates) >= 2:
+        winner = _run_bracket(candidates, args.seed)
+        print(f"\n{CYAN}🏆 Your champion:{RESET}\n")
+        print(format_recipe(winner))
+        ans = input(f"\n{BOLD}Add it to today's plan? [y/N]{RESET} ").strip().lower()
+        if ans in ("y", "yes"):
+            day = tracker.accept(winner)
+            print(f"{GREEN}✓ Added to today's plan ({len(day)} meal(s) so far).{RESET}")
+        else:
+            print(f"{DIM}No worries, run it back anytime.{RESET}")
+        return 0
+
     # Spin (and re-spin) until the user accepts a meal or bows out.
     while True:
-        winner = pick(candidates, seed=args.seed)
+        winner = pick(candidates, seed=args.seed, weights=weights)
         if not args.no_anim:
             spin_animation(candidates, winner)
 
         print(f"\n{CYAN}🎯 The wheel landed on:{RESET}\n")
-        print(format_recipe(winner))
+        print(format_recipe(winner, mystery=args.mystery))
 
         if args.accept:
             day = tracker.accept(winner)
@@ -102,7 +189,10 @@ def cmd_spin(args: argparse.Namespace) -> int:
         if not interactive:
             return 0
 
-        ans = input(f"\n{BOLD}Accept this meal? [y/N]{RESET} ").strip().lower()
+        prompt = "Accept this mystery meal? [y/N]" if args.mystery else "Accept this meal? [y/N]"
+        ans = input(f"\n{BOLD}{prompt}{RESET} ").strip().lower()
+        if args.mystery:
+            print(f"{CYAN}🎭 It was {winner['emoji']}  {winner['name']}!{RESET}")
         if ans in ("y", "yes"):
             day = tracker.accept(winner)
             print(f"{GREEN}✓ Added to today's plan ({len(day)} meal(s) so far).{RESET}")
@@ -190,6 +280,7 @@ def cmd_list(args: argparse.Namespace) -> int:
     candidates = filter_foods(
         foods, meal=args.meal, max_kcal=args.max_kcal, tag=args.tag,
         cuisine=args.cuisine, protein=args.protein,
+        avoid=_split_terms(args.avoid), have=_split_terms(args.have),
     )
     if not candidates:
         print("No meals match those filters.", file=sys.stderr)
@@ -279,26 +370,96 @@ def cmd_reset(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_favorite(args: argparse.Namespace) -> int:
+    """Rig the wheel toward a meal you love (or take it off the favorites)."""
+    foods = load_foods()
+    result = _find_meal(foods, args.name)
+    if isinstance(result, list):
+        if not result:
+            print(f"No meal matches '{args.name}'. Try `diet-roulette list`.", file=sys.stderr)
+        else:
+            print(f"Several meals match '{args.name}', be more specific:")
+            for m in result:
+                print(f"  {m['emoji']}  {m['name']}")
+        return 1
+    name = result["name"]
+    if args.remove:
+        prefs_mod.remove_favorite(name)
+        print(f"{DIM}Removed {name} from your favorites.{RESET}")
+    else:
+        prefs_mod.add_favorite(name)
+        print(f"{GREEN}⭐ Favorited {name}. The wheel will land on it more often.{RESET}")
+    return 0
+
+
+def cmd_block(args: argparse.Namespace) -> int:
+    """Banish a meal from the wheel for good (or lift the ban)."""
+    foods = load_foods()
+    result = _find_meal(foods, args.name)
+    if isinstance(result, list):
+        if not result:
+            print(f"No meal matches '{args.name}'. Try `diet-roulette list`.", file=sys.stderr)
+        else:
+            print(f"Several meals match '{args.name}', be more specific:")
+            for m in result:
+                print(f"  {m['emoji']}  {m['name']}")
+        return 1
+    name = result["name"]
+    if args.remove:
+        prefs_mod.remove_blocked(name)
+        print(f"{GREEN}Welcome back, {name}. It can show up again.{RESET}")
+    else:
+        prefs_mod.add_blocked(name)
+        print(f"{DIM}🚫 Blocked {name}. The wheel will never land on it.{RESET}")
+    return 0
+
+
+def cmd_prefs(args: argparse.Namespace) -> int:
+    """Show your rigged wheel: favorites and blocklist."""
+    p = prefs_mod.load_prefs()
+    favs, blocked = p.get("favorites", []), p.get("blocked", [])
+    print(f"{BOLD}⭐ Favorites{RESET} {DIM}(come up more often){RESET}")
+    if favs:
+        for n in favs:
+            print(f"  • {n}")
+    else:
+        print(f"  {DIM}none yet. Try: diet-roulette favorite birria{RESET}")
+    print(f"\n{BOLD}🚫 Blocked{RESET} {DIM}(never shown){RESET}")
+    if blocked:
+        for n in blocked:
+            print(f"  • {n}")
+    else:
+        print(f"  {DIM}none yet. Try: diet-roulette block 'century egg'{RESET}")
+    return 0
+
+
 def cmd_welcome(args: argparse.Namespace | None = None) -> int:
     """Friendly overview shown when no command is given."""
     print(f"""{CYAN}{BOLD}🎡 diet-roulette{RESET}  {DIM}v{__version__}{RESET}
 Spin the wheel and let fate pick your next healthy meal.
 
 {BOLD}Commands{RESET}
-  {GREEN}spin{RESET}    Spin for a meal (asks your protein, shows the recipe)
-            {DIM}diet-roulette spin --meal dinner --cuisine korean{RESET}
-  {GREEN}recipe{RESET}  Look up a meal's full recipe (or export it to HTML)
-            {DIM}diet-roulette recipe birria{RESET}
-  {GREEN}week{RESET}    Build a weekly plan + shopping list, export cute HTML
-            {DIM}diet-roulette week --goal high-fiber --save week.html{RESET}
-  {GREEN}today{RESET}   Show today's accepted picks vs a calorie goal
-            {DIM}diet-roulette today --goal 2000{RESET}
-  {GREEN}list{RESET}    Browse the meal database
-            {DIM}diet-roulette list --cuisine indian{RESET}
-  {GREEN}reset{RESET}   Clear today's log
-            {DIM}diet-roulette reset{RESET}
+  {GREEN}spin{RESET}      Spin for a meal (asks your protein, shows the recipe)
+              {DIM}diet-roulette spin --meal dinner --cuisine korean{RESET}
+  {GREEN}recipe{RESET}    Look up a meal's full recipe (or export it to HTML)
+              {DIM}diet-roulette recipe birria{RESET}
+  {GREEN}week{RESET}      Build a weekly plan + shopping list, export cute HTML
+              {DIM}diet-roulette week --goal high-fiber --save week.html{RESET}
+  {GREEN}today{RESET}     Show today's accepted picks vs a calorie goal
+              {DIM}diet-roulette today --goal 2000{RESET}
+  {GREEN}list{RESET}      Browse the meal database
+              {DIM}diet-roulette list --cuisine indian{RESET}
+  {GREEN}favorite{RESET}  Rig the wheel toward a meal you love ({GREEN}block{RESET} banishes one)
+              {DIM}diet-roulette favorite birria   ·   diet-roulette prefs{RESET}
+  {GREEN}reset{RESET}     Clear today's log
+              {DIM}diet-roulette reset{RESET}
 
-{BOLD}Handy flags{RESET}  {DIM}--protein "ground beef"  --tag one-pot  --low-energy  --seed 7{RESET}
+{BOLD}Spin modifiers{RESET}  {DIM}mix and match to keep it interesting{RESET}
+  {DIM}--surprise{RESET} chaos pick   {DIM}--spicy{RESET}/{DIM}--quick{RESET}/{DIM}--lean{RESET} vibes   {DIM}--now{RESET} time-of-day
+  {DIM}--mystery{RESET} hide the name   {DIM}--bracket{RESET} this-or-that   {DIM}--fresh{RESET} no recent repeats
+  {DIM}--have "chicken, rice"{RESET} pantry mode   {DIM}--avoid "pork, cilantro"{RESET} exclude
+  {DIM}--protein "ground beef"  --tag one-pot  --cuisine japanese  --seed 7{RESET}
+
 Run {BOLD}diet-roulette <command> -h{RESET} for the full options of any command.
 """)
     return 0
@@ -312,6 +473,10 @@ def _add_filters(p: argparse.ArgumentParser) -> None:
     p.add_argument("--cuisine", choices=CUISINES, help="restrict to a cuisine")
     p.add_argument("--protein", help='protein to require, e.g. "chicken", "ground beef", '
                                      '"tofu", "paneer" (free text)')
+    p.add_argument("--avoid", metavar='"pork, cilantro"',
+                   help="exclude meals mentioning these ingredients (comma list)")
+    p.add_argument("--have", metavar='"chicken, rice"',
+                   help="pantry mode: only meals you can mostly make from these (comma list)")
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -324,6 +489,22 @@ def build_parser() -> argparse.ArgumentParser:
 
     p_spin = sub.add_parser("spin", help="spin the wheel for a meal")
     _add_filters(p_spin)
+    p_spin.add_argument("--surprise", action="store_true",
+                        help="chaos mode: ignore filters, pick from anything")
+    p_spin.add_argument("--spicy", action="store_true", help="only spicy dishes")
+    p_spin.add_argument("--quick", action="store_true", help="only quick (about 30 min) meals")
+    p_spin.add_argument("--lean", action="store_true",
+                        help="favor the most protein-dense (lean) meals")
+    p_spin.add_argument("--now", action="store_true",
+                        help="auto-pick the meal type from the current time")
+    p_spin.add_argument("--mystery", action="store_true",
+                        help="blind spin: hide the name until you decide")
+    p_spin.add_argument("--bracket", action="store_true",
+                        help="this-or-that: pick between pairs down to a winner")
+    p_spin.add_argument("--fresh", type=int, nargs="?", const=3, metavar="DAYS",
+                        help="no repeats from the last DAYS days (default 3)")
+    p_spin.add_argument("--no-rig", action="store_true",
+                        help="ignore your favorites/blocklist for this spin")
     p_spin.add_argument("--no-anim", action="store_true", help="skip the spin animation")
     p_spin.add_argument("--accept", action="store_true", help="auto-add the result to today's plan")
     p_spin.add_argument("--seed", type=int, help="reproducible pick (for testing/sharing)")
@@ -358,6 +539,19 @@ def build_parser() -> argparse.ArgumentParser:
 
     p_reset = sub.add_parser("reset", help="clear today's log")
     p_reset.set_defaults(func=cmd_reset)
+
+    p_fav = sub.add_parser("favorite", help="rig the wheel toward a meal you love")
+    p_fav.add_argument("name", help="part of a meal name, e.g. birria")
+    p_fav.add_argument("--remove", action="store_true", help="take it off your favorites")
+    p_fav.set_defaults(func=cmd_favorite)
+
+    p_block = sub.add_parser("block", help="banish a meal from the wheel")
+    p_block.add_argument("name", help="part of a meal name, e.g. 'century egg'")
+    p_block.add_argument("--remove", action="store_true", help="lift the ban")
+    p_block.set_defaults(func=cmd_block)
+
+    p_prefs = sub.add_parser("prefs", help="show your favorites and blocklist")
+    p_prefs.set_defaults(func=cmd_prefs)
 
     p_help = sub.add_parser("help", help="show the welcome overview")
     p_help.set_defaults(func=cmd_welcome)

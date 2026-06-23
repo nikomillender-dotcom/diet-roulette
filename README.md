@@ -54,6 +54,9 @@ Run `diet-roulette` with no arguments for a welcome screen listing everything.
 | `week` | Generate a weekly plan + shopping list, optionally export to cute HTML. |
 | `today` | Show today's accepted picks vs a calorie budget. |
 | `list` | Browse the meal database. |
+| `favorite <name>` | Rig the wheel toward a meal you love (`--remove` to undo). |
+| `block <name>` | Banish a meal from the wheel (`--remove` to lift it). |
+| `prefs` | Show your favorites and blocklist. |
 | `reset` | Clear today's log. |
 
 ### Spin
@@ -73,6 +76,41 @@ or `oxtail` work too (it checks the ingredient lists).
 
 Don't like what it landed on? Say `n` to "Accept this meal?" and it asks **"Re-spin the
 wheel?"**, so you can keep spinning until something sounds good (no need to re-run anything).
+
+#### Spin modifiers
+
+Mix and match these to keep every spin a little different:
+
+| Flag | What it does |
+|------|--------------|
+| `--surprise` | Chaos mode: ignore all filters and pick from anything. |
+| `--spicy` / `--quick` / `--lean` | Only spicy, only quick (about 30 min), or favor the most protein-dense meals. |
+| `--now` | Auto-pick the meal type from the current time (breakfast in the morning, dinner at night). |
+| `--mystery` | Blind spin: hides the dish name (ingredients and steps are your clues) until you decide. |
+| `--bracket` | This-or-that: shows two meals at a time and you pick the winner, down to a champion. |
+| `--fresh [DAYS]` | No repeats from the last DAYS days (default 3), using your accepted-meals history. |
+| `--have "chicken, rice"` | Pantry mode: only meals you can mostly make from what you've got. |
+| `--avoid "pork, cilantro"` | Exclude any meal mentioning those ingredients. |
+
+```bash
+diet-roulette spin --surprise                       # pure roulette
+diet-roulette spin --lean --quick                    # high-protein and fast
+diet-roulette spin --have "chicken, rice, broccoli"  # cook from your fridge
+diet-roulette spin --mystery                         # don't reveal it till I commit
+diet-roulette spin --bracket --cuisine indian        # tournament of Indian dishes
+diet-roulette spin --fresh 5                          # nothing I've had in 5 days
+```
+
+#### Rig the wheel (favorites + blocklist)
+
+The wheel can learn your taste. Favorited meals come up more often; blocked ones never appear.
+
+```bash
+diet-roulette favorite birria          # this comes up more now
+diet-roulette block "century egg"      # never show me this again
+diet-roulette prefs                    # see your favorites and blocklist
+diet-roulette spin --no-rig            # ignore both, just this once
+```
 
 ### Weekly plan + shopping list
 
