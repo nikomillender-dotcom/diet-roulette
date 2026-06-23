@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+
+# diet-roulette keeps its day-log state in ~/.diet-roulette (outside the repo),
+# so there's nothing local to ignore — noted here for clarity.
