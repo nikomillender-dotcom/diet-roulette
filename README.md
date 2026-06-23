@@ -95,11 +95,15 @@ Mix and match these to keep every spin a little different:
 ```bash
 diet-roulette spin --surprise                       # pure roulette
 diet-roulette spin --lean --quick                    # high-protein and fast
-diet-roulette spin --have "chicken, rice, broccoli"  # cook from your fridge
+diet-roulette spin --have chicken, rice, broccoli    # cook from your fridge
 diet-roulette spin --mystery                         # don't reveal it till I commit
 diet-roulette spin --bracket --cuisine indian        # tournament of Indian dishes
 diet-roulette spin --fresh 5                          # nothing I've had in 5 days
 ```
+
+`--have` and `--avoid` take a list however you type it: commas or spaces, quoted or not.
+So `--have chicken, rice, broccoli`, `--have chicken rice broccoli`, and
+`--have "chicken, rice, broccoli"` all do the same thing (quotes are optional).
 
 #### Rig the wheel (favorites + blocklist)
 

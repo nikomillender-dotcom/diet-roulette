@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "diet-roulette"
-version = "0.4.0"
+version = "0.4.1"
 description = "🎡 Spin the wheel and let fate pick your next healthy meal: a fun little diet CLI with recipes, a weekly planner, and cute HTML export."
 readme = "README.md"
 requires-python = ">=3.9"

@@ -46,11 +46,19 @@ from diet_roulette.wheel import (
 )
 
 
-def _split_terms(text: str | None) -> list[str]:
-    """Parse a comma/space separated free-text list into lowercase terms."""
+def _split_terms(text) -> list[str]:
+    """Parse a free-text term list (str or list) into lowercase terms.
+
+    Handles commas, semicolons, and/or spaces, quoted or not, so PowerShell users can
+    type --have chicken, broccoli, tortillas without the quotes mattering.
+    """
     if not text:
         return []
-    return [t.strip().lower() for t in text.replace(";", ",").split(",") if t.strip()]
+    if isinstance(text, (list, tuple)):
+        text = ",".join(text)  # nargs="+" tokens -> one string
+    text = text.replace(";", ",")
+    parts = [t.strip().lower() for chunk in text.split(",") for t in chunk.split()]
+    return [t for t in parts if t]
 
 GOAL_CHOICES = sorted(GOAL_RULES.keys())
 
@@ -457,8 +465,9 @@ Spin the wheel and let fate pick your next healthy meal.
 {BOLD}Spin modifiers{RESET}  {DIM}mix and match to keep it interesting{RESET}
   {DIM}--surprise{RESET} chaos pick   {DIM}--spicy{RESET}/{DIM}--quick{RESET}/{DIM}--lean{RESET} vibes   {DIM}--now{RESET} time-of-day
   {DIM}--mystery{RESET} hide the name   {DIM}--bracket{RESET} this-or-that   {DIM}--fresh{RESET} no recent repeats
-  {DIM}--have "chicken, rice"{RESET} pantry mode   {DIM}--avoid "pork, cilantro"{RESET} exclude
+  {DIM}--have chicken, rice{RESET} pantry mode   {DIM}--avoid pork, cilantro{RESET} exclude
   {DIM}--protein "ground beef"  --tag one-pot  --cuisine japanese  --seed 7{RESET}
+  {DIM}(commas or spaces both work for --have/--avoid; quotes optional){RESET}
 
 Run {BOLD}diet-roulette <command> -h{RESET} for the full options of any command.
 """)
@@ -473,10 +482,11 @@ def _add_filters(p: argparse.ArgumentParser) -> None:
     p.add_argument("--cuisine", choices=CUISINES, help="restrict to a cuisine")
     p.add_argument("--protein", help='protein to require, e.g. "chicken", "ground beef", '
                                      '"tofu", "paneer" (free text)')
-    p.add_argument("--avoid", metavar='"pork, cilantro"',
-                   help="exclude meals mentioning these ingredients (comma list)")
-    p.add_argument("--have", metavar='"chicken, rice"',
-                   help="pantry mode: only meals you can mostly make from these (comma list)")
+    p.add_argument("--avoid", nargs="+", metavar="ITEM",
+                   help="exclude meals mentioning these ingredients (e.g. pork, cilantro)")
+    p.add_argument("--have", nargs="+", metavar="ITEM",
+                   help="pantry mode: only meals you can mostly make from these "
+                        "(e.g. chicken, rice, broccoli)")
 
 
 def build_parser() -> argparse.ArgumentParser:

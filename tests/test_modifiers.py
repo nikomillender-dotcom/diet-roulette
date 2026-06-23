@@ -3,6 +3,7 @@
 import json
 
 from diet_roulette import prefs, tracker
+from diet_roulette.cli import _split_terms
 from diet_roulette.wheel import (
     filter_foods,
     format_recipe,
@@ -14,6 +15,24 @@ from diet_roulette.wheel import (
     pick,
     protein_density,
 )
+
+
+# --- term parsing (--have / --avoid, PowerShell-friendly) ---------------------
+
+def test_split_terms_handles_every_input_form():
+    want = ["chicken", "broccoli", "tortillas"]
+    # PowerShell splits an unquoted comma list into separate args (the reported bug).
+    assert _split_terms(["chicken", "broccoli", "tortillas"]) == want
+    # Quoted comma string arrives as a single-element list.
+    assert _split_terms(["chicken, broccoli, tortillas"]) == want
+    # Plain quoted string (older call style) still works.
+    assert _split_terms("chicken, broccoli, tortillas") == want
+    # Quoted space list used to collapse into one bogus term; now splits.
+    assert _split_terms(["chicken broccoli tortillas"]) == want
+    # Trailing commas / semicolons / blanks drop out cleanly.
+    assert _split_terms(["chicken,", "broccoli;tortillas"]) == want
+    assert _split_terms(None) == []
+    assert _split_terms([]) == []
 
 
 # --- lean / protein density ---------------------------------------------------
