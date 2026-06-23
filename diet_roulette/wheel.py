@@ -30,6 +30,7 @@ CUISINES = (
     "black-american",
     "country-us",
     "indian",
+    "african",
 )
 CUISINE_LABELS = {
     "everyday": "Everyday",
@@ -41,6 +42,7 @@ CUISINE_LABELS = {
     "black-american": "Black American",
     "country-us": "Country US",
     "indian": "Indian",
+    "african": "African",
 }
 
 # Inputs that mean "I don't care, surprise me" when asked for a protein.

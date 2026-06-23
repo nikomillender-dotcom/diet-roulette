@@ -5064,5 +5064,5153 @@
       "Adjust salt, finish with garam masala and serve with naan or rice."
     ],
     "source": "indianhealthyrecipes.com"
+  },
+  {
+    "name": "Moambe Chicken",
+    "meal": "dinner",
+    "cuisine": "african",
+    "kcal": 620,
+    "protein_g": 42,
+    "carbs_g": 16,
+    "fat_g": 44,
+    "fiber_g": 4,
+    "proteins": [
+      "chicken"
+    ],
+    "servings": 4,
+    "tags": [
+      "one-pot",
+      "high-protein",
+      "gluten-free",
+      "spicy"
+    ],
+    "emoji": "🍗",
+    "ingredients": [
+      {
+        "item": "chicken parts",
+        "qty": 3,
+        "unit": "lb"
+      },
+      {
+        "item": "peanut oil",
+        "qty": 6,
+        "unit": "tbsp"
+      },
+      {
+        "item": "onion",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "tomato puree",
+        "qty": 1,
+        "unit": "can"
+      },
+      {
+        "item": "tomato paste",
+        "qty": 1,
+        "unit": "can"
+      },
+      {
+        "item": "garlic clove",
+        "qty": 3,
+        "unit": "clove"
+      },
+      {
+        "item": "green onion",
+        "qty": 3,
+        "unit": null
+      },
+      {
+        "item": "ginger root",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "red pepper flakes",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "kosher salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "water",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "creamy peanut butter",
+        "qty": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Wash the chicken pieces and pat them dry, then brown both sides in batches in 4 tbsp peanut oil over high heat and set aside.",
+      "Add the remaining oil, reduce to medium low, and saute the chopped onions until golden.",
+      "Stir in tomato paste, tomato puree, green onions, garlic, pepper flakes, ginger, salt, and water and mix well.",
+      "Return the chicken, bring to a boil, then cover and simmer on low for 18 to 20 minutes.",
+      "Remove a cup of sauce, stir it into the peanut butter, then return that mixture to the pot.",
+      "Cook uncovered for 10 more minutes until the chicken is fully cooked with no pink remaining, then serve."
+    ],
+    "source": "The Cookbook of Authentic African Cuisine (Cairon Vickers)"
+  },
+  {
+    "name": "Congolese Madesu Stew (Kidney Bean Stew)",
+    "meal": "dinner",
+    "cuisine": "african",
+    "kcal": 340,
+    "protein_g": 15,
+    "carbs_g": 52,
+    "fat_g": 8,
+    "fiber_g": 14,
+    "proteins": [
+      "beans"
+    ],
+    "servings": 6,
+    "tags": [
+      "one-pot",
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "high-fiber",
+      "spicy"
+    ],
+    "emoji": "🫘",
+    "ingredients": [
+      {
+        "item": "light red kidney beans",
+        "qty": 2,
+        "unit": "cup"
+      },
+      {
+        "item": "crushed tomatoes",
+        "qty": 2,
+        "unit": "cup"
+      },
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "garlic clove",
+        "qty": 3,
+        "unit": "clove"
+      },
+      {
+        "item": "green onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "ketchup",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "onion for cloves",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "bay leaf",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "kosher salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "black pepper",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "chili flakes",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "vegetable broth",
+        "qty": 2,
+        "unit": "cup"
+      },
+      {
+        "item": "cooking oil",
+        "qty": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Soak the beans in cool water for 10 to 12 hours, then drain and discard the soaking water.",
+      "Boil the beans in 6 cups of fresh water with a clove-pricked onion and bay leaves, covered, for 50 minutes to an hour, then drain and reserve the beans and liquid separately.",
+      "Crush the remaining onion, garlic, and green onion, then saute that mixture with chili flakes in 1 to 2 tbsp oil.",
+      "Add the crushed tomatoes and cook 3 to 4 minutes, then pour in 3 cups reserved bean liquid and 2 cups vegetable broth.",
+      "Stir in the ketchup to balance the acidity, season with salt and pepper, then add the boiled beans.",
+      "Cook uncovered for 20 to 25 minutes until stew-like, stirring occasionally, then serve over rice if desired."
+    ],
+    "source": "The Cookbook of Authentic African Cuisine (Cairon Vickers)"
+  },
+  {
+    "name": "Congolese Egusi Soup",
+    "meal": "dinner",
+    "cuisine": "african",
+    "kcal": 560,
+    "protein_g": 38,
+    "carbs_g": 18,
+    "fat_g": 38,
+    "fiber_g": 6,
+    "proteins": [
+      "beef",
+      "shrimp"
+    ],
+    "servings": 4,
+    "tags": [
+      "one-pot",
+      "high-protein",
+      "gluten-free",
+      "spicy"
+    ],
+    "emoji": "🍲",
+    "ingredients": [
+      {
+        "item": "cooking oil",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "stew meat",
+        "qty": 2,
+        "unit": "lb"
+      },
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "chili pepper",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "tomato",
+        "qty": 3,
+        "unit": null
+      },
+      {
+        "item": "tomato sauce",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "dried shrimp",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "ground egusi",
+        "qty": 2,
+        "unit": "cup"
+      },
+      {
+        "item": "spinach",
+        "qty": 2,
+        "unit": "lb"
+      },
+      {
+        "item": "kosher salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "cayenne pepper",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Brown the stew meat in oil until browned but not cooked through, then transfer to a deep pot, cover with water, bring to a slow boil, and simmer.",
+      "In the same skillet, fry the chopped onion, chili pepper, and tomatoes until they begin to soften.",
+      "Add tomato sauce, dried shrimp, and ground egusi to the skillet, combine well, and heat through.",
+      "Add the egusi mixture to the meat pot along with more water and stir into a smooth soup.",
+      "Cook 15 to 20 minutes until meat and vegetables are done, then stir in the chopped spinach.",
+      "Season with salt and cayenne, cook until the greens are tender, and serve."
+    ],
+    "source": "The Cookbook of Authentic African Cuisine (Cairon Vickers)"
+  },
+  {
+    "name": "Moukalou (Fish and Chickpea Curry)",
+    "meal": "dinner",
+    "cuisine": "african",
+    "kcal": 520,
+    "protein_g": 34,
+    "carbs_g": 38,
+    "fat_g": 26,
+    "fiber_g": 9,
+    "proteins": [
+      "fish",
+      "chickpeas"
+    ],
+    "servings": 4,
+    "tags": [
+      "one-pot",
+      "high-protein",
+      "high-fiber",
+      "gluten-free",
+      "spicy"
+    ],
+    "emoji": "🐟",
+    "ingredients": [
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "garlic clove",
+        "qty": 4,
+        "unit": "clove"
+      },
+      {
+        "item": "fresh ginger",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "olive oil",
+        "qty": 4,
+        "unit": "tbsp"
+      },
+      {
+        "item": "sweet potato",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "red bell pepper",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "mild curry powder",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "red pepper flakes",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "coconut milk",
+        "qty": 1,
+        "unit": "can"
+      },
+      {
+        "item": "chickpeas",
+        "qty": 1,
+        "unit": "can"
+      },
+      {
+        "item": "white fish fillet",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "lime",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "sea salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "ground pepper",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Soften the ginger, onion, and garlic in 2 tbsp oil in a pan.",
+      "Add the diced sweet potato, bell pepper, curry powder, and pepper flakes and cook for a minute, then stir in the chickpeas and coconut milk.",
+      "Bring to a boil, then cover and gently simmer 18 to 20 minutes until the potatoes are tender, seasoning with salt and pepper.",
+      "In a separate skillet, cook the fish fillets in the remaining 2 tbsp oil.",
+      "Divide the chickpea mixture into shallow bowls and top each with a fish fillet.",
+      "Add lime wedges for squeezing and serve."
+    ],
+    "source": "The Cookbook of Authentic African Cuisine (Cairon Vickers)"
+  },
+  {
+    "name": "Congolese Eggplant Curry",
+    "meal": "dinner",
+    "cuisine": "african",
+    "kcal": 300,
+    "protein_g": 6,
+    "carbs_g": 34,
+    "fat_g": 18,
+    "fiber_g": 10,
+    "proteins": [],
+    "servings": 6,
+    "tags": [
+      "one-pot",
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "high-fiber",
+      "spicy"
+    ],
+    "emoji": "🍆",
+    "ingredients": [
+      {
+        "item": "cooking oil",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "white onion",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "curry powder",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "item": "garlic clove",
+        "qty": 2,
+        "unit": "clove"
+      },
+      {
+        "item": "grated ginger",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "chili pepper",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "eggplant",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "potato",
+        "qty": 3,
+        "unit": null
+      },
+      {
+        "item": "tomato",
+        "qty": 3,
+        "unit": null
+      },
+      {
+        "item": "tomato paste",
+        "qty": 0.75,
+        "unit": "cup"
+      },
+      {
+        "item": "kosher salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "cayenne pepper",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "sugar",
+        "qty": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "item": "coconut milk",
+        "qty": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Heat the oil in a large pot and saute the chopped onions for several minutes.",
+      "Add the chili pepper, ginger, garlic, and curry powder and cook on medium heat 2 to 3 minutes, stirring often.",
+      "Add the potatoes and cook until they start to soften, then add the eggplant and fry until it begins to brown.",
+      "Reduce the heat and simmer 8 to 10 minutes.",
+      "Stir in the tomato paste and tomatoes and simmer until the sauce thickens and everything is tender.",
+      "Remove from the heat, stir in the coconut milk, and serve."
+    ],
+    "source": "The Cookbook of Authentic African Cuisine (Cairon Vickers)"
+  },
+  {
+    "name": "Plantains and Coconut Milk",
+    "meal": "dinner",
+    "cuisine": "african",
+    "kcal": 320,
+    "protein_g": 4,
+    "carbs_g": 58,
+    "fat_g": 11,
+    "fiber_g": 5,
+    "proteins": [],
+    "servings": 4,
+    "tags": [
+      "vegetarian",
+      "gluten-free",
+      "quick"
+    ],
+    "emoji": "🍌",
+    "ingredients": [
+      {
+        "item": "ripe plantain",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "mild curry powder",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "ground cinnamon",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "powdered cloves",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "kosher salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "unsalted butter",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "water",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "coconut milk",
+        "qty": 1.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Peel and slice the plantains.",
+      "Combine all the ingredients except the coconut milk in a pan and stir gently while slowly heating.",
+      "When the plantains have heated and start to soften, add the coconut milk a bit at a time, stirring so it gets absorbed.",
+      "Simmer until the plantains are tender, then serve."
+    ],
+    "source": "The Cookbook of Authentic African Cuisine (Cairon Vickers)"
+  },
+  {
+    "name": "Congo Coupe Coupe (Grilled Marinated Beef)",
+    "meal": "dinner",
+    "cuisine": "african",
+    "kcal": 480,
+    "protein_g": 46,
+    "carbs_g": 3,
+    "fat_g": 31,
+    "fiber_g": 0,
+    "proteins": [
+      "beef"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein",
+      "low-carb",
+      "gluten-free",
+      "spicy",
+      "keto"
+    ],
+    "emoji": "🥩",
+    "ingredients": [
+      {
+        "item": "maggi sauce",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "cayenne pepper",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "vegetable oil",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "kosher salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "slow cooking beef",
+        "qty": 3,
+        "unit": "lb"
+      }
+    ],
+    "steps": [
+      "Mix the Maggi sauce, cayenne, oil, and salt together to create the marinade.",
+      "Pour the marinade over the beef in a glass casserole dish.",
+      "Marinate in the refrigerator for a half hour to an hour.",
+      "Cook the beef slowly on an outdoor grill over low heat.",
+      "Baste the beef with marinade every 20 to 30 minutes and cook for 2 to 5 hours depending on thickness.",
+      "Check while cooking until the beef is done as you like it, then serve."
+    ],
+    "source": "The Cookbook of Authentic African Cuisine (Cairon Vickers)"
+  },
+  {
+    "name": "Mayebo in Peanut Sauce",
+    "meal": "dinner",
+    "cuisine": "african",
+    "kcal": 540,
+    "protein_g": 18,
+    "carbs_g": 22,
+    "fat_g": 44,
+    "fiber_g": 7,
+    "proteins": [
+      "peanuts"
+    ],
+    "servings": 4,
+    "tags": [
+      "one-pot",
+      "vegetarian",
+      "vegan",
+      "gluten-free"
+    ],
+    "emoji": "🍄",
+    "ingredients": [
+      {
+        "item": "dried mushroom",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "peanut paste",
+        "qty": 2,
+        "unit": "cup"
+      },
+      {
+        "item": "palm oil",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "tomato",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "red onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "chive stalk",
+        "qty": 3,
+        "unit": null
+      },
+      {
+        "item": "kosher salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "bouillon cube",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "ground nutmeg",
+        "qty": 0.25,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Soak the dried mushrooms in water for 4 to 8 hours, then rinse them well.",
+      "Place the mushrooms in a pan with a bit of water and simmer for 8 to 10 minutes.",
+      "Dissolve the peanut paste in 2 glasses of water.",
+      "Heat the palm oil in a frying pan and brown the spices, then pour the mixture into the main pan.",
+      "Add the remaining ingredients and salt as desired while it cooks.",
+      "Grate the nutmeg over the top, stir, cook a few minutes longer, and serve."
+    ],
+    "source": "The Cookbook of Authentic African Cuisine (Cairon Vickers)"
+  },
+  {
+    "name": "Congolese Cumin Sauced Beef",
+    "meal": "dinner",
+    "cuisine": "african",
+    "kcal": 440,
+    "protein_g": 40,
+    "carbs_g": 18,
+    "fat_g": 22,
+    "fiber_g": 4,
+    "proteins": [
+      "beef"
+    ],
+    "servings": 2,
+    "tags": [
+      "high-protein",
+      "gluten-free",
+      "spicy",
+      "one-pot"
+    ],
+    "emoji": "🥘",
+    "ingredients": [
+      {
+        "item": "cubed stew meat",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "garlic clove",
+        "qty": 2,
+        "unit": "clove"
+      },
+      {
+        "item": "onion",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "lime juice",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "chili pepper",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "tomato",
+        "qty": 3,
+        "unit": null
+      },
+      {
+        "item": "tomato paste",
+        "qty": 0.75,
+        "unit": "cup"
+      },
+      {
+        "item": "ground cumin",
+        "qty": 1.33,
+        "unit": "tbsp"
+      },
+      {
+        "item": "cayenne pepper",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "black pepper",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "sea salt",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Bring the meat to a boil in 1 inch of water over high heat in a large pot, then cover and lower the heat to medium.",
+      "As the meat cooks, make the sauce by combining the rest of the ingredients in a separate large pot.",
+      "Bring the sauce to a slow boil, then turn off the heat.",
+      "Add the sauce pot to the meat pot.",
+      "Simmer until the meat is done and for another half hour.",
+      "Serve warm."
+    ],
+    "source": "The Cookbook of Authentic African Cuisine (Cairon Vickers)"
+  },
+  {
+    "name": "Liboke (Fish Baked in Banana Leaves)",
+    "meal": "dinner",
+    "cuisine": "african",
+    "kcal": 280,
+    "protein_g": 32,
+    "carbs_g": 8,
+    "fat_g": 12,
+    "fiber_g": 2,
+    "proteins": [
+      "fish"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein",
+      "low-carb",
+      "gluten-free"
+    ],
+    "emoji": "🐟",
+    "ingredients": [
+      {
+        "item": "fish fillet",
+        "qty": 3,
+        "unit": null
+      },
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "tomato",
+        "qty": 3,
+        "unit": null
+      },
+      {
+        "item": "minced garlic",
+        "qty": 3,
+        "unit": "tsp"
+      },
+      {
+        "item": "fresh ginger",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "sea salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "black pepper",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "lemon",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "thyme",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "basil",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "parsley",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "banana leaf",
+        "qty": 4,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Preheat the oven to 375 degrees, then make 3 or 4 diagonal cuts through each side of the fish, season with salt and pepper, squeeze lemon over it, and set aside.",
+      "Cut the banana leaves into large rectangles, submerge in water, clean, and pat dry (use foil if you do not have leaves).",
+      "Heat the leaves over high heat to wilt them and make them flexible.",
+      "Place the fish on a leaf, season with garlic and ginger, then add tomatoes and onions.",
+      "Fold the leaves over with inward pressure so no juice runs out, double seal the sides, and tie or wrap the bundle.",
+      "Bake at 375 degrees for 12 to 20 minutes, let cool, open a packet to check doneness, and serve."
+    ],
+    "source": "The Cookbook of Authentic African Cuisine (Cairon Vickers)"
+  },
+  {
+    "name": "Air Fryer Latkes",
+    "meal": "breakfast",
+    "cuisine": "everyday",
+    "kcal": 210,
+    "protein_g": 6,
+    "carbs_g": 32,
+    "fat_g": 7,
+    "fiber_g": 3,
+    "proteins": [
+      "eggs",
+      "potato"
+    ],
+    "servings": 6,
+    "tags": [
+      "air-fryer",
+      "vegetarian"
+    ],
+    "emoji": "🥔",
+    "ingredients": [
+      {
+        "item": "potato",
+        "qty": 5,
+        "unit": null
+      },
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "egg",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "matzo meal",
+        "qty": 0.33,
+        "unit": "cup"
+      },
+      {
+        "item": "potato starch",
+        "qty": 0.25,
+        "unit": "cup"
+      },
+      {
+        "item": "kosher salt",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "item": "black pepper",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "baking powder",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "oil",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Scrub the potatoes, grate them in a food processor, and set the shreds in a bowl of cool water.",
+      "Grate the onion, then squeeze out the liquid in a towel.",
+      "Whisk the eggs, then add the salt, pepper, matzo meal, 1 tablespoon potato starch, baking powder, and grated onion. Drain the potatoes and fold them in.",
+      "Form the mixture into flat circles, dip in dry potato starch if you like, and spray one side with oil.",
+      "Place oil side down in the air fryer, spray the tops, and cook at 380F for 9 minutes, turning after 5 minutes. Serve."
+    ],
+    "source": "The Complete Air Fryer Cookbook (Shon Miles)"
+  },
+  {
+    "name": "Avocado Egg Boat",
+    "meal": "breakfast",
+    "cuisine": "everyday",
+    "kcal": 290,
+    "protein_g": 10,
+    "carbs_g": 9,
+    "fat_g": 25,
+    "fiber_g": 7,
+    "proteins": [
+      "eggs"
+    ],
+    "servings": 2,
+    "tags": [
+      "air-fryer",
+      "low-carb",
+      "vegetarian",
+      "gluten-free",
+      "quick"
+    ],
+    "emoji": "🥑",
+    "ingredients": [
+      {
+        "item": "avocado",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "fresh chives",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "fresh parsley",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "black pepper",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "egg",
+        "qty": 2,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Slice the avocado in half and remove the pit. Scoop out a little flesh from the middle to make room, leaving some on the shell.",
+      "Chop the chives and parsley and use them to season the avocado boats along with salt and pepper.",
+      "Crack an egg into each avocado half.",
+      "Cook in the air fryer for 6 minutes at 350F.",
+      "Sprinkle with extra chives and parsley to serve."
+    ],
+    "source": "The Complete Air Fryer Cookbook (Shon Miles)"
+  },
+  {
+    "name": "Sriracha-Honey Chicken Wings",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 430,
+    "protein_g": 32,
+    "carbs_g": 20,
+    "fat_g": 24,
+    "fiber_g": 1,
+    "proteins": [
+      "chicken"
+    ],
+    "servings": 2,
+    "tags": [
+      "air-fryer",
+      "high-protein",
+      "spicy",
+      "gluten-free"
+    ],
+    "emoji": "🍗",
+    "ingredients": [
+      {
+        "item": "chicken wings",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "cilantro",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "honey",
+        "qty": 0.25,
+        "unit": "cup"
+      },
+      {
+        "item": "sriracha sauce",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "soy sauce",
+        "qty": 1.5,
+        "unit": "tbsp"
+      },
+      {
+        "item": "butter",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "lime",
+        "qty": 0.5,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Preheat the air fryer to 360F. Add the wings and cook for 30 minutes, turning them about every 7 minutes so they brown evenly.",
+      "While the wings cook, add the honey, sriracha, soy sauce, butter, and lime juice to a small saucepan and bring to a boil for about 3 minutes.",
+      "When the wings are done, toss them in a bowl with the sauce until fully coated.",
+      "Sprinkle with cilantro and serve right away."
+    ],
+    "source": "The Complete Air Fryer Cookbook (Shon Miles)"
+  },
+  {
+    "name": "Korean Chicken Wings",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 480,
+    "protein_g": 38,
+    "carbs_g": 12,
+    "fat_g": 30,
+    "fiber_g": 1,
+    "proteins": [
+      "chicken"
+    ],
+    "servings": 4,
+    "tags": [
+      "air-fryer",
+      "high-protein",
+      "low-carb",
+      "spicy"
+    ],
+    "emoji": "🍗",
+    "ingredients": [
+      {
+        "item": "chicken wings",
+        "qty": 2,
+        "unit": "lb"
+      },
+      {
+        "item": "salt",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "pepper",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "gochujang",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "mayonnaise",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "agave nectar",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "sesame oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "ginger",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "garlic",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "sugar",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "sesame seeds",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "item": "green onion",
+        "qty": 0.25,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Preheat the air fryer to 400F. Line a pan with foil and set a rack inside.",
+      "Season the wings with salt and pepper, place them on the rack, and cook for 20 minutes, turning once halfway through.",
+      "While they cook, stir together the gochujang, mayonnaise, agave, sesame oil, ginger, garlic, and sugar and let it sit.",
+      "When the wings hit about 160F inside, move them to a bowl and toss with half the sauce.",
+      "Return the wings to the air fryer for another 5 minutes until the sauce glazes over, then sprinkle with sesame seeds and green onions."
+    ],
+    "source": "The Complete Air Fryer Cookbook (Shon Miles)"
+  },
+  {
+    "name": "Coconut Chicken Tenders",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 360,
+    "protein_g": 34,
+    "carbs_g": 18,
+    "fat_g": 16,
+    "fiber_g": 2,
+    "proteins": [
+      "chicken"
+    ],
+    "servings": 4,
+    "tags": [
+      "air-fryer",
+      "high-protein"
+    ],
+    "emoji": "🍗",
+    "ingredients": [
+      {
+        "item": "chicken breast tenders",
+        "qty": 16,
+        "unit": "oz"
+      },
+      {
+        "item": "light coconut milk",
+        "qty": 0.25,
+        "unit": "cup"
+      },
+      {
+        "item": "egg",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "flour",
+        "qty": 0.25,
+        "unit": "cup"
+      },
+      {
+        "item": "salt",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "black pepper",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "ground ginger",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "onion powder",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "panko breadcrumbs",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "coconut flakes",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "oil",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Rinse and pat the chicken tenders dry. Set up three bowls: flour with salt, pepper, ginger, and onion powder; egg with coconut milk; and panko with coconut flakes.",
+      "Dip each tender into the flour mix, then the egg mix, then the panko mix, coating fully at each step.",
+      "Spray the preheated basket with oil, lay the chicken in a single layer, and spray the tops lightly.",
+      "Air fry at 360F for 10 minutes, flipping once halfway through and spraying with oil again. Serve."
+    ],
+    "source": "The Complete Air Fryer Cookbook (Shon Miles)"
+  },
+  {
+    "name": "Breaded Pork Chops",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 380,
+    "protein_g": 35,
+    "carbs_g": 14,
+    "fat_g": 19,
+    "fiber_g": 1,
+    "proteins": [
+      "pork"
+    ],
+    "servings": 4,
+    "tags": [
+      "air-fryer",
+      "high-protein",
+      "sheet-pan",
+      "quick"
+    ],
+    "emoji": "🍖",
+    "ingredients": [
+      {
+        "item": "pork loin chop",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "dijon mustard",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "italian breadcrumbs",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "salt",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "pepper",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "cayenne pepper",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "canola oil",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Preheat the air fryer.",
+      "Coat the pork chops thickly with Dijon mustard.",
+      "In a shallow bowl, combine the breadcrumbs, salt, pepper, and cayenne, then dredge the chops in the crumbs.",
+      "Arrange the chops on a rack set over a sheet pan and spritz the coating with a little oil spray.",
+      "Cook until the coating is brown, about 5 minutes on each side."
+    ],
+    "source": "The Complete Air Fryer Cookbook (Shon Miles)"
+  },
+  {
+    "name": "Pork Satay with Peanut Sauce",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 470,
+    "protein_g": 33,
+    "carbs_g": 14,
+    "fat_g": 31,
+    "fiber_g": 3,
+    "proteins": [
+      "pork"
+    ],
+    "servings": 4,
+    "tags": [
+      "air-fryer",
+      "high-protein",
+      "spicy"
+    ],
+    "emoji": "🍢",
+    "ingredients": [
+      {
+        "item": "garlic",
+        "qty": 2,
+        "unit": "clove"
+      },
+      {
+        "item": "fresh ginger",
+        "qty": 2,
+        "unit": "cm"
+      },
+      {
+        "item": "chili paste",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "item": "sweet soy sauce",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "vegetable oil",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "pork chop",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "shallot",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "ground coriander",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "coconut milk",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "item": "unsalted peanuts",
+        "qty": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Mix half the garlic with the ginger, 1 teaspoon chili paste, 1 tablespoon soy sauce, and 1 tablespoon oil. Toss the cubed pork in it and marinate 15 minutes.",
+      "Preheat the air fryer to 392F. Put the marinated pork in the basket and roast for 12 minutes, turning once, until browned and cooked.",
+      "Meanwhile, heat 1 tablespoon oil in a saucepan and gently saute the shallot with the rest of the garlic, then add the coriander and fry briefly.",
+      "Stir in the coconut milk, peanuts, the remaining chili paste, and 1 tablespoon soy sauce, then gently boil 5 minutes, adding water if it gets too thick.",
+      "Season the sauce to taste and serve it with the pork satay."
+    ],
+    "source": "The Complete Air Fryer Cookbook (Shon Miles)"
+  },
+  {
+    "name": "3-Ingredient Fried Catfish",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 260,
+    "protein_g": 26,
+    "carbs_g": 6,
+    "fat_g": 14,
+    "fiber_g": 0,
+    "proteins": [
+      "catfish"
+    ],
+    "servings": 4,
+    "tags": [
+      "air-fryer",
+      "high-protein",
+      "low-carb",
+      "quick"
+    ],
+    "emoji": "🐟",
+    "ingredients": [
+      {
+        "item": "catfish fillet",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "seasoned fish fry",
+        "qty": 0.25,
+        "unit": "cup"
+      },
+      {
+        "item": "olive oil",
+        "qty": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Preheat the air fryer to 400F.",
+      "Rinse the catfish and pat dry. Pour the fish fry seasoning into a large ziploc bag, add the fillets one at a time, seal, and shake to coat fully.",
+      "Spray olive oil over each fillet and place them in the basket. Cook for 10 minutes, then flip and cook 10 minutes more.",
+      "Flip again and cook another 2 to 3 minutes until your desired crispness, then serve."
+    ],
+    "source": "The Complete Air Fryer Cookbook (Shon Miles)"
+  },
+  {
+    "name": "Shrimp with Lemon and Chili",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 190,
+    "protein_g": 24,
+    "carbs_g": 4,
+    "fat_g": 8,
+    "fiber_g": 1,
+    "proteins": [
+      "shrimp"
+    ],
+    "servings": 4,
+    "tags": [
+      "air-fryer",
+      "high-protein",
+      "low-carb",
+      "gluten-free",
+      "spicy",
+      "quick"
+    ],
+    "emoji": "🦐",
+    "ingredients": [
+      {
+        "item": "large shrimp",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "lemon",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "extra virgin olive oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "garlic powder",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "black pepper",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "red chili",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "sea salt",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Preheat the air fryer to 400F.",
+      "Toss the shrimp with the lemon slices and olive oil, then add the garlic powder and a pinch each of salt and pepper.",
+      "Place the shrimp and lemon slices in the basket and cook for 5 minutes.",
+      "Add the chili slices, shake to toss, and cook about 2 minutes more until the shrimp are opaque.",
+      "Transfer to a bowl, sprinkle with flaky sea salt, and serve hot."
+    ],
+    "source": "The Complete Air Fryer Cookbook (Shon Miles)"
+  },
+  {
+    "name": "Tater Tots in Bacon",
+    "meal": "snack",
+    "cuisine": "everyday",
+    "kcal": 340,
+    "protein_g": 12,
+    "carbs_g": 26,
+    "fat_g": 21,
+    "fiber_g": 2,
+    "proteins": [
+      "bacon",
+      "pork"
+    ],
+    "servings": 4,
+    "tags": [
+      "air-fryer",
+      "quick"
+    ],
+    "emoji": "🥓",
+    "ingredients": [
+      {
+        "item": "frozen tater tots",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "bacon",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "cheddar cheese",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "scallion",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "sour cream",
+        "qty": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Wrap the tater tots in bacon and place them in the basket, taking care not to overcrowd it.",
+      "Cook for 8 minutes at 400F.",
+      "Transfer to a plate and top with the shredded cheese and scallions.",
+      "Serve with sour cream."
+    ],
+    "source": "The Complete Air Fryer Cookbook (Shon Miles)"
+  },
+  {
+    "name": "Mass Building Sweet Potato Pancakes",
+    "meal": "breakfast",
+    "cuisine": "everyday",
+    "kcal": 451,
+    "protein_g": 38,
+    "carbs_g": 74,
+    "fat_g": 9,
+    "fiber_g": 7,
+    "proteins": [
+      "eggs"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein",
+      "vegetarian",
+      "gluten-free"
+    ],
+    "emoji": "🥞",
+    "ingredients": [
+      {
+        "item": "sweet potato",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "egg",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "egg white",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "fat-free greek yogurt",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "item": "oats",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "item": "cinnamon",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "vanilla extract",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "honey",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "strawberry",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "blueberry",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Pierce the sweet potato and microwave until soft (about 8 minutes), then cool and remove the skin.",
+      "Blend the oats into a fine powder and set aside in a bowl.",
+      "Blend the sweet potato until smooth and mix it with the powdered oats.",
+      "Stir in the egg, egg whites, vanilla, cinnamon, honey and yogurt to form a batter.",
+      "Cook roughly a quarter of the batter in a sprayed pan over medium heat for 1 to 2 minutes per side, then top with the berries and repeat."
+    ],
+    "source": "The Bodybuilding Cookbook (Jason Farley)"
+  },
+  {
+    "name": "Banana and Almond Muscle Oatmeal",
+    "meal": "breakfast",
+    "cuisine": "everyday",
+    "kcal": 523,
+    "protein_g": 32,
+    "carbs_g": 60,
+    "fat_g": 15,
+    "fiber_g": 7,
+    "proteins": [
+      "whey"
+    ],
+    "servings": 1,
+    "tags": [
+      "high-protein",
+      "vegetarian",
+      "quick"
+    ],
+    "emoji": "🥣",
+    "ingredients": [
+      {
+        "item": "rolled oats",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "item": "low fat milk",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "item": "whey protein",
+        "qty": 1,
+        "unit": "scoop"
+      },
+      {
+        "item": "almond",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "peanut butter",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "banana",
+        "qty": 1,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Stir the oats and milk together in a large bowl and microwave for 2 minutes.",
+      "Mix in the diced banana, peanut butter, whey protein and chopped almonds.",
+      "Serve right away while warm."
+    ],
+    "source": "The Bodybuilding Cookbook (Jason Farley)"
+  },
+  {
+    "name": "Turkey Muscle Omelette",
+    "meal": "breakfast",
+    "cuisine": "everyday",
+    "kcal": 358,
+    "protein_g": 26,
+    "carbs_g": 5,
+    "fat_g": 21,
+    "fiber_g": 2,
+    "proteins": [
+      "turkey",
+      "eggs"
+    ],
+    "servings": 2,
+    "tags": [
+      "high-protein",
+      "low-carb",
+      "gluten-free",
+      "quick"
+    ],
+    "emoji": "🍳",
+    "ingredients": [
+      {
+        "item": "turkey mince",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "item": "egg",
+        "qty": 3,
+        "unit": null
+      },
+      {
+        "item": "baby spinach",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "kale",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "olive oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "low fat cheese",
+        "qty": 25,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Crack the eggs into a bowl and whisk.",
+      "Heat half the oil over medium heat and cook the turkey, kale and cheese for 5 to 6 minutes.",
+      "In a second pan, heat the rest of the oil and cook the eggs for about 4 minutes.",
+      "Add the turkey mix to the eggs, scatter baby spinach on top, then fold the omelette in half.",
+      "Cook for another 2 to 3 minutes, then plate up and serve."
+    ],
+    "source": "The Bodybuilding Cookbook (Jason Farley)"
+  },
+  {
+    "name": "Brawny Chicken and Chorizo Jambalaya",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 286,
+    "protein_g": 30,
+    "carbs_g": 61,
+    "fat_g": 14,
+    "fiber_g": 5,
+    "proteins": [
+      "chicken"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein",
+      "one-pot",
+      "spicy"
+    ],
+    "emoji": "🍚",
+    "ingredients": [
+      {
+        "item": "chicken breast",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "red pepper",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "garlic clove",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "chorizo",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "item": "cajun seasoning",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "brown rice",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "item": "olive oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "chopped tomatoes",
+        "qty": 350,
+        "unit": "g"
+      },
+      {
+        "item": "chicken stock",
+        "qty": 350,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Heat the olive oil in a large pan over medium heat and brown the chicken for about 8 minutes, then set aside.",
+      "Fry the onion until tender, then add the garlic, chorizo, Cajun seasoning and red pepper and cook for about 5 minutes.",
+      "Stir in the brown rice, chopped tomatoes, chicken and chicken stock.",
+      "Cover and simmer for around 25 minutes until the rice is soft."
+    ],
+    "source": "The Bodybuilding Cookbook (Jason Farley)"
+  },
+  {
+    "name": "Muscle Moroccan Chicken Casserole",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 404,
+    "protein_g": 47,
+    "carbs_g": 37,
+    "fat_g": 8,
+    "fiber_g": 8,
+    "proteins": [
+      "chicken"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein",
+      "one-pot",
+      "high-fiber",
+      "gluten-free",
+      "spicy"
+    ],
+    "emoji": "🍲",
+    "ingredients": [
+      {
+        "item": "chicken breast",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "ground cumin",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "paprika",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "olive oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "chopped tomatoes",
+        "qty": 350,
+        "unit": "g"
+      },
+      {
+        "item": "harissa paste",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "honey",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "courgette",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "chickpeas",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "pepper",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Season the chicken with salt, pepper, paprika and ground cumin.",
+      "Heat the olive oil in a large pan over medium heat and cook the chicken with the onion for about 4 minutes per side.",
+      "Pour in the chopped tomatoes plus 200ml of water and add the honey, harissa, courgettes and chickpeas, stirring to combine.",
+      "Bring to a simmer and cook for around 15 minutes, then plate up and serve."
+    ],
+    "source": "The Bodybuilding Cookbook (Jason Farley)"
+  },
+  {
+    "name": "Mighty Mexican Chicken Stew",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 464,
+    "protein_g": 51,
+    "carbs_g": 53,
+    "fat_g": 4,
+    "fiber_g": 10,
+    "proteins": [
+      "chicken"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein",
+      "one-pot",
+      "high-fiber",
+      "gluten-free",
+      "spicy"
+    ],
+    "emoji": "🌶️",
+    "ingredients": [
+      {
+        "item": "chicken breast",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "quinoa",
+        "qty": 140,
+        "unit": "g"
+      },
+      {
+        "item": "pinto beans",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "item": "olive oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "red pepper",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "chipotle paste",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "chopped tomatoes",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "item": "chicken stock cube",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "coriander",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "lime",
+        "qty": 1,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Heat the olive oil in a deep pan over medium heat and cook the onion and peppers for 2 to 3 minutes.",
+      "Stir in the chipotle paste and chopped tomatoes, then add the chicken with just enough water to cover it by 1cm and simmer for about 20 minutes until cooked through.",
+      "In a separate pan, cook the quinoa in stock for about 12 minutes, then add the pinto beans and cook 3 minutes more.",
+      "Drain the quinoa, stir in the coriander and lime juice, then serve the chicken over the quinoa topped with the tomato sauce."
+    ],
+    "source": "The Bodybuilding Cookbook (Jason Farley)"
+  },
+  {
+    "name": "Tasty Beef and Broccoli Stir Fry",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 277,
+    "protein_g": 30,
+    "carbs_g": 7,
+    "fat_g": 14,
+    "fiber_g": 3,
+    "proteins": [
+      "beef"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein",
+      "low-carb",
+      "quick",
+      "gluten-free"
+    ],
+    "emoji": "🥦",
+    "ingredients": [
+      {
+        "item": "frying beef steak",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "item": "broccoli",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "celery stick",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "sweet corn",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "beef stock",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "item": "horseradish sauce",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "olive oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "pepper",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Heat the olive oil in a frying pan over medium to high heat.",
+      "Season the diced beef with salt and pepper and stir-fry for 2 minutes until browned, then set aside.",
+      "Add the broccoli and celery and fry for a further 2 minutes.",
+      "Pour in the beef stock, cover, and simmer the veg for 2 minutes.",
+      "Return the beef to the pan, toss for another minute, then serve with the horseradish sauce."
+    ],
+    "source": "The Bodybuilding Cookbook (Jason Farley)"
+  },
+  {
+    "name": "Bulk-Up Lamb Curry and Peanut Stew",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 600,
+    "protein_g": 44,
+    "carbs_g": 38,
+    "fat_g": 46,
+    "fiber_g": 6,
+    "proteins": [
+      "lamb"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein",
+      "one-pot",
+      "spicy",
+      "gluten-free"
+    ],
+    "emoji": "🍛",
+    "ingredients": [
+      {
+        "item": "peanut",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "item": "coconut cream",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "item": "massaman curry paste",
+        "qty": 4,
+        "unit": "tbsp"
+      },
+      {
+        "item": "diced lamb steak",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "item": "white potato",
+        "qty": 450,
+        "unit": "g"
+      },
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "cinnamon stick",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "tamarind paste",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "fish sauce",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "red chilli",
+        "qty": 1,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Preheat the oven to 190C (375F).",
+      "In a large casserole dish over medium heat, fry 2 tbsp of coconut cream with the curry paste for about a minute, then add the lamb and brown.",
+      "Stir in the rest of the coconut cream with a cup of water, plus the potatoes, onion, cinnamon stick, tamarind, fish sauce and peanuts.",
+      "Reduce to a simmer, cover, and transfer to the oven for 2 hours until the lamb is tender.",
+      "Scatter the sliced chilli over the top and serve."
+    ],
+    "source": "The Bodybuilding Cookbook (Jason Farley)"
+  },
+  {
+    "name": "Lemony Salmon",
+    "meal": "lunch",
+    "cuisine": "everyday",
+    "kcal": 205,
+    "protein_g": 20,
+    "carbs_g": 1,
+    "fat_g": 13,
+    "fiber_g": 0,
+    "proteins": [
+      "salmon"
+    ],
+    "servings": 4,
+    "tags": [
+      "low-carb",
+      "gluten-free",
+      "quick"
+    ],
+    "emoji": "🐟",
+    "ingredients": [
+      {
+        "item": "salmon fillet",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "lemon",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "pepper",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "tarragon",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "item": "rocket",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "olive oil",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "garlic clove",
+        "qty": 1,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Preheat the grill, then mix the garlic, tarragon, salt, pepper, olive oil and the lemon juice and zest in a bowl.",
+      "Coat the salmon fillets in the marinade, cover and leave for 10 minutes.",
+      "Place the fillets on a tray and pour the marinade over the top.",
+      "Grill for around 10 minutes until cooked through, then serve with the rocket."
+    ],
+    "source": "The Bodybuilding Cookbook (Jason Farley)"
+  },
+  {
+    "name": "Mighty Tuna Melts",
+    "meal": "lunch",
+    "cuisine": "everyday",
+    "kcal": 450,
+    "protein_g": 37,
+    "carbs_g": 20,
+    "fat_g": 24,
+    "fiber_g": 3,
+    "proteins": [
+      "tuna"
+    ],
+    "servings": 2,
+    "tags": [
+      "high-protein",
+      "quick",
+      "spicy"
+    ],
+    "emoji": "🥪",
+    "ingredients": [
+      {
+        "item": "tinned tuna",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "item": "spring onion",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "low fat mayonnaise",
+        "qty": 4,
+        "unit": "tbsp"
+      },
+      {
+        "item": "wholemeal bread",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "low fat cheddar",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "item": "chilli flakes",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "lemon",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "pepper",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Toast the bread and preheat the grill.",
+      "Mix the spring onions, mayonnaise, tuna, chilli flakes, salt, pepper and lemon juice in a bowl.",
+      "Spread the tuna mix over the toast and sprinkle the grated cheese on top.",
+      "Grill until the cheese bubbles, then plate up and serve."
+    ],
+    "source": "The Bodybuilding Cookbook (Jason Farley)"
+  },
+  {
+    "name": "Chocolate Peanut Protein Shake",
+    "meal": "snack",
+    "cuisine": "everyday",
+    "kcal": 656,
+    "protein_g": 63,
+    "carbs_g": 55,
+    "fat_g": 21,
+    "fiber_g": 5,
+    "proteins": [
+      "whey"
+    ],
+    "servings": 1,
+    "tags": [
+      "high-protein",
+      "vegetarian",
+      "no-cook",
+      "quick",
+      "gluten-free"
+    ],
+    "emoji": "🥤",
+    "ingredients": [
+      {
+        "item": "chocolate whey protein",
+        "qty": 1,
+        "unit": "scoop"
+      },
+      {
+        "item": "low-fat greek yogurt",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "banana",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "peanut butter",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "ice",
+        "qty": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Add all the ingredients to a blender.",
+      "Blend until smooth.",
+      "Pour into a glass and enjoy."
+    ],
+    "source": "The Bodybuilding Cookbook (Jason Farley)"
+  },
+  {
+    "name": "Jason's Peanut Protein Bars",
+    "meal": "snack",
+    "cuisine": "everyday",
+    "kcal": 386,
+    "protein_g": 18,
+    "carbs_g": 24,
+    "fat_g": 6,
+    "fiber_g": 4,
+    "proteins": [
+      "whey"
+    ],
+    "servings": 12,
+    "tags": [
+      "vegetarian",
+      "no-cook",
+      "gluten-free"
+    ],
+    "emoji": "🍫",
+    "ingredients": [
+      {
+        "item": "vanilla protein powder",
+        "qty": 4,
+        "unit": "scoop"
+      },
+      {
+        "item": "rolled oats",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "item": "almond butter",
+        "qty": 340,
+        "unit": "g"
+      },
+      {
+        "item": "coconut cream",
+        "qty": 250,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Whisk the coconut cream until smooth, then mix in the protein powder and almond butter.",
+      "Stir in the rolled oats until thoroughly combined.",
+      "Press the mixture into a baking tray and smooth the surface.",
+      "Chill in the fridge for around 8 hours, then cut into 12 bars."
+    ],
+    "source": "The Bodybuilding Cookbook (Jason Farley)"
+  },
+  {
+    "name": "Beef and Broccoli with Garlic Sauce",
+    "meal": "dinner",
+    "cuisine": "chinese",
+    "kcal": 410,
+    "protein_g": 32,
+    "carbs_g": 14,
+    "fat_g": 25,
+    "fiber_g": 4,
+    "proteins": [
+      "beef"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein",
+      "low-carb",
+      "quick"
+    ],
+    "emoji": "🥦",
+    "ingredients": [
+      {
+        "item": "beef steak",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "broccoli",
+        "qty": 1.5,
+        "unit": "lb"
+      },
+      {
+        "item": "vegetable oil",
+        "qty": 4,
+        "unit": "tbsp"
+      },
+      {
+        "item": "garlic",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "ginger root",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "brown bean sauce",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "canned bamboo shoots",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "chicken broth",
+        "qty": 0.25,
+        "unit": "cup"
+      },
+      {
+        "item": "cornstarch",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "sesame oil",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "white pepper",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Cut the beef lengthwise into 2-inch strips, then crosswise into thin slices, toss with a little oil, salt, and white pepper, then cover and refrigerate 30 minutes.",
+      "Cut the broccoli into florets and stems, blanch in boiling water for 2 minutes, drain, and rinse under cold water.",
+      "Mix the cornstarch, sesame oil, and broth into a smooth slurry and set aside.",
+      "Heat a wok until very hot, add oil, and stir-fry the beef for about 2 minutes until browned, then remove.",
+      "Stir-fry the garlic, ginger, and bean sauce for 30 seconds, add the bamboo shoots for 1 minute, then return the beef and broccoli.",
+      "Stir in the cornstarch slurry and cook 15 seconds until thickened, then serve."
+    ],
+    "source": "Chinese Cookbook (Cairo Hodson)"
+  },
+  {
+    "name": "Beef Lo Mein",
+    "meal": "dinner",
+    "cuisine": "chinese",
+    "kcal": 520,
+    "protein_g": 30,
+    "carbs_g": 52,
+    "fat_g": 22,
+    "fiber_g": 4,
+    "proteins": [
+      "beef"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein"
+    ],
+    "emoji": "🍜",
+    "ingredients": [
+      {
+        "item": "flank steak",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "fresh chinese egg noodles",
+        "qty": 0.5,
+        "unit": "lb"
+      },
+      {
+        "item": "soy sauce",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "rice wine",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "cornstarch",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "item": "oyster sauce",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "sugar",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "sesame oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "vegetable oil",
+        "qty": 4,
+        "unit": "tbsp"
+      },
+      {
+        "item": "carrot",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "chinese cabbage",
+        "qty": 8,
+        "unit": null
+      },
+      {
+        "item": "sliced mushrooms",
+        "qty": 1,
+        "unit": "can"
+      }
+    ],
+    "steps": [
+      "Mix the beef with 2 tablespoons soy sauce, 1 tablespoon rice wine, and the cornstarch, then let stand 20 minutes.",
+      "Combine the remaining soy sauce and rice wine with the oyster sauce and sugar, then set aside.",
+      "Boil the noodles for about 2 minutes until al dente, drain, rinse with cold water, and toss with the sesame oil.",
+      "Heat 1 tablespoon oil in a wok, stir-fry the carrots 1 minute, add the shredded cabbage and mushrooms for 1 minute more, then remove.",
+      "Heat more oil and stir-fry the beef until browned, about 2 minutes, then remove.",
+      "Wipe the wok, heat the remaining oil, stir-fry the noodles until heated through, then stir in the vegetables, beef, and sauce to mix well."
+    ],
+    "source": "Chinese Cookbook (Cairo Hodson)"
+  },
+  {
+    "name": "Scallops in Black Bean Sauce",
+    "meal": "dinner",
+    "cuisine": "chinese",
+    "kcal": 230,
+    "protein_g": 24,
+    "carbs_g": 10,
+    "fat_g": 9,
+    "fiber_g": 1,
+    "proteins": [
+      "scallops"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein",
+      "low-carb",
+      "quick",
+      "spicy"
+    ],
+    "emoji": "🍲",
+    "ingredients": [
+      {
+        "item": "scallops",
+        "qty": 14,
+        "unit": "oz"
+      },
+      {
+        "item": "vegetable oil",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "garlic",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "ginger root",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "fermented black beans",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "light soy sauce",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "rice wine",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "sugar",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "red thai chile",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "chicken stock",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "item": "scallion",
+        "qty": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Heat the oil in a preheated wok, add the garlic and stir, then add the ginger and stir-fry together for about 1 minute until fragrant.",
+      "Mix in the rinsed and lightly mashed black beans, then toss in the scallops and stir-fry for 1 minute.",
+      "Add the light soy sauce, rice wine, sugar, and chiles.",
+      "Lower the heat and simmer for 2 minutes, adding a little stock if needed.",
+      "Finally add the scallion, then stir and serve."
+    ],
+    "source": "Chinese Cookbook (Cairo Hodson)"
+  },
+  {
+    "name": "Sweet and Sour Prawns",
+    "meal": "dinner",
+    "cuisine": "chinese",
+    "kcal": 360,
+    "protein_g": 26,
+    "carbs_g": 22,
+    "fat_g": 19,
+    "fiber_g": 1,
+    "proteins": [
+      "shrimp"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein",
+      "spicy"
+    ],
+    "emoji": "🍤",
+    "ingredients": [
+      {
+        "item": "peeled prawns",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "tomato ketchup",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "sambal oelek",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "sugar",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "rice wine",
+        "qty": 1.5,
+        "unit": "tbsp"
+      },
+      {
+        "item": "cornstarch",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "garlic",
+        "qty": 1,
+        "unit": "clove"
+      },
+      {
+        "item": "fresh ginger",
+        "qty": 1.5,
+        "unit": "tbsp"
+      },
+      {
+        "item": "scallion",
+        "qty": 3,
+        "unit": "oz"
+      },
+      {
+        "item": "egg white",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "salt",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "oil",
+        "qty": 5,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate the prawns for 20 minutes in egg white, cornstarch, salt, water, and oil.",
+      "Mix together the tomato ketchup, sambal oelek, sugar, rice wine, and cornstarch into a sauce.",
+      "Peel and finely slice the garlic and ginger, and finely slice the scallions.",
+      "Heat oil in a wok and fry half the prawns for about 45 seconds, then drain.",
+      "In a clean wok, fry the garlic and ginger for 30 seconds, add the prawns, and stir constantly.",
+      "Add the prepared sauce, fry for 1 minute, then stir in the chopped scallions and serve."
+    ],
+    "source": "Chinese Cookbook (Cairo Hodson)"
+  },
+  {
+    "name": "Barbecued Pork (Cha Siu)",
+    "meal": "dinner",
+    "cuisine": "chinese",
+    "kcal": 320,
+    "protein_g": 30,
+    "carbs_g": 12,
+    "fat_g": 16,
+    "fiber_g": 0,
+    "proteins": [
+      "pork"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein",
+      "low-carb"
+    ],
+    "emoji": "🍖",
+    "ingredients": [
+      {
+        "item": "lean pork butt",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "salt",
+        "qty": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "item": "pepper",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "sugar",
+        "qty": 1.25,
+        "unit": "tbsp"
+      },
+      {
+        "item": "thin soy sauce",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "item": "roasting salt",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "oyster sauce",
+        "qty": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "hoisin sauce",
+        "qty": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "white wine",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "item": "honey",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "water",
+        "qty": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Cut the meat into pieces about 5 inches by 2 inches by 1 inch.",
+      "Sprinkle the meat with all the remaining ingredients except the water, mix well, and marinate overnight or for at least 5 hours in the refrigerator.",
+      "Preheat the oven to 375 degrees F.",
+      "Add 1 cup water to a roasting pan and set a rack on top.",
+      "Place the pork on the rack and roast for 30 minutes on each side, total cooking time 1 hour, basting 3 or 4 times. Do not cover."
+    ],
+    "source": "Chinese Cookbook (Cairo Hodson)"
+  },
+  {
+    "name": "Cashew Chicken",
+    "meal": "dinner",
+    "cuisine": "chinese",
+    "kcal": 470,
+    "protein_g": 35,
+    "carbs_g": 18,
+    "fat_g": 28,
+    "fiber_g": 2,
+    "proteins": [
+      "chicken"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein",
+      "quick"
+    ],
+    "emoji": "🍗",
+    "ingredients": [
+      {
+        "item": "chicken breast",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "scallion",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "fresh mushroom",
+        "qty": 8,
+        "unit": "oz"
+      },
+      {
+        "item": "sliced water chestnuts",
+        "qty": 1,
+        "unit": "can"
+      },
+      {
+        "item": "cashew nuts",
+        "qty": 6,
+        "unit": "oz"
+      },
+      {
+        "item": "soy sauce",
+        "qty": 0.33,
+        "unit": "cup"
+      },
+      {
+        "item": "cornstarch",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "water",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "oil",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Bone and skin the chicken, then cut into 1-inch cubes.",
+      "Heat a small amount of oil in a skillet, roll the chicken in cornstarch, and cook until light tan, then remove.",
+      "Saute the chopped scallions and sliced mushrooms, then add the water chestnuts with their liquid.",
+      "Add the chicken, the soy sauce, and water, then bring to a boil and thicken with cornstarch.",
+      "Add the cashew nuts and serve over cooked rice."
+    ],
+    "source": "Chinese Cookbook (Cairo Hodson)"
+  },
+  {
+    "name": "Almond Chicken",
+    "meal": "dinner",
+    "cuisine": "chinese",
+    "kcal": 440,
+    "protein_g": 34,
+    "carbs_g": 14,
+    "fat_g": 27,
+    "fiber_g": 3,
+    "proteins": [
+      "chicken"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein",
+      "low-carb",
+      "quick"
+    ],
+    "emoji": "🍗",
+    "ingredients": [
+      {
+        "item": "skinned chicken breast",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "vegetable oil",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "fresh ginger root",
+        "qty": 5,
+        "unit": null
+      },
+      {
+        "item": "green onion",
+        "qty": 3,
+        "unit": null
+      },
+      {
+        "item": "green pepper",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "diced bamboo shoots",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "slivered almonds",
+        "qty": 0.33,
+        "unit": "cup"
+      },
+      {
+        "item": "egg white",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "soy sauce",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "cornstarch",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "rice vinegar",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "sugar",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "salt",
+        "qty": 0.25,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Dice the chicken into 1-inch cubes, combine the marinade ingredients (salt, white pepper, cornstarch, soy sauce, egg white), add the chicken, mix well, and let stand 30 minutes.",
+      "Heat oil in a wok, add the chicken, and stir-fry until browned, then remove and drain well.",
+      "Stir-fry the ginger, onion, pepper, and bamboo shoots for about 1 minute until crisp-tender.",
+      "Combine the seasoning sauce ingredients (rice vinegar, soy sauce, salt, sugar, cornstarch) in a bowl, add to the wok, and bring to a boil.",
+      "Return the chicken to the boiling sauce and stir-fry until coated, then add the almonds, mix well, and serve hot."
+    ],
+    "source": "Chinese Cookbook (Cairo Hodson)"
+  },
+  {
+    "name": "Mixed Seafood Curry",
+    "meal": "dinner",
+    "cuisine": "chinese",
+    "kcal": 430,
+    "protein_g": 38,
+    "carbs_g": 14,
+    "fat_g": 24,
+    "fiber_g": 2,
+    "proteins": [
+      "shrimp",
+      "salmon",
+      "squid"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein",
+      "one-pot",
+      "spicy",
+      "gluten-free"
+    ],
+    "emoji": "🍲",
+    "ingredients": [
+      {
+        "item": "vegetable oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "shallot",
+        "qty": 3,
+        "unit": null
+      },
+      {
+        "item": "fresh galangal",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": 2,
+        "unit": "clove"
+      },
+      {
+        "item": "canned coconut milk",
+        "qty": 1.75,
+        "unit": "cup"
+      },
+      {
+        "item": "lemongrass stalk",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "fish sauce",
+        "qty": 4,
+        "unit": "tbsp"
+      },
+      {
+        "item": "chili sauce",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "jumbo shrimp",
+        "qty": 8,
+        "unit": "oz"
+      },
+      {
+        "item": "baby squid",
+        "qty": 8,
+        "unit": "oz"
+      },
+      {
+        "item": "salmon fillet",
+        "qty": 8,
+        "unit": "oz"
+      },
+      {
+        "item": "tuna steak",
+        "qty": 6,
+        "unit": "oz"
+      },
+      {
+        "item": "fresh mussels",
+        "qty": 8,
+        "unit": "oz"
+      }
+    ],
+    "steps": [
+      "Heat the oil in a large wok and stir-fry the shallots, galangal, and garlic for 1 to 2 minutes until they start to soften.",
+      "Add the coconut milk, lemongrass, fish sauce, and chili sauce, bring to a boil, reduce the heat, and let simmer for 1 to 2 minutes.",
+      "Add the prepared shrimp, squid, salmon, and tuna, and let simmer for 3 to 4 minutes until the shrimp have turned pink and the fish is cooked.",
+      "Add the mussels and cover with a lid, letting simmer for 1 to 2 minutes until they have opened.",
+      "Discard any mussels that remain closed, garnish with Chinese chives, and serve immediately with rice."
+    ],
+    "source": "Chinese Cookbook (Cairo Hodson)"
+  },
+  {
+    "name": "Hoisin Pork with Garlic Noodles",
+    "meal": "dinner",
+    "cuisine": "chinese",
+    "kcal": 560,
+    "protein_g": 34,
+    "carbs_g": 58,
+    "fat_g": 20,
+    "fiber_g": 4,
+    "proteins": [
+      "pork"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein"
+    ],
+    "emoji": "🍜",
+    "ingredients": [
+      {
+        "item": "dried thick chinese egg noodles",
+        "qty": 9,
+        "unit": "oz"
+      },
+      {
+        "item": "pork fillet",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "sugar",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "peanut oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "rice vinegar",
+        "qty": 4,
+        "unit": "tbsp"
+      },
+      {
+        "item": "white wine vinegar",
+        "qty": 4,
+        "unit": "tbsp"
+      },
+      {
+        "item": "hoisin sauce",
+        "qty": 4,
+        "unit": "tbsp"
+      },
+      {
+        "item": "scallion",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "garlic-flavored oil",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "garlic",
+        "qty": 2,
+        "unit": "clove"
+      },
+      {
+        "item": "fresh cilantro",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Boil the noodles for 3 minutes until soft, drain well, rinse under cold water, drain again, and set aside.",
+      "Sprinkle the pork slices with the sugar and toss together, then heat a wok over high heat, add the oil, add the pork, and stir-fry for about 3 minutes until cooked through.",
+      "Remove the pork and keep warm, then add both vinegars to the wok and boil until reduced to about 5 tablespoons.",
+      "Pour in the hoisin sauce with the scallions, let bubble until reduced by half, then add to the pork and stir together.",
+      "Wipe the wok, reheat with the garlic oil, fry the garlic slices for about 30 seconds until golden and crisp, then remove.",
+      "Add the noodles to the wok and stir to warm, divide between plates, top with the pork and onion mixture, and sprinkle with garlic slices and cilantro."
+    ],
+    "source": "Chinese Cookbook (Cairo Hodson)"
+  },
+  {
+    "name": "Mu Shu Pork",
+    "meal": "dinner",
+    "cuisine": "chinese",
+    "kcal": 380,
+    "protein_g": 22,
+    "carbs_g": 30,
+    "fat_g": 19,
+    "fiber_g": 2,
+    "proteins": [
+      "pork"
+    ],
+    "servings": 4,
+    "tags": [
+      "quick"
+    ],
+    "emoji": "🌯",
+    "ingredients": [
+      {
+        "item": "sliced pork",
+        "qty": 0.5,
+        "unit": "lb"
+      },
+      {
+        "item": "flour tortilla",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": null,
+        "unit": "clove"
+      },
+      {
+        "item": "scallion",
+        "qty": 2,
+        "unit": "cup"
+      },
+      {
+        "item": "hoisin sauce",
+        "qty": 1,
+        "unit": "can"
+      },
+      {
+        "item": "fresh ginger",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "oil",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "pepper",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Cook the pork completely in 2 tablespoons oil.",
+      "Add the garlic, salt, pepper, and shredded ginger.",
+      "Add hoisin sauce until the mixture is coated.",
+      "Spoon the meat and hoisin sauce onto the edge of a flour tortilla and sprinkle chopped scallions on top.",
+      "Roll up the tortilla and serve with a small dish of hoisin sauce for dipping."
+    ],
+    "source": "Chinese Cookbook (Cairo Hodson)"
+  },
+  {
+    "name": "Pork Dumplings (Gyoza)",
+    "meal": "dinner",
+    "cuisine": "japanese",
+    "kcal": 280,
+    "protein_g": 13,
+    "carbs_g": 30,
+    "fat_g": 11,
+    "fiber_g": 2,
+    "proteins": [
+      "pork"
+    ],
+    "servings": 10,
+    "tags": [
+      "high-protein"
+    ],
+    "emoji": "🥟",
+    "ingredients": [
+      {
+        "item": "wonton wrappers",
+        "qty": 10,
+        "unit": "oz"
+      },
+      {
+        "item": "vegetable oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "water",
+        "qty": 0.25,
+        "unit": "cup"
+      },
+      {
+        "item": "sesame oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "cabbage",
+        "qty": 2,
+        "unit": "cup"
+      },
+      {
+        "item": "onion",
+        "qty": 0.5,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": 1,
+        "unit": "clove"
+      },
+      {
+        "item": "carrot",
+        "qty": 0.25,
+        "unit": "cup"
+      },
+      {
+        "item": "minced pork",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "egg",
+        "qty": 1,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Heat the sesame oil in a large skillet over medium-high heat and saute the cabbage, onion, garlic, and carrot until the cabbage is tender and translucent.",
+      "Add the pork and beaten egg, stirring constantly, and cook until the pork is browned, then remove from heat and let cool slightly.",
+      "Place about a tablespoon of filling in the center of each wrapper, fold in half, moisten the inner edges, and pinch to seal.",
+      "Preheat the vegetable oil in a skillet over medium-high heat and fry the gyoza until lightly browned, about 1 minute per side.",
+      "Add the water, cover the skillet, and let the dumplings steam until almost all the liquid has evaporated.",
+      "Serve with soy dipping sauce or spicy soy dipping sauce."
+    ],
+    "source": "Japanese Takeout Cookbook (Lina Chang)"
+  },
+  {
+    "name": "Chicken Teriyaki",
+    "meal": "dinner",
+    "cuisine": "japanese",
+    "kcal": 420,
+    "protein_g": 42,
+    "carbs_g": 22,
+    "fat_g": 16,
+    "fiber_g": 1,
+    "proteins": [
+      "chicken"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein",
+      "low-carb",
+      "quick"
+    ],
+    "emoji": "🍗",
+    "ingredients": [
+      {
+        "item": "chicken breast",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "black pepper",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "vegetable oil",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "item": "green onion",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "soy sauce",
+        "qty": 0.75,
+        "unit": "cup"
+      },
+      {
+        "item": "light brown sugar",
+        "qty": 0.25,
+        "unit": "cup"
+      },
+      {
+        "item": "rice wine vinegar",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "ginger",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "garlic",
+        "qty": 2,
+        "unit": "clove"
+      },
+      {
+        "item": "cornstarch",
+        "qty": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Mix the teriyaki sauce ingredients (soy sauce, brown sugar, vinegar, ginger, garlic) together in a bowl and set aside.",
+      "Pound the chicken breasts to half-inch thickness, cut each in half, and season with freshly ground pepper.",
+      "Heat the oil in a large pan over medium-high heat and cook the chicken until golden brown, about 3 to 4 minutes per side.",
+      "Pour the teriyaki sauce over the chicken without stirring and let it absorb the sauce while cooking, flipping as needed until no pink remains.",
+      "Transfer the chicken to a dish, then thicken the pan sauce with a cornstarch and water slurry, whisking about 30 seconds until thickened.",
+      "Pour the sauce over the chicken and serve with steamed rice."
+    ],
+    "source": "Japanese Takeout Cookbook (Lina Chang)"
+  },
+  {
+    "name": "Pork Bone Ramen (Tonkotsu Ramen)",
+    "meal": "dinner",
+    "cuisine": "japanese",
+    "kcal": 520,
+    "protein_g": 28,
+    "carbs_g": 58,
+    "fat_g": 19,
+    "fiber_g": 3,
+    "proteins": [
+      "pork",
+      "eggs"
+    ],
+    "servings": 1,
+    "tags": [
+      "high-protein",
+      "one-pot"
+    ],
+    "emoji": "🍜",
+    "ingredients": [
+      {
+        "item": "soy sauce",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "dashi",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "sugar",
+        "qty": 0.75,
+        "unit": "tsp"
+      },
+      {
+        "item": "mirin",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "ramen noodles",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "ramen soup stock",
+        "qty": 1.5,
+        "unit": "cup"
+      },
+      {
+        "item": "chasu pork slices",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "marinated boiled egg",
+        "qty": 0.5,
+        "unit": null
+      },
+      {
+        "item": "scallion",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "black garlic oil",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Prepare the ramen noodles according to the package instructions and place a single serving in a ramen bowl.",
+      "Combine the seasoning sauce ingredients (soy sauce, dashi, sugar, mirin) in a small bowl.",
+      "Heat the basic ramen soup stock to boiling and stir in the seasoning sauce, adjusting the taste with more sauce, salt, or broth as desired.",
+      "Pour the hot seasoned stock over the noodles.",
+      "Top with chasu, half a marinated runny yolk egg, and chopped green onions.",
+      "Drizzle with mayu (black garlic oil) and serve."
+    ],
+    "source": "Japanese Takeout Cookbook (Lina Chang)"
+  },
+  {
+    "name": "Stir-Fried Udon Noodles (Yaki Udon)",
+    "meal": "dinner",
+    "cuisine": "japanese",
+    "kcal": 480,
+    "protein_g": 22,
+    "carbs_g": 56,
+    "fat_g": 18,
+    "fiber_g": 4,
+    "proteins": [
+      "pork"
+    ],
+    "servings": 3,
+    "tags": [
+      "high-protein",
+      "quick"
+    ],
+    "emoji": "🍜",
+    "ingredients": [
+      {
+        "item": "udon noodles",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "vegetable oil",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "pork belly",
+        "qty": 0.5,
+        "unit": "lb"
+      },
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "cabbage",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "carrot",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "shiitake mushroom",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "green onion",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "mentsuyu sauce",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "soy sauce",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "black pepper",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "bonito flakes",
+        "qty": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Prepare the udon noodles according to the package instructions, boiling to loosen them, then rinse and drain.",
+      "Heat the oil in a wok over medium heat and saute the pork belly until browned.",
+      "Add the onion and cook until translucent, then add the cabbage, carrot, shiitake, and green onion and cook until the vegetables are wilted.",
+      "Add the noodles, mentsuyu, soy sauce, and black pepper, and mix well, adjusting the flavor with more seasoning as needed.",
+      "Transfer to a serving dish and top with bonito flakes and chopped green onion."
+    ],
+    "source": "Japanese Takeout Cookbook (Lina Chang)"
+  },
+  {
+    "name": "Breaded Pork Cutlet Rice Bowl (Katsudon)",
+    "meal": "dinner",
+    "cuisine": "japanese",
+    "kcal": 680,
+    "protein_g": 38,
+    "carbs_g": 72,
+    "fat_g": 26,
+    "fiber_g": 3,
+    "proteins": [
+      "pork",
+      "eggs"
+    ],
+    "servings": 2,
+    "tags": [
+      "high-protein"
+    ],
+    "emoji": "🍚",
+    "ingredients": [
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "egg",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "steamed white rice",
+        "qty": 2,
+        "unit": "cup"
+      },
+      {
+        "item": "green onion",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "dashi stock",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "sugar",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "item": "soy sauce",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "mirin",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "item": "boneless pork chop",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "flour",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "panko breadcrumbs",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "cooking oil",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Whisk together the sauce ingredients (dashi, sugar, soy sauce, mirin) in a bowl and set aside.",
+      "Season the pork chops with salt and pepper, dust with flour, dip in beaten egg, then coat in panko, pressing to make the crumbs stick.",
+      "Fry the breaded pork in hot oil until golden brown, about 5 minutes per side, then drain and cut into half-inch strips.",
+      "In another skillet, saute the sliced onions until slightly caramelized, pour in the sauce, and bring to a boil.",
+      "Arrange the cutlets over the onions, reduce heat to low, and pour the beaten eggs over the meat without stirring until the egg sets.",
+      "Place the cutlets with sauce, onions, and egg over hot rice and garnish with green onion."
+    ],
+    "source": "Japanese Takeout Cookbook (Lina Chang)"
+  },
+  {
+    "name": "Shrimp Tempura",
+    "meal": "dinner",
+    "cuisine": "japanese",
+    "kcal": 410,
+    "protein_g": 28,
+    "carbs_g": 40,
+    "fat_g": 14,
+    "fiber_g": 2,
+    "proteins": [
+      "shrimp"
+    ],
+    "servings": 3,
+    "tags": [
+      "high-protein"
+    ],
+    "emoji": "🍤",
+    "ingredients": [
+      {
+        "item": "large shrimp",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "panko breadcrumbs",
+        "qty": 2,
+        "unit": "cup"
+      },
+      {
+        "item": "cooking oil",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "all-purpose flour",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "cornstarch",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "baking powder",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "salt",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "ice-cold water",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "tempura sauce",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Whisk the batter ingredients (flour, cornstarch, baking powder, salt, ice-cold water) in a bowl and keep refrigerated until use.",
+      "Make a diagonal slit on the undersides of the shrimp to straighten them, leaving the tails intact.",
+      "Dip each shrimp into the cold batter, then into the breadcrumbs, packing the crumbs well onto the surface.",
+      "Heat oil in a wok or fryer at least 2 inches deep, then dip the shrimp in batter and breadcrumbs a second time.",
+      "Drop the shrimp into the hot oil one by one without crowding and cook until golden brown, about 3 minutes.",
+      "Drain on paper towels and serve with tempura or mentsuyu sauce for dipping."
+    ],
+    "source": "Japanese Takeout Cookbook (Lina Chang)"
+  },
+  {
+    "name": "Japanese-Style Chicken Wings (Tebasaki)",
+    "meal": "dinner",
+    "cuisine": "japanese",
+    "kcal": 540,
+    "protein_g": 34,
+    "carbs_g": 38,
+    "fat_g": 28,
+    "fiber_g": 1,
+    "proteins": [
+      "chicken"
+    ],
+    "servings": 6,
+    "tags": [
+      "high-protein"
+    ],
+    "emoji": "🍗",
+    "ingredients": [
+      {
+        "item": "flour",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "white pepper",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "garlic powder",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "cayenne pepper",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "egg",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "chicken wings",
+        "qty": 3,
+        "unit": "lb"
+      },
+      {
+        "item": "butter",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "vegetable oil",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "soy sauce",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "water",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "sugar",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "white vinegar",
+        "qty": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Combine the basting sauce ingredients (soy sauce, water, sugar, vinegar, salt) in a bowl and set aside.",
+      "Mix the flour, white pepper, garlic powder, and cayenne together, then dip the wings into the beaten eggs and then into the flour mixture.",
+      "Preheat the oven to 350F and heat the butter and oil for frying in a heavy skillet over medium heat.",
+      "Fry the wings until deep brown and crisp, then transfer them to a shallow roasting pan in a single layer.",
+      "Bake the wings about 30 minutes, basting with the sauce and turning them over from time to time.",
+      "Serve garnished with chopped green onions."
+    ],
+    "source": "Japanese Takeout Cookbook (Lina Chang)"
+  },
+  {
+    "name": "Takeout Miso Soup with Tofu and Wakame",
+    "meal": "lunch",
+    "cuisine": "japanese",
+    "kcal": 110,
+    "protein_g": 9,
+    "carbs_g": 8,
+    "fat_g": 4,
+    "fiber_g": 2,
+    "proteins": [
+      "tofu"
+    ],
+    "servings": 6,
+    "tags": [
+      "vegetarian",
+      "low-carb",
+      "one-pot",
+      "quick"
+    ],
+    "emoji": "🍲",
+    "ingredients": [
+      {
+        "item": "kombu",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "katsuobushi bonito flakes",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "water",
+        "qty": 6,
+        "unit": "cup"
+      },
+      {
+        "item": "instant wakame seaweed",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "sweet white miso",
+        "qty": 5,
+        "unit": "tbsp"
+      },
+      {
+        "item": "green onion",
+        "qty": 0.25,
+        "unit": "cup"
+      },
+      {
+        "item": "firm tofu",
+        "qty": 0.5,
+        "unit": "lb"
+      }
+    ],
+    "steps": [
+      "Combine the kombu and 6 cups water in a pot and bring to a simmer, removing the kombu once it rises to the surface.",
+      "Add the katsuobushi, simmer for 10 seconds, skim off any foam, then strain the dashi through cheesecloth into a clean pot.",
+      "Soak the wakame in cold water for 5 minutes, then drain and set aside.",
+      "Bring 4 cups of the dashi to a boil, reduce the heat, and stir in the miso paste.",
+      "Add the tofu, bring to a simmer, then pull from the heat and add the wakame and green onion.",
+      "Serve hot."
+    ],
+    "source": "Japanese Miso Cookbook (Cairon Vickers)"
+  },
+  {
+    "name": "Miso Salmon Cakes",
+    "meal": "dinner",
+    "cuisine": "japanese",
+    "kcal": 430,
+    "protein_g": 24,
+    "carbs_g": 28,
+    "fat_g": 24,
+    "fiber_g": 2,
+    "proteins": [
+      "salmon"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein"
+    ],
+    "emoji": "🐟",
+    "ingredients": [
+      {
+        "item": "sesame oil",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "miso paste",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "garlic",
+        "qty": 2,
+        "unit": "clove"
+      },
+      {
+        "item": "vegetable oil",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "green onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "heavy cream",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "dry breadcrumbs",
+        "qty": 1.5,
+        "unit": "cup"
+      },
+      {
+        "item": "cilantro",
+        "qty": 0.25,
+        "unit": "cup"
+      },
+      {
+        "item": "lime juice",
+        "qty": 0.25,
+        "unit": "cup"
+      },
+      {
+        "item": "sake",
+        "qty": 0.25,
+        "unit": "cup"
+      },
+      {
+        "item": "canned salmon",
+        "qty": 7,
+        "unit": "oz"
+      },
+      {
+        "item": "onion",
+        "qty": 0.33,
+        "unit": "cup"
+      },
+      {
+        "item": "egg",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "soy sauce",
+        "qty": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Heat the oils in a skillet, add the garlic and green onion, and cook until tender, then stir in the sake and miso paste and bring to a simmer.",
+      "Stir in the cream and lime juice, return to a simmer, and cook about 8 minutes until the sauce thickens, then set aside.",
+      "In a bowl, combine the breadcrumbs, flaked salmon, cilantro, and onion.",
+      "Whisk the water, soy sauce, and egg together, then stir half of it into the salmon mixture.",
+      "Heat 2 tablespoons vegetable oil in a skillet, form the salmon mixture into 4-inch patties, and fry until golden brown, about 4 minutes per side.",
+      "Drizzle the miso cream sauce over the cakes and serve."
+    ],
+    "source": "Japanese Miso Cookbook (Cairon Vickers)"
+  },
+  {
+    "name": "Chicken and Vegetable Miso Soup",
+    "meal": "lunch",
+    "cuisine": "japanese",
+    "kcal": 240,
+    "protein_g": 30,
+    "carbs_g": 12,
+    "fat_g": 8,
+    "fiber_g": 3,
+    "proteins": [
+      "chicken"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein",
+      "low-carb",
+      "one-pot"
+    ],
+    "emoji": "🍲",
+    "ingredients": [
+      {
+        "item": "shiitake mushroom",
+        "qty": 6,
+        "unit": "oz"
+      },
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "celery",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "vegetable oil",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "baby bok choy",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "kosher salt",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "black pepper",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "white miso",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "chicken broth",
+        "qty": 6,
+        "unit": "cup"
+      },
+      {
+        "item": "chicken breast",
+        "qty": 2,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Heat the oil in a pot, add the onion, mushrooms, and celery, season with salt and pepper, and cook 5 to 7 minutes until the vegetables soften and brown.",
+      "Add the miso, broth, and chicken breasts and bring to a boil.",
+      "Reduce the heat to low and cook partially covered for 15 to 20 minutes, until the chicken is cooked through.",
+      "Remove the chicken, shred it with two forks, and return it to the pot.",
+      "Add the bok choy, cover, and cook about 3 minutes until the bok choy wilts.",
+      "Serve hot."
+    ],
+    "source": "Japanese Miso Cookbook (Cairon Vickers)"
+  },
+  {
+    "name": "Baked Cod with Miso",
+    "meal": "dinner",
+    "cuisine": "japanese",
+    "kcal": 260,
+    "protein_g": 32,
+    "carbs_g": 18,
+    "fat_g": 4,
+    "fiber_g": 1,
+    "proteins": [
+      "cod"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein",
+      "low-carb"
+    ],
+    "emoji": "🐟",
+    "ingredients": [
+      {
+        "item": "miso paste",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "mirin",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "cod fillet",
+        "qty": 1,
+        "unit": "lb"
+      }
+    ],
+    "steps": [
+      "Preheat the oven to 350F.",
+      "In a saucepan, add the miso and mirin and cook over low heat until the miso dissolves.",
+      "Allow the mixture to cool, then pour it into a dish.",
+      "Dip the cod fillets in the mirin mixture and let them marinate for half an hour.",
+      "Transfer to the oven and bake for 10 minutes.",
+      "Serve warm."
+    ],
+    "source": "Japanese Miso Cookbook (Cairon Vickers)"
+  },
+  {
+    "name": "Kimchi Miso Stew",
+    "meal": "dinner",
+    "cuisine": "japanese",
+    "kcal": 180,
+    "protein_g": 12,
+    "carbs_g": 14,
+    "fat_g": 8,
+    "fiber_g": 3,
+    "proteins": [
+      "tofu"
+    ],
+    "servings": 4,
+    "tags": [
+      "vegetarian",
+      "low-carb",
+      "one-pot",
+      "spicy"
+    ],
+    "emoji": "🍲",
+    "ingredients": [
+      {
+        "item": "ginger",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "vegetable oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "low sodium soy sauce",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "garlic",
+        "qty": 4,
+        "unit": "clove"
+      },
+      {
+        "item": "silken firm tofu",
+        "qty": 0.25,
+        "unit": null
+      },
+      {
+        "item": "low-sodium chicken broth",
+        "qty": 4,
+        "unit": "cup"
+      },
+      {
+        "item": "hot chili paste",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "scallion",
+        "qty": 6,
+        "unit": null
+      },
+      {
+        "item": "radish",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "kimchi",
+        "qty": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Heat the oil in a pan and cook the scallion whites with garlic and ginger, stirring frequently, for 3 minutes.",
+      "Stir in the broth, radish, soy sauce, and chili paste.",
+      "Simmer the radish mixture for 20 minutes.",
+      "Stir in the kimchi and tofu and bring back to a simmer.",
+      "Serve in bowls and top with the reserved dark green scallions."
+    ],
+    "source": "Japanese Miso Cookbook (Cairon Vickers)"
+  },
+  {
+    "name": "Almond Flour Chocolate Chip Pancakes",
+    "meal": "breakfast",
+    "cuisine": "everyday",
+    "kcal": 818,
+    "protein_g": 28,
+    "carbs_g": 69,
+    "fat_g": 51,
+    "fiber_g": 11,
+    "proteins": [
+      "eggs"
+    ],
+    "servings": 2,
+    "tags": [
+      "sugar-free",
+      "vegetarian",
+      "gluten-free",
+      "high-protein",
+      "high-fiber",
+      "quick"
+    ],
+    "emoji": "🥞",
+    "ingredients": [
+      {
+        "item": "egg",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "unsweetened almond milk",
+        "qty": 0.67,
+        "unit": "cup"
+      },
+      {
+        "item": "vanilla extract",
+        "qty": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "maple syrup",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "sea salt",
+        "qty": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "item": "baking powder",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "almond meal",
+        "qty": 1.33,
+        "unit": "cup"
+      },
+      {
+        "item": "rice flour",
+        "qty": 0.33,
+        "unit": "cup"
+      },
+      {
+        "item": "sugar-free chocolate chips",
+        "qty": 0.25,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "In a medium bowl, whisk the eggs with the almond milk and vanilla.",
+      "Add the maple syrup, salt, baking powder, almond meal, and rice flour, then whisk until just combined and stir in the chocolate chips (do not overmix).",
+      "Heat a nonstick griddle to medium heat (about 250 degrees F).",
+      "Pour 1/4 cup of batter per pancake and cook until bubbles form, then gently flip and cook until golden.",
+      "Serve with your favorite toppings."
+    ],
+    "source": "The Everything Naturally Sugar-Free Cookbook (Forsyth)"
+  },
+  {
+    "name": "Oatmeal and Apple Muffins",
+    "meal": "breakfast",
+    "cuisine": "everyday",
+    "kcal": 150,
+    "protein_g": 4,
+    "carbs_g": 18,
+    "fat_g": 7,
+    "fiber_g": 2,
+    "proteins": [
+      "eggs"
+    ],
+    "servings": 12,
+    "tags": [
+      "sugar-free",
+      "vegetarian",
+      "quick"
+    ],
+    "emoji": "🧁",
+    "ingredients": [
+      {
+        "item": "egg",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "half and half",
+        "qty": 0.75,
+        "unit": "cup"
+      },
+      {
+        "item": "canola oil",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "splenda",
+        "qty": 0.33,
+        "unit": "cup"
+      },
+      {
+        "item": "apple",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "walnuts",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "whole wheat flour",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "quick cooking oats",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "salt",
+        "qty": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "item": "baking powder",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "ground nutmeg",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "ground cinnamon",
+        "qty": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Preheat the oven to 450 degrees F.",
+      "In a large bowl, stir together the egg, half and half, canola oil, and Splenda.",
+      "In a separate bowl, mix the chopped apple, walnuts, oats, salt, baking powder, nutmeg, and cinnamon.",
+      "Add the egg mixture to the apple mixture and stir until just combined, then pour the batter into a muffin pan.",
+      "Bake for 15 to 20 minutes, then transfer to a wire rack to cool before serving."
+    ],
+    "source": "Ditch the Sugar (Valeria Ray)"
+  },
+  {
+    "name": "Chicken Curry",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 380,
+    "protein_g": 40,
+    "carbs_g": 12,
+    "fat_g": 18,
+    "fiber_g": 2,
+    "proteins": [
+      "chicken"
+    ],
+    "servings": 4,
+    "tags": [
+      "sugar-free",
+      "high-protein",
+      "low-carb",
+      "gluten-free",
+      "spicy"
+    ],
+    "emoji": "🍛",
+    "ingredients": [
+      {
+        "item": "boneless skinless chicken",
+        "qty": 1.5,
+        "unit": "lb"
+      },
+      {
+        "item": "greek yogurt",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "red onion",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "garlic",
+        "qty": 4,
+        "unit": "clove"
+      },
+      {
+        "item": "ginger",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "serrano pepper",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "pureed tomato",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "canola oil",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "ground coriander",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "item": "ground cumin",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "turmeric",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "chili powder",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "garam masala",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "salt",
+        "qty": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "In a food processor, blend the red onion, ginger, garlic, and serrano pepper until coarse.",
+      "In a large pan over medium heat, cook the onion mixture for 5 to 8 minutes until browned.",
+      "Add the coriander, cumin, turmeric, chili powder, garam masala, and salt, then cook for 30 seconds.",
+      "Stir in the pureed tomato and yogurt, reduce heat to low, then add the chicken and toss to coat and cook for 2 minutes.",
+      "Add 1 cup of water, bring to a boil, then simmer 15 to 20 minutes until the chicken is cooked through.",
+      "Serve with a garnish of chopped cilantro."
+    ],
+    "source": "Ditch the Sugar (Valeria Ray)"
+  },
+  {
+    "name": "Chicken and Coconut Stew",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 360,
+    "protein_g": 28,
+    "carbs_g": 16,
+    "fat_g": 20,
+    "fiber_g": 3,
+    "proteins": [
+      "chicken"
+    ],
+    "servings": 8,
+    "tags": [
+      "sugar-free",
+      "high-protein",
+      "gluten-free",
+      "one-pot"
+    ],
+    "emoji": "🍲",
+    "ingredients": [
+      {
+        "item": "orange juice",
+        "qty": 0.25,
+        "unit": "cup"
+      },
+      {
+        "item": "smoked paprika",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "ground cumin",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "coriander",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "turmeric",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "cayenne pepper",
+        "qty": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "item": "coconut oil",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "ginger",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": 8,
+        "unit": "clove"
+      },
+      {
+        "item": "chopped tomatoes",
+        "qty": 1,
+        "unit": "can"
+      },
+      {
+        "item": "unsweetened coconut milk",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "chicken broth",
+        "qty": 2,
+        "unit": "cup"
+      },
+      {
+        "item": "sweet potato",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "boneless skinless chicken thigh",
+        "qty": 2,
+        "unit": "lb"
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "black pepper",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Stir together the orange juice, smoked paprika, cumin, coriander, turmeric, and cayenne to make the spice mixture and set aside.",
+      "In a Dutch oven over medium heat, cook the onion in 2 tablespoons coconut oil for 5 minutes, then add the ginger and garlic and cook 2 minutes more.",
+      "Stir in the spice mixture and cook 1 minute, then transfer to a bowl and set aside.",
+      "Add the tomatoes and coconut milk to the pot, cook 2 to 3 minutes, then add the broth and a dash of salt and simmer 10 minutes, then add the sweet potatoes and cook 20 minutes until soft.",
+      "In a separate pan, brown the chicken in the remaining coconut oil for 8 to 10 minutes, then add it back to the pot along with the reserved spice mixture and cook 1 to 2 minutes.",
+      "Serve with a garnish of chopped cashews and unsweetened coconut flakes."
+    ],
+    "source": "Ditch the Sugar (Valeria Ray)"
+  },
+  {
+    "name": "Thirty Minute Turkey Chili",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 340,
+    "protein_g": 30,
+    "carbs_g": 20,
+    "fat_g": 16,
+    "fiber_g": 8,
+    "proteins": [
+      "ground turkey",
+      "turkey"
+    ],
+    "servings": 8,
+    "tags": [
+      "sugar-free",
+      "high-protein",
+      "high-fiber",
+      "gluten-free",
+      "one-pot",
+      "spicy"
+    ],
+    "emoji": "🌶️",
+    "ingredients": [
+      {
+        "item": "extra virgin olive oil",
+        "qty": 4,
+        "unit": "tbsp"
+      },
+      {
+        "item": "lean ground turkey",
+        "qty": 2,
+        "unit": "lb"
+      },
+      {
+        "item": "vidalia onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "red bell pepper",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": 4,
+        "unit": "clove"
+      },
+      {
+        "item": "salt",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "item": "black pepper",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "red kidney beans",
+        "qty": 1,
+        "unit": "can"
+      },
+      {
+        "item": "petite tomatoes",
+        "qty": 1,
+        "unit": "can"
+      },
+      {
+        "item": "tomato sauce",
+        "qty": 1,
+        "unit": "can"
+      },
+      {
+        "item": "water",
+        "qty": 16,
+        "unit": "oz"
+      },
+      {
+        "item": "green chiles",
+        "qty": 2,
+        "unit": "can"
+      },
+      {
+        "item": "ground cumin",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "chili powder",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "smoked paprika",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "item": "bay leaf",
+        "qty": 3,
+        "unit": null
+      },
+      {
+        "item": "splenda",
+        "qty": 1.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "In a Dutch oven over medium heat, brown the ground turkey in 2 tablespoons olive oil for about 5 minutes.",
+      "Add the onion, bell pepper, and remaining olive oil and cook 5 to 8 minutes until soft, then stir in the garlic, salt, and pepper and cook 1 minute more.",
+      "Add the kidney beans, tomatoes, tomato sauce, water, green chiles, cumin, chili powder, smoked paprika, and bay leaves.",
+      "Bring to a boil and cook 10 to 15 minutes until thick, then stir in the Splenda and adjust the seasoning.",
+      "Serve with a garnish of sour cream and sliced green onions."
+    ],
+    "source": "Ditch the Sugar (Valeria Ray)"
+  },
+  {
+    "name": "Maple Glazed Salmon",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 371,
+    "protein_g": 35,
+    "carbs_g": 24,
+    "fat_g": 14,
+    "fiber_g": 0,
+    "proteins": [
+      "salmon"
+    ],
+    "servings": 4,
+    "tags": [
+      "sugar-free",
+      "high-protein",
+      "low-carb",
+      "quick"
+    ],
+    "emoji": "🐟",
+    "ingredients": [
+      {
+        "item": "grapeseed oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "maple syrup",
+        "qty": 0.33,
+        "unit": "cup"
+      },
+      {
+        "item": "apple cider vinegar",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "soy sauce",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "garlic",
+        "qty": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "item": "sea salt",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "black pepper",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "salmon steak",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "bread crumbs",
+        "qty": 0.25,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Preheat the oven to 450 degrees F and spray a baking dish with cooking spray.",
+      "Whisk together the grapeseed oil, maple syrup, vinegar, soy sauce, garlic, salt, and pepper.",
+      "Place the salmon steaks in the dish and pour the sauce over the top, flipping a few times so both sides soak.",
+      "Sprinkle the bread crumbs over the fish, patting them to stick.",
+      "Bake for about 15 minutes (check at 10 minutes) until the fish flakes with a fork."
+    ],
+    "source": "The Everything Naturally Sugar-Free Cookbook (Forsyth)"
+  },
+  {
+    "name": "Lentil Lemon Cakes",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 445,
+    "protein_g": 21,
+    "carbs_g": 27,
+    "fat_g": 31,
+    "fiber_g": 13,
+    "proteins": [
+      "lentils",
+      "eggs"
+    ],
+    "servings": 8,
+    "tags": [
+      "sugar-free",
+      "vegetarian",
+      "high-protein",
+      "high-fiber",
+      "gluten-free"
+    ],
+    "emoji": "🥗",
+    "ingredients": [
+      {
+        "item": "lentils",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "egg",
+        "qty": 3,
+        "unit": null
+      },
+      {
+        "item": "nutritional yeast",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "onion",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "garlic",
+        "qty": 3,
+        "unit": "clove"
+      },
+      {
+        "item": "sea salt",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "spinach",
+        "qty": 0.25,
+        "unit": "cup"
+      },
+      {
+        "item": "lemon zest",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "almond meal",
+        "qty": 1.33,
+        "unit": "cup"
+      },
+      {
+        "item": "olive oil",
+        "qty": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "In a medium bowl, mix all the ingredients except the olive oil until well combined (soak the lentils at least 12 hours first).",
+      "Heat the olive oil in a large skillet over medium heat.",
+      "Divide the lentil mix into 8 parts, roll each into a ball, and flatten into a disk about 1/2 inch thick.",
+      "Cook each cake 3 to 4 minutes per side until golden, then serve hot."
+    ],
+    "source": "The Everything Naturally Sugar-Free Cookbook (Forsyth)"
+  },
+  {
+    "name": "Mexican Quinoa",
+    "meal": "lunch",
+    "cuisine": "everyday",
+    "kcal": 439,
+    "protein_g": 13,
+    "carbs_g": 53,
+    "fat_g": 21,
+    "fiber_g": 13,
+    "proteins": [
+      "black beans"
+    ],
+    "servings": 4,
+    "tags": [
+      "sugar-free",
+      "vegetarian",
+      "vegan",
+      "high-fiber",
+      "gluten-free"
+    ],
+    "emoji": "🥑",
+    "ingredients": [
+      {
+        "item": "olive oil",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "quinoa",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "garlic",
+        "qty": 1,
+        "unit": "clove"
+      },
+      {
+        "item": "water",
+        "qty": 2,
+        "unit": "cup"
+      },
+      {
+        "item": "lime",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "cumin",
+        "qty": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "item": "sea salt",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "lemon pepper",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "black beans",
+        "qty": 1,
+        "unit": "can"
+      },
+      {
+        "item": "avocado",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "roma tomato",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "cooked corn",
+        "qty": 0.25,
+        "unit": "cup"
+      },
+      {
+        "item": "onion",
+        "qty": 0.25,
+        "unit": "cup"
+      },
+      {
+        "item": "spinach",
+        "qty": 0.25,
+        "unit": "cup"
+      },
+      {
+        "item": "cilantro",
+        "qty": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "In a saucepan, combine 1 tablespoon olive oil, quinoa, garlic, and water, then cover and simmer 15 minutes until the water is absorbed.",
+      "Make the dressing by combining the lime juice and zest, 2 tablespoons olive oil, cumin, salt, and lemon pepper.",
+      "In a large bowl, combine the cooked quinoa, beans, avocado, tomato, corn, onion, spinach, and cilantro.",
+      "Toss with the dressing and serve warm."
+    ],
+    "source": "The Everything Naturally Sugar-Free Cookbook (Forsyth)"
+  },
+  {
+    "name": "Salted Caramel Chocolate Chip Cookies",
+    "meal": "snack",
+    "cuisine": "everyday",
+    "kcal": 230,
+    "protein_g": 6,
+    "carbs_g": 18,
+    "fat_g": 16,
+    "fiber_g": 2,
+    "proteins": [
+      "cashews"
+    ],
+    "servings": 8,
+    "tags": [
+      "sugar-free",
+      "vegetarian",
+      "gluten-free",
+      "quick"
+    ],
+    "emoji": "🍪",
+    "ingredients": [
+      {
+        "item": "cashew butter",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "medjool dates",
+        "qty": 5,
+        "unit": null
+      },
+      {
+        "item": "water",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "ground vanilla beans",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "sea salt",
+        "qty": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "item": "baking powder",
+        "qty": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "item": "dark chocolate chips",
+        "qty": 0.25,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Preheat the oven to 350 degrees F.",
+      "In a blender, blend the soaked dates, sea salt, and water until smooth.",
+      "In a food processor, pulse the cashew butter, ground vanilla beans, and baking powder until smooth.",
+      "In a large bowl, stir together the cashew butter mixture, date mixture, and dark chocolate chips until just mixed, then drop spoonfuls onto a baking sheet.",
+      "Bake for 10 to 12 minutes, then cool on a wire rack before serving."
+    ],
+    "source": "Ditch the Sugar (Valeria Ray)"
+  },
+  {
+    "name": "Cinnamon Almond Energy Balls",
+    "meal": "snack",
+    "cuisine": "everyday",
+    "kcal": 374,
+    "protein_g": 15,
+    "carbs_g": 34,
+    "fat_g": 20,
+    "fiber_g": 3,
+    "proteins": [
+      "almonds"
+    ],
+    "servings": 5,
+    "tags": [
+      "sugar-free",
+      "vegetarian",
+      "gluten-free",
+      "high-protein",
+      "no-cook",
+      "quick"
+    ],
+    "emoji": "🍯",
+    "ingredients": [
+      {
+        "item": "almond butter",
+        "qty": 0.75,
+        "unit": "cup"
+      },
+      {
+        "item": "maple syrup",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "ground flaxseed",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "vanilla extract",
+        "qty": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "cinnamon",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "sea salt",
+        "qty": 0.125,
+        "unit": "tsp"
+      },
+      {
+        "item": "vanilla protein powder",
+        "qty": 2.5,
+        "unit": "tbsp"
+      },
+      {
+        "item": "oats",
+        "qty": 0.33,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "In a medium bowl, stir together the almond butter and maple syrup until smooth.",
+      "Add the flaxseed, vanilla, cinnamon, and salt, then mix to combine.",
+      "Add the protein powder and fully incorporate (add another teaspoon of protein powder if the dough is too oily), then mix in the oats.",
+      "Roll into small balls and enjoy right away or store covered in the refrigerator to firm up."
+    ],
+    "source": "The Everything Naturally Sugar-Free Cookbook (Forsyth)"
   }
 ]
