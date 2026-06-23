@@ -1,0 +1,32 @@
+[
+  {"name": "Greek yogurt with berries & honey", "meal": "breakfast", "kcal": 240, "protein_g": 18, "carbs_g": 30, "fat_g": 5, "tags": ["vegetarian", "high-protein", "gluten-free"], "emoji": "🥣"},
+  {"name": "Veggie omelette with spinach & feta", "meal": "breakfast", "kcal": 310, "protein_g": 22, "carbs_g": 6, "fat_g": 22, "tags": ["vegetarian", "high-protein", "low-carb", "gluten-free"], "emoji": "🍳"},
+  {"name": "Overnight oats with peanut butter & banana", "meal": "breakfast", "kcal": 380, "protein_g": 14, "carbs_g": 52, "fat_g": 13, "tags": ["vegetarian", "vegan"], "emoji": "🥣"},
+  {"name": "Avocado toast with poached egg", "meal": "breakfast", "kcal": 350, "protein_g": 15, "carbs_g": 30, "fat_g": 20, "tags": ["vegetarian"], "emoji": "🥑"},
+  {"name": "Smoothie bowl with chia & granola", "meal": "breakfast", "kcal": 330, "protein_g": 12, "carbs_g": 55, "fat_g": 8, "tags": ["vegetarian", "vegan"], "emoji": "🍓"},
+  {"name": "Cottage cheese with pineapple", "meal": "breakfast", "kcal": 200, "protein_g": 24, "carbs_g": 16, "fat_g": 4, "tags": ["vegetarian", "high-protein", "gluten-free", "low-carb"], "emoji": "🍍"},
+
+  {"name": "Grilled chicken Caesar salad", "meal": "lunch", "kcal": 420, "protein_g": 38, "carbs_g": 12, "fat_g": 24, "tags": ["high-protein", "low-carb", "gluten-free"], "emoji": "🥗"},
+  {"name": "Quinoa & roasted veggie bowl", "meal": "lunch", "kcal": 450, "protein_g": 14, "carbs_g": 62, "fat_g": 16, "tags": ["vegetarian", "vegan", "gluten-free"], "emoji": "🥦"},
+  {"name": "Turkey & hummus wrap", "meal": "lunch", "kcal": 400, "protein_g": 30, "carbs_g": 40, "fat_g": 12, "tags": ["high-protein"], "emoji": "🌯"},
+  {"name": "Lentil soup with whole-grain bread", "meal": "lunch", "kcal": 380, "protein_g": 18, "carbs_g": 58, "fat_g": 7, "tags": ["vegetarian", "vegan"], "emoji": "🍜"},
+  {"name": "Tuna poke bowl", "meal": "lunch", "kcal": 480, "protein_g": 34, "carbs_g": 50, "fat_g": 14, "tags": ["high-protein", "gluten-free"], "emoji": "🍣"},
+  {"name": "Caprese & grilled chicken plate", "meal": "lunch", "kcal": 430, "protein_g": 36, "carbs_g": 10, "fat_g": 26, "tags": ["high-protein", "low-carb", "gluten-free"], "emoji": "🍅"},
+  {"name": "Black bean & sweet potato tacos", "meal": "lunch", "kcal": 440, "protein_g": 15, "carbs_g": 66, "fat_g": 12, "tags": ["vegetarian", "vegan"], "emoji": "🌮"},
+
+  {"name": "Baked salmon with asparagus", "meal": "dinner", "kcal": 480, "protein_g": 40, "carbs_g": 12, "fat_g": 28, "tags": ["high-protein", "low-carb", "gluten-free"], "emoji": "🐟"},
+  {"name": "Stir-fried tofu & broccoli with brown rice", "meal": "dinner", "kcal": 460, "protein_g": 22, "carbs_g": 58, "fat_g": 14, "tags": ["vegetarian", "vegan"], "emoji": "🥦"},
+  {"name": "Grilled steak with sweet potato", "meal": "dinner", "kcal": 560, "protein_g": 42, "carbs_g": 40, "fat_g": 24, "tags": ["high-protein", "gluten-free"], "emoji": "🥩"},
+  {"name": "Shrimp & zucchini noodles", "meal": "dinner", "kcal": 360, "protein_g": 32, "carbs_g": 14, "fat_g": 18, "tags": ["high-protein", "low-carb", "gluten-free"], "emoji": "🦐"},
+  {"name": "Chicken & veggie curry with rice", "meal": "dinner", "kcal": 540, "protein_g": 34, "carbs_g": 60, "fat_g": 16, "tags": ["high-protein", "gluten-free"], "emoji": "🍛"},
+  {"name": "Eggplant parmesan with side salad", "meal": "dinner", "kcal": 470, "protein_g": 20, "carbs_g": 44, "fat_g": 24, "tags": ["vegetarian"], "emoji": "🍆"},
+  {"name": "Turkey chili", "meal": "dinner", "kcal": 420, "protein_g": 35, "carbs_g": 38, "fat_g": 14, "tags": ["high-protein", "gluten-free"], "emoji": "🌶️"},
+  {"name": "Miso-glazed cod with bok choy", "meal": "dinner", "kcal": 400, "protein_g": 36, "carbs_g": 18, "fat_g": 16, "tags": ["high-protein", "gluten-free"], "emoji": "🐟"},
+
+  {"name": "Apple slices with almond butter", "meal": "snack", "kcal": 200, "protein_g": 5, "carbs_g": 24, "fat_g": 11, "tags": ["vegetarian", "vegan", "gluten-free"], "emoji": "🍎"},
+  {"name": "Handful of mixed nuts", "meal": "snack", "kcal": 180, "protein_g": 6, "carbs_g": 7, "fat_g": 16, "tags": ["vegetarian", "vegan", "gluten-free", "low-carb"], "emoji": "🥜"},
+  {"name": "Carrot sticks & hummus", "meal": "snack", "kcal": 150, "protein_g": 5, "carbs_g": 18, "fat_g": 7, "tags": ["vegetarian", "vegan", "gluten-free"], "emoji": "🥕"},
+  {"name": "Protein shake", "meal": "snack", "kcal": 160, "protein_g": 25, "carbs_g": 8, "fat_g": 3, "tags": ["high-protein", "gluten-free", "low-carb"], "emoji": "🥛"},
+  {"name": "Edamame with sea salt", "meal": "snack", "kcal": 130, "protein_g": 12, "carbs_g": 10, "fat_g": 5, "tags": ["vegetarian", "vegan", "gluten-free", "high-protein", "low-carb"], "emoji": "🫘"},
+  {"name": "Dark chocolate & strawberries", "meal": "snack", "kcal": 170, "protein_g": 3, "carbs_g": 22, "fat_g": 9, "tags": ["vegetarian", "gluten-free"], "emoji": "🍫"}
+]
