@@ -1,32 +1,5068 @@
 [
-  {"name": "Greek yogurt with berries & honey", "meal": "breakfast", "kcal": 240, "protein_g": 18, "carbs_g": 30, "fat_g": 5, "tags": ["vegetarian", "high-protein", "gluten-free"], "emoji": "🥣"},
-  {"name": "Veggie omelette with spinach & feta", "meal": "breakfast", "kcal": 310, "protein_g": 22, "carbs_g": 6, "fat_g": 22, "tags": ["vegetarian", "high-protein", "low-carb", "gluten-free"], "emoji": "🍳"},
-  {"name": "Overnight oats with peanut butter & banana", "meal": "breakfast", "kcal": 380, "protein_g": 14, "carbs_g": 52, "fat_g": 13, "tags": ["vegetarian", "vegan"], "emoji": "🥣"},
-  {"name": "Avocado toast with poached egg", "meal": "breakfast", "kcal": 350, "protein_g": 15, "carbs_g": 30, "fat_g": 20, "tags": ["vegetarian"], "emoji": "🥑"},
-  {"name": "Smoothie bowl with chia & granola", "meal": "breakfast", "kcal": 330, "protein_g": 12, "carbs_g": 55, "fat_g": 8, "tags": ["vegetarian", "vegan"], "emoji": "🍓"},
-  {"name": "Cottage cheese with pineapple", "meal": "breakfast", "kcal": 200, "protein_g": 24, "carbs_g": 16, "fat_g": 4, "tags": ["vegetarian", "high-protein", "gluten-free", "low-carb"], "emoji": "🍍"},
-
-  {"name": "Grilled chicken Caesar salad", "meal": "lunch", "kcal": 420, "protein_g": 38, "carbs_g": 12, "fat_g": 24, "tags": ["high-protein", "low-carb", "gluten-free"], "emoji": "🥗"},
-  {"name": "Quinoa & roasted veggie bowl", "meal": "lunch", "kcal": 450, "protein_g": 14, "carbs_g": 62, "fat_g": 16, "tags": ["vegetarian", "vegan", "gluten-free"], "emoji": "🥦"},
-  {"name": "Turkey & hummus wrap", "meal": "lunch", "kcal": 400, "protein_g": 30, "carbs_g": 40, "fat_g": 12, "tags": ["high-protein"], "emoji": "🌯"},
-  {"name": "Lentil soup with whole-grain bread", "meal": "lunch", "kcal": 380, "protein_g": 18, "carbs_g": 58, "fat_g": 7, "tags": ["vegetarian", "vegan"], "emoji": "🍜"},
-  {"name": "Tuna poke bowl", "meal": "lunch", "kcal": 480, "protein_g": 34, "carbs_g": 50, "fat_g": 14, "tags": ["high-protein", "gluten-free"], "emoji": "🍣"},
-  {"name": "Caprese & grilled chicken plate", "meal": "lunch", "kcal": 430, "protein_g": 36, "carbs_g": 10, "fat_g": 26, "tags": ["high-protein", "low-carb", "gluten-free"], "emoji": "🍅"},
-  {"name": "Black bean & sweet potato tacos", "meal": "lunch", "kcal": 440, "protein_g": 15, "carbs_g": 66, "fat_g": 12, "tags": ["vegetarian", "vegan"], "emoji": "🌮"},
-
-  {"name": "Baked salmon with asparagus", "meal": "dinner", "kcal": 480, "protein_g": 40, "carbs_g": 12, "fat_g": 28, "tags": ["high-protein", "low-carb", "gluten-free"], "emoji": "🐟"},
-  {"name": "Stir-fried tofu & broccoli with brown rice", "meal": "dinner", "kcal": 460, "protein_g": 22, "carbs_g": 58, "fat_g": 14, "tags": ["vegetarian", "vegan"], "emoji": "🥦"},
-  {"name": "Grilled steak with sweet potato", "meal": "dinner", "kcal": 560, "protein_g": 42, "carbs_g": 40, "fat_g": 24, "tags": ["high-protein", "gluten-free"], "emoji": "🥩"},
-  {"name": "Shrimp & zucchini noodles", "meal": "dinner", "kcal": 360, "protein_g": 32, "carbs_g": 14, "fat_g": 18, "tags": ["high-protein", "low-carb", "gluten-free"], "emoji": "🦐"},
-  {"name": "Chicken & veggie curry with rice", "meal": "dinner", "kcal": 540, "protein_g": 34, "carbs_g": 60, "fat_g": 16, "tags": ["high-protein", "gluten-free"], "emoji": "🍛"},
-  {"name": "Eggplant parmesan with side salad", "meal": "dinner", "kcal": 470, "protein_g": 20, "carbs_g": 44, "fat_g": 24, "tags": ["vegetarian"], "emoji": "🍆"},
-  {"name": "Turkey chili", "meal": "dinner", "kcal": 420, "protein_g": 35, "carbs_g": 38, "fat_g": 14, "tags": ["high-protein", "gluten-free"], "emoji": "🌶️"},
-  {"name": "Miso-glazed cod with bok choy", "meal": "dinner", "kcal": 400, "protein_g": 36, "carbs_g": 18, "fat_g": 16, "tags": ["high-protein", "gluten-free"], "emoji": "🐟"},
-
-  {"name": "Apple slices with almond butter", "meal": "snack", "kcal": 200, "protein_g": 5, "carbs_g": 24, "fat_g": 11, "tags": ["vegetarian", "vegan", "gluten-free"], "emoji": "🍎"},
-  {"name": "Handful of mixed nuts", "meal": "snack", "kcal": 180, "protein_g": 6, "carbs_g": 7, "fat_g": 16, "tags": ["vegetarian", "vegan", "gluten-free", "low-carb"], "emoji": "🥜"},
-  {"name": "Carrot sticks & hummus", "meal": "snack", "kcal": 150, "protein_g": 5, "carbs_g": 18, "fat_g": 7, "tags": ["vegetarian", "vegan", "gluten-free"], "emoji": "🥕"},
-  {"name": "Protein shake", "meal": "snack", "kcal": 160, "protein_g": 25, "carbs_g": 8, "fat_g": 3, "tags": ["high-protein", "gluten-free", "low-carb"], "emoji": "🥛"},
-  {"name": "Edamame with sea salt", "meal": "snack", "kcal": 130, "protein_g": 12, "carbs_g": 10, "fat_g": 5, "tags": ["vegetarian", "vegan", "gluten-free", "high-protein", "low-carb"], "emoji": "🫘"},
-  {"name": "Dark chocolate & strawberries", "meal": "snack", "kcal": 170, "protein_g": 3, "carbs_g": 22, "fat_g": 9, "tags": ["vegetarian", "gluten-free"], "emoji": "🍫"}
+  {
+    "name": "Greek yogurt with berries and honey",
+    "meal": "breakfast",
+    "cuisine": "everyday",
+    "kcal": 240,
+    "protein_g": 18,
+    "carbs_g": 30,
+    "fat_g": 5,
+    "fiber_g": 4,
+    "proteins": [
+      "yogurt"
+    ],
+    "servings": 1,
+    "tags": [
+      "vegetarian",
+      "high-protein",
+      "gluten-free",
+      "no-cook"
+    ],
+    "emoji": "🥣",
+    "ingredients": [
+      {
+        "item": "Greek yogurt",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "mixed berries",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "honey",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "chia seeds",
+        "qty": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Spoon the Greek yogurt into a bowl.",
+      "Top with the mixed berries and a sprinkle of chia seeds.",
+      "Drizzle with honey and serve."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Veggie omelette with spinach and feta",
+    "meal": "breakfast",
+    "cuisine": "everyday",
+    "kcal": 310,
+    "protein_g": 22,
+    "carbs_g": 6,
+    "fat_g": 22,
+    "fiber_g": 2,
+    "proteins": [
+      "egg"
+    ],
+    "servings": 1,
+    "tags": [
+      "vegetarian",
+      "high-protein",
+      "low-carb",
+      "gluten-free"
+    ],
+    "emoji": "🍳",
+    "ingredients": [
+      {
+        "item": "eggs",
+        "qty": 3,
+        "unit": null
+      },
+      {
+        "item": "spinach",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "feta cheese",
+        "qty": 0.25,
+        "unit": "cup"
+      },
+      {
+        "item": "butter",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "black pepper",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Beat the eggs with salt and pepper.",
+      "Melt butter in a nonstick pan, wilt the spinach briefly, then pour in the eggs.",
+      "Scatter feta over the top, fold the omelette when nearly set, and serve."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Overnight oats with peanut butter and banana",
+    "meal": "breakfast",
+    "cuisine": "everyday",
+    "kcal": 380,
+    "protein_g": 14,
+    "carbs_g": 52,
+    "fat_g": 13,
+    "fiber_g": 7,
+    "proteins": [
+      "peanut butter"
+    ],
+    "servings": 1,
+    "tags": [
+      "vegetarian",
+      "vegan",
+      "no-cook"
+    ],
+    "emoji": "🥣",
+    "ingredients": [
+      {
+        "item": "rolled oats",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "plant milk",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "peanut butter",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "banana",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "chia seeds",
+        "qty": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Stir the oats, plant milk, peanut butter and chia seeds together in a jar.",
+      "Refrigerate overnight.",
+      "Top with sliced banana in the morning and serve."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Avocado toast with poached egg",
+    "meal": "breakfast",
+    "cuisine": "everyday",
+    "kcal": 350,
+    "protein_g": 15,
+    "carbs_g": 30,
+    "fat_g": 20,
+    "fiber_g": 7,
+    "proteins": [
+      "egg"
+    ],
+    "servings": 1,
+    "tags": [
+      "vegetarian"
+    ],
+    "emoji": "🥑",
+    "ingredients": [
+      {
+        "item": "whole-grain bread",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "avocado",
+        "qty": 0.5,
+        "unit": null
+      },
+      {
+        "item": "egg",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "lemon juice",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "red pepper flakes",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Toast the bread and poach the egg in simmering water for about 3 minutes.",
+      "Mash the avocado with lemon juice and salt and spread on the toast.",
+      "Top with the poached egg and a pinch of red pepper flakes."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Smoothie bowl with chia and granola",
+    "meal": "breakfast",
+    "cuisine": "everyday",
+    "kcal": 330,
+    "protein_g": 12,
+    "carbs_g": 55,
+    "fat_g": 8,
+    "fiber_g": 8,
+    "proteins": [
+      "yogurt"
+    ],
+    "servings": 1,
+    "tags": [
+      "vegetarian",
+      "vegan"
+    ],
+    "emoji": "🍓",
+    "ingredients": [
+      {
+        "item": "frozen mixed berries",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "banana",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "plant milk",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "granola",
+        "qty": 0.25,
+        "unit": "cup"
+      },
+      {
+        "item": "chia seeds",
+        "qty": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Blend the frozen berries, banana and plant milk into a thick smoothie.",
+      "Pour into a bowl.",
+      "Top with granola and chia seeds and serve right away."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Cottage cheese with pineapple",
+    "meal": "breakfast",
+    "cuisine": "everyday",
+    "kcal": 200,
+    "protein_g": 24,
+    "carbs_g": 16,
+    "fat_g": 4,
+    "fiber_g": 1,
+    "proteins": [
+      "cottage cheese"
+    ],
+    "servings": 1,
+    "tags": [
+      "vegetarian",
+      "high-protein",
+      "gluten-free",
+      "low-carb",
+      "no-cook"
+    ],
+    "emoji": "🍍",
+    "ingredients": [
+      {
+        "item": "cottage cheese",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "pineapple chunks",
+        "qty": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Spoon the cottage cheese into a bowl.",
+      "Top with pineapple chunks and serve."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Grilled chicken Caesar salad",
+    "meal": "lunch",
+    "cuisine": "everyday",
+    "kcal": 420,
+    "protein_g": 38,
+    "carbs_g": 12,
+    "fat_g": 24,
+    "fiber_g": 3,
+    "proteins": [
+      "chicken"
+    ],
+    "servings": 1,
+    "tags": [
+      "high-protein",
+      "low-carb",
+      "gluten-free"
+    ],
+    "emoji": "🥗",
+    "ingredients": [
+      {
+        "item": "chicken breast",
+        "qty": 6,
+        "unit": "oz"
+      },
+      {
+        "item": "romaine lettuce",
+        "qty": 3,
+        "unit": "cup"
+      },
+      {
+        "item": "parmesan cheese",
+        "qty": 0.25,
+        "unit": "cup"
+      },
+      {
+        "item": "Caesar dressing",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "olive oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "black pepper",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Season and grill the chicken breast until cooked through, then slice.",
+      "Toss the chopped romaine with Caesar dressing and parmesan.",
+      "Top with the sliced chicken and a grind of black pepper."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Quinoa and roasted veggie bowl",
+    "meal": "lunch",
+    "cuisine": "everyday",
+    "kcal": 450,
+    "protein_g": 14,
+    "carbs_g": 62,
+    "fat_g": 16,
+    "fiber_g": 10,
+    "proteins": [
+      "quinoa"
+    ],
+    "servings": 1,
+    "tags": [
+      "vegetarian",
+      "vegan",
+      "gluten-free"
+    ],
+    "emoji": "🥦",
+    "ingredients": [
+      {
+        "item": "quinoa",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "broccoli",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "sweet potato",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "chickpeas",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "olive oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "tahini",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Cook the quinoa in salted water until fluffy.",
+      "Toss the broccoli, diced sweet potato and chickpeas in olive oil and roast at 425 F until tender.",
+      "Pile everything in a bowl and drizzle with tahini."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Turkey and hummus wrap",
+    "meal": "lunch",
+    "cuisine": "everyday",
+    "kcal": 400,
+    "protein_g": 30,
+    "carbs_g": 40,
+    "fat_g": 12,
+    "fiber_g": 5,
+    "proteins": [
+      "turkey"
+    ],
+    "servings": 1,
+    "tags": [
+      "high-protein",
+      "no-cook"
+    ],
+    "emoji": "🌯",
+    "ingredients": [
+      {
+        "item": "whole-wheat tortilla",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "sliced turkey breast",
+        "qty": 4,
+        "unit": "oz"
+      },
+      {
+        "item": "hummus",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "spinach",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "tomato",
+        "qty": 0.5,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Spread the hummus over the tortilla.",
+      "Layer with turkey, spinach and sliced tomato.",
+      "Roll up tightly and slice in half."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Lentil soup with whole-grain bread",
+    "meal": "lunch",
+    "cuisine": "everyday",
+    "kcal": 380,
+    "protein_g": 18,
+    "carbs_g": 58,
+    "fat_g": 7,
+    "fiber_g": 14,
+    "proteins": [
+      "lentils"
+    ],
+    "servings": 4,
+    "tags": [
+      "vegetarian",
+      "vegan",
+      "one-pot"
+    ],
+    "emoji": "🍜",
+    "ingredients": [
+      {
+        "item": "brown lentils",
+        "qty": 1.5,
+        "unit": "cup"
+      },
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "carrots",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "celery",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": 3,
+        "unit": "clove"
+      },
+      {
+        "item": "vegetable broth",
+        "qty": 6,
+        "unit": "cup"
+      },
+      {
+        "item": "cumin",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "olive oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "whole-grain bread",
+        "qty": 4,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Saute the onion, carrot, celery and garlic in olive oil until soft.",
+      "Add the lentils, cumin and broth and bring to a boil.",
+      "Simmer about 30 minutes until the lentils are tender, then serve with crusty bread."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Tuna poke bowl",
+    "meal": "lunch",
+    "cuisine": "everyday",
+    "kcal": 480,
+    "protein_g": 34,
+    "carbs_g": 50,
+    "fat_g": 14,
+    "fiber_g": 5,
+    "proteins": [
+      "tuna",
+      "fish"
+    ],
+    "servings": 1,
+    "tags": [
+      "high-protein",
+      "gluten-free"
+    ],
+    "emoji": "🍣",
+    "ingredients": [
+      {
+        "item": "sushi-grade tuna",
+        "qty": 5,
+        "unit": "oz"
+      },
+      {
+        "item": "cooked rice",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "edamame",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "cucumber",
+        "qty": 0.5,
+        "unit": null
+      },
+      {
+        "item": "avocado",
+        "qty": 0.5,
+        "unit": null
+      },
+      {
+        "item": "soy sauce",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "sesame oil",
+        "qty": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cube the tuna and toss with soy sauce and sesame oil.",
+      "Spoon rice into a bowl and arrange edamame, sliced cucumber and avocado on top.",
+      "Add the marinated tuna and serve."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Caprese and grilled chicken plate",
+    "meal": "lunch",
+    "cuisine": "everyday",
+    "kcal": 430,
+    "protein_g": 36,
+    "carbs_g": 10,
+    "fat_g": 26,
+    "fiber_g": 2,
+    "proteins": [
+      "chicken"
+    ],
+    "servings": 1,
+    "tags": [
+      "high-protein",
+      "low-carb",
+      "gluten-free"
+    ],
+    "emoji": "🍅",
+    "ingredients": [
+      {
+        "item": "chicken breast",
+        "qty": 6,
+        "unit": "oz"
+      },
+      {
+        "item": "fresh mozzarella",
+        "qty": 3,
+        "unit": "oz"
+      },
+      {
+        "item": "tomato",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "fresh basil",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "olive oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "balsamic vinegar",
+        "qty": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Grill the seasoned chicken breast until cooked through, then slice.",
+      "Layer sliced tomato, mozzarella and basil on a plate.",
+      "Add the chicken, drizzle with olive oil and balsamic, and season."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Black bean and sweet potato tacos",
+    "meal": "lunch",
+    "cuisine": "everyday",
+    "kcal": 440,
+    "protein_g": 15,
+    "carbs_g": 66,
+    "fat_g": 12,
+    "fiber_g": 13,
+    "proteins": [
+      "black beans"
+    ],
+    "servings": 2,
+    "tags": [
+      "vegetarian",
+      "vegan"
+    ],
+    "emoji": "🌮",
+    "ingredients": [
+      {
+        "item": "black beans",
+        "qty": 1,
+        "unit": "can"
+      },
+      {
+        "item": "sweet potato",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "corn tortillas",
+        "qty": 6,
+        "unit": null
+      },
+      {
+        "item": "red onion",
+        "qty": 0.5,
+        "unit": null
+      },
+      {
+        "item": "cumin",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "olive oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "lime",
+        "qty": 1,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Toss diced sweet potato in olive oil and cumin and roast at 425 F until tender.",
+      "Warm the black beans and the tortillas.",
+      "Fill the tortillas with sweet potato and beans, top with red onion and a squeeze of lime."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Baked salmon with asparagus",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 480,
+    "protein_g": 40,
+    "carbs_g": 12,
+    "fat_g": 28,
+    "fiber_g": 4,
+    "proteins": [
+      "salmon",
+      "fish"
+    ],
+    "servings": 2,
+    "tags": [
+      "high-protein",
+      "low-carb",
+      "gluten-free",
+      "sheet-pan"
+    ],
+    "emoji": "🐟",
+    "ingredients": [
+      {
+        "item": "salmon fillets",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "asparagus",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "olive oil",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "lemon",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": 2,
+        "unit": "clove"
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Heat the oven to 400 F and line a sheet pan.",
+      "Arrange the salmon and asparagus, drizzle with olive oil, garlic, salt and lemon.",
+      "Roast 12 to 15 minutes until the salmon flakes easily."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Stir-fried tofu and broccoli with brown rice",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 460,
+    "protein_g": 22,
+    "carbs_g": 58,
+    "fat_g": 14,
+    "fiber_g": 8,
+    "proteins": [
+      "tofu"
+    ],
+    "servings": 2,
+    "tags": [
+      "vegetarian",
+      "vegan"
+    ],
+    "emoji": "🥦",
+    "ingredients": [
+      {
+        "item": "firm tofu",
+        "qty": 14,
+        "unit": "oz"
+      },
+      {
+        "item": "broccoli",
+        "qty": 3,
+        "unit": "cup"
+      },
+      {
+        "item": "cooked brown rice",
+        "qty": 2,
+        "unit": "cup"
+      },
+      {
+        "item": "soy sauce",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "garlic",
+        "qty": 3,
+        "unit": "clove"
+      },
+      {
+        "item": "ginger",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "sesame oil",
+        "qty": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Press and cube the tofu, then pan-fry until golden.",
+      "Stir-fry the broccoli with garlic and ginger, then return the tofu and add soy sauce.",
+      "Toss in sesame oil and serve over brown rice."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Grilled steak with sweet potato",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 560,
+    "protein_g": 42,
+    "carbs_g": 40,
+    "fat_g": 24,
+    "fiber_g": 6,
+    "proteins": [
+      "beef",
+      "steak"
+    ],
+    "servings": 1,
+    "tags": [
+      "high-protein",
+      "gluten-free"
+    ],
+    "emoji": "🥩",
+    "ingredients": [
+      {
+        "item": "sirloin steak",
+        "qty": 8,
+        "unit": "oz"
+      },
+      {
+        "item": "sweet potato",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "olive oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "garlic powder",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "black pepper",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Bake the sweet potato at 400 F until soft, about 45 minutes.",
+      "Season the steak with salt, pepper and garlic powder.",
+      "Sear in a hot pan or grill 3 to 4 minutes per side, rest, then slice and serve with the sweet potato."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Shrimp and zucchini noodles",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 360,
+    "protein_g": 32,
+    "carbs_g": 14,
+    "fat_g": 18,
+    "fiber_g": 4,
+    "proteins": [
+      "shrimp"
+    ],
+    "servings": 2,
+    "tags": [
+      "high-protein",
+      "low-carb",
+      "gluten-free"
+    ],
+    "emoji": "🦐",
+    "ingredients": [
+      {
+        "item": "shrimp",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "zucchini",
+        "qty": 3,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": 3,
+        "unit": "clove"
+      },
+      {
+        "item": "olive oil",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "lemon",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "red pepper flakes",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Spiralize the zucchini into noodles.",
+      "Saute the shrimp with garlic in olive oil until pink, then remove.",
+      "Toss the zucchini noodles in the pan briefly, return the shrimp, and finish with lemon and red pepper flakes."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Chicken and veggie curry with rice",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 540,
+    "protein_g": 34,
+    "carbs_g": 60,
+    "fat_g": 16,
+    "fiber_g": 6,
+    "proteins": [
+      "chicken"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein",
+      "gluten-free",
+      "one-pot"
+    ],
+    "emoji": "🍛",
+    "ingredients": [
+      {
+        "item": "chicken thighs",
+        "qty": 1.5,
+        "unit": "lb"
+      },
+      {
+        "item": "mixed vegetables",
+        "qty": 3,
+        "unit": "cup"
+      },
+      {
+        "item": "coconut milk",
+        "qty": 1,
+        "unit": "can"
+      },
+      {
+        "item": "curry powder",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": 3,
+        "unit": "clove"
+      },
+      {
+        "item": "cooked rice",
+        "qty": 4,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Brown the chicken with onion and garlic in a pot.",
+      "Stir in the curry powder, then add the vegetables and coconut milk.",
+      "Simmer 20 minutes until the chicken is cooked and the sauce thickens, and serve over rice."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Eggplant parmesan with side salad",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 470,
+    "protein_g": 20,
+    "carbs_g": 44,
+    "fat_g": 24,
+    "fiber_g": 8,
+    "proteins": [
+      "cheese"
+    ],
+    "servings": 4,
+    "tags": [
+      "vegetarian"
+    ],
+    "emoji": "🍆",
+    "ingredients": [
+      {
+        "item": "eggplant",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "marinara sauce",
+        "qty": 2,
+        "unit": "cup"
+      },
+      {
+        "item": "mozzarella cheese",
+        "qty": 1.5,
+        "unit": "cup"
+      },
+      {
+        "item": "parmesan cheese",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "breadcrumbs",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "egg",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "mixed salad greens",
+        "qty": 4,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Slice the eggplant, dip in beaten egg and breadcrumbs, and bake at 400 F until golden.",
+      "Layer the eggplant with marinara and cheeses in a baking dish.",
+      "Bake until bubbly and serve with a simple side salad."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Turkey chili",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 420,
+    "protein_g": 35,
+    "carbs_g": 38,
+    "fat_g": 14,
+    "fiber_g": 11,
+    "proteins": [
+      "turkey",
+      "ground turkey"
+    ],
+    "servings": 6,
+    "tags": [
+      "high-protein",
+      "gluten-free",
+      "one-pot"
+    ],
+    "emoji": "🌶️",
+    "ingredients": [
+      {
+        "item": "ground turkey",
+        "qty": 1.5,
+        "unit": "lb"
+      },
+      {
+        "item": "kidney beans",
+        "qty": 2,
+        "unit": "can"
+      },
+      {
+        "item": "diced tomatoes",
+        "qty": 1,
+        "unit": "can"
+      },
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "bell pepper",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "chili powder",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "garlic",
+        "qty": 3,
+        "unit": "clove"
+      }
+    ],
+    "steps": [
+      "Brown the ground turkey with onion, bell pepper and garlic.",
+      "Stir in the chili powder, beans and tomatoes.",
+      "Simmer 30 to 40 minutes, adjust seasoning, and serve."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Miso-glazed cod with bok choy",
+    "meal": "dinner",
+    "cuisine": "everyday",
+    "kcal": 400,
+    "protein_g": 36,
+    "carbs_g": 18,
+    "fat_g": 16,
+    "fiber_g": 3,
+    "proteins": [
+      "cod",
+      "fish"
+    ],
+    "servings": 2,
+    "tags": [
+      "high-protein",
+      "gluten-free"
+    ],
+    "emoji": "🐟",
+    "ingredients": [
+      {
+        "item": "cod fillets",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "white miso",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "mirin",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "baby bok choy",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "sesame oil",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "garlic",
+        "qty": 2,
+        "unit": "clove"
+      }
+    ],
+    "steps": [
+      "Whisk the miso and mirin and brush over the cod, then broil 8 to 10 minutes until glazed and flaky.",
+      "Stir-fry the bok choy with garlic in sesame oil until just tender.",
+      "Serve the cod over the bok choy."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Apple slices with almond butter",
+    "meal": "snack",
+    "cuisine": "everyday",
+    "kcal": 200,
+    "protein_g": 5,
+    "carbs_g": 24,
+    "fat_g": 11,
+    "fiber_g": 5,
+    "proteins": [
+      "almond butter"
+    ],
+    "servings": 1,
+    "tags": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "no-cook"
+    ],
+    "emoji": "🍎",
+    "ingredients": [
+      {
+        "item": "apple",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "almond butter",
+        "qty": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Slice the apple.",
+      "Serve with almond butter for dipping."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Handful of mixed nuts",
+    "meal": "snack",
+    "cuisine": "everyday",
+    "kcal": 180,
+    "protein_g": 6,
+    "carbs_g": 7,
+    "fat_g": 16,
+    "fiber_g": 3,
+    "proteins": [
+      "nuts"
+    ],
+    "servings": 1,
+    "tags": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "low-carb",
+      "no-cook"
+    ],
+    "emoji": "🥜",
+    "ingredients": [
+      {
+        "item": "mixed nuts",
+        "qty": 0.25,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Measure out a small handful of mixed nuts and enjoy."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Carrot sticks and hummus",
+    "meal": "snack",
+    "cuisine": "everyday",
+    "kcal": 150,
+    "protein_g": 5,
+    "carbs_g": 18,
+    "fat_g": 7,
+    "fiber_g": 5,
+    "proteins": [
+      "chickpeas"
+    ],
+    "servings": 1,
+    "tags": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "no-cook"
+    ],
+    "emoji": "🥕",
+    "ingredients": [
+      {
+        "item": "carrots",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "hummus",
+        "qty": 0.25,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Cut the carrots into sticks.",
+      "Serve with hummus."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Protein shake",
+    "meal": "snack",
+    "cuisine": "everyday",
+    "kcal": 160,
+    "protein_g": 25,
+    "carbs_g": 8,
+    "fat_g": 3,
+    "fiber_g": 1,
+    "proteins": [
+      "protein powder"
+    ],
+    "servings": 1,
+    "tags": [
+      "high-protein",
+      "gluten-free",
+      "low-carb",
+      "no-cook"
+    ],
+    "emoji": "🥛",
+    "ingredients": [
+      {
+        "item": "protein powder",
+        "qty": 1,
+        "unit": "scoop"
+      },
+      {
+        "item": "plant milk",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "ice",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Blend the protein powder, milk and ice until smooth.",
+      "Pour and serve."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Edamame with sea salt",
+    "meal": "snack",
+    "cuisine": "everyday",
+    "kcal": 130,
+    "protein_g": 12,
+    "carbs_g": 10,
+    "fat_g": 5,
+    "fiber_g": 5,
+    "proteins": [
+      "edamame",
+      "soy"
+    ],
+    "servings": 1,
+    "tags": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "high-protein",
+      "low-carb"
+    ],
+    "emoji": "🫛",
+    "ingredients": [
+      {
+        "item": "edamame",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "sea salt",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Steam or boil the edamame for 5 minutes.",
+      "Sprinkle with sea salt and serve."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Dark chocolate and strawberries",
+    "meal": "snack",
+    "cuisine": "everyday",
+    "kcal": 170,
+    "protein_g": 3,
+    "carbs_g": 22,
+    "fat_g": 9,
+    "fiber_g": 4,
+    "proteins": [],
+    "servings": 1,
+    "tags": [
+      "vegetarian",
+      "gluten-free",
+      "no-cook"
+    ],
+    "emoji": "🍫",
+    "ingredients": [
+      {
+        "item": "dark chocolate",
+        "qty": 1,
+        "unit": "oz"
+      },
+      {
+        "item": "strawberries",
+        "qty": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Arrange the strawberries on a plate.",
+      "Serve with squares of dark chocolate."
+    ],
+    "source": "everyday staple"
+  },
+  {
+    "name": "Beef Birria (Birria de res estilo Jalisco)",
+    "meal": "lunch",
+    "cuisine": "mexican-jalisco",
+    "kcal": 540,
+    "protein_g": 44,
+    "carbs_g": 12,
+    "fat_g": 34,
+    "fiber_g": 3,
+    "proteins": [
+      "beef"
+    ],
+    "servings": 6,
+    "tags": [
+      "one-pot",
+      "gluten-free",
+      "high-protein",
+      "low-carb"
+    ],
+    "emoji": "🍲",
+    "ingredients": [
+      {
+        "item": "beef chuck",
+        "qty": 2,
+        "unit": "lb"
+      },
+      {
+        "item": "beef short ribs",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "guajillo chiles",
+        "qty": 5,
+        "unit": null
+      },
+      {
+        "item": "ancho chiles",
+        "qty": 5,
+        "unit": null
+      },
+      {
+        "item": "cascabel chiles",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "roma tomatoes",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "white onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": 6,
+        "unit": "clove"
+      },
+      {
+        "item": "white vinegar",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "cumin",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "dried oregano",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "item": "cinnamon stick",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "whole cloves",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "bay leaves",
+        "qty": 3,
+        "unit": null
+      },
+      {
+        "item": "corn tortillas",
+        "qty": 12,
+        "unit": null
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Devein the guajillo, ancho and cascabel chiles, toast on a comal and simmer in water until soft.",
+      "Blend the chiles with onion, garlic, vinegar, cumin, oregano, cinnamon and cloves until smooth.",
+      "Coat the beef in the adobo and marinate refrigerated at least 5 hours or overnight.",
+      "Cook the meat with bay leaves and water in a covered pot 3 to 4 hours until it shreds easily.",
+      "Blend the tomatoes into the broth, simmer 15 minutes, and serve with onion, cilantro, lime and warm tortillas."
+    ],
+    "source": "lossaboresdemexico.com"
+  },
+  {
+    "name": "Drowned Sandwich (Torta ahogada de Guadalajara)",
+    "meal": "lunch",
+    "cuisine": "mexican-jalisco",
+    "kcal": 620,
+    "protein_g": 30,
+    "carbs_g": 58,
+    "fat_g": 30,
+    "fiber_g": 6,
+    "proteins": [
+      "pork"
+    ],
+    "servings": 5,
+    "tags": [
+      "high-protein"
+    ],
+    "emoji": "🥪",
+    "ingredients": [
+      {
+        "item": "birote or bolillo rolls",
+        "qty": 5,
+        "unit": null
+      },
+      {
+        "item": "pork carnitas",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "refried beans",
+        "qty": 1.25,
+        "unit": "cup"
+      },
+      {
+        "item": "roma tomatoes",
+        "qty": 12,
+        "unit": null
+      },
+      {
+        "item": "chiles de arbol",
+        "qty": 10,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": 5,
+        "unit": "clove"
+      },
+      {
+        "item": "white onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "whole cloves",
+        "qty": 5,
+        "unit": null
+      },
+      {
+        "item": "cumin",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "dried oregano",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "white vinegar",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "limes",
+        "qty": 5,
+        "unit": null
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Boil the tomatoes, then blend most with garlic, half an onion, cumin, cloves and oregano; simmer 5 minutes for the mild sauce.",
+      "Blend the remaining tomatoes with the chiles de arbol, garlic and onion for the spicy sauce.",
+      "Pickle sliced onion in lime juice, vinegar and salt.",
+      "Split each birote, scoop out some crumb, and fill with refried beans and carnitas.",
+      "Drown the tortas in the tomato sauce, add the spicy chile de arbol sauce to taste and top with pickled onion."
+    ],
+    "source": "directoalpaladar.com.mx"
+  },
+  {
+    "name": "Beef in Its Juices (Carne en su jugo estilo Jalisco)",
+    "meal": "lunch",
+    "cuisine": "mexican-jalisco",
+    "kcal": 480,
+    "protein_g": 40,
+    "carbs_g": 20,
+    "fat_g": 26,
+    "fiber_g": 6,
+    "proteins": [
+      "beef",
+      "bacon"
+    ],
+    "servings": 4,
+    "tags": [
+      "one-pot",
+      "gluten-free",
+      "high-protein"
+    ],
+    "emoji": "🥩",
+    "ingredients": [
+      {
+        "item": "beef sirloin or top round",
+        "qty": 2,
+        "unit": "lb"
+      },
+      {
+        "item": "bacon",
+        "qty": 7,
+        "unit": "oz"
+      },
+      {
+        "item": "tomatillos",
+        "qty": 7,
+        "unit": "oz"
+      },
+      {
+        "item": "serrano chiles",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "white onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": 2,
+        "unit": "clove"
+      },
+      {
+        "item": "cilantro",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "cumin",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "beef stock",
+        "qty": 6,
+        "unit": "cup"
+      },
+      {
+        "item": "cooked pinto beans",
+        "qty": 3,
+        "unit": "cup"
+      },
+      {
+        "item": "limes",
+        "qty": 3,
+        "unit": null
+      },
+      {
+        "item": "corn tortillas",
+        "qty": 12,
+        "unit": null
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Blend tomatillos, onion, garlic, cilantro, serrano chiles and cumin with a cup of stock until smooth.",
+      "Finely slice the beef into small pieces and season with cumin, salt and pepper.",
+      "Crisp the chopped bacon in a pot, remove and reserve, then sear the beef in the bacon fat.",
+      "Add the tomatillo sauce, the bacon and the rest of the stock; simmer covered about 1 hour.",
+      "Serve over the pinto beans, topped with chopped onion, cilantro, radishes, lime and warm tortillas."
+    ],
+    "source": "maricruzavalos.com"
+  },
+  {
+    "name": "Red Pozole (Pozole rojo estilo Jalisco)",
+    "meal": "dinner",
+    "cuisine": "mexican-jalisco",
+    "kcal": 450,
+    "protein_g": 33,
+    "carbs_g": 38,
+    "fat_g": 18,
+    "fiber_g": 7,
+    "proteins": [
+      "pork"
+    ],
+    "servings": 8,
+    "tags": [
+      "one-pot",
+      "gluten-free",
+      "high-protein"
+    ],
+    "emoji": "🍲",
+    "ingredients": [
+      {
+        "item": "pork shoulder",
+        "qty": 2,
+        "unit": "lb"
+      },
+      {
+        "item": "pork neck bones",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "hominy",
+        "qty": 2,
+        "unit": "can"
+      },
+      {
+        "item": "guajillo chiles",
+        "qty": 6,
+        "unit": null
+      },
+      {
+        "item": "ancho chiles",
+        "qty": 5,
+        "unit": null
+      },
+      {
+        "item": "chile de arbol",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "roma tomatoes",
+        "qty": 6,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": 8,
+        "unit": "clove"
+      },
+      {
+        "item": "white onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "dried oregano",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "item": "bay leaves",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "shredded lettuce",
+        "qty": 2,
+        "unit": "cup"
+      },
+      {
+        "item": "radishes",
+        "qty": 6,
+        "unit": null
+      },
+      {
+        "item": "limes",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Simmer the pork shoulder and neck bones with onion, garlic, bay leaves and salt until tender; reserve the broth.",
+      "Add the drained hominy to the pork broth and cook about 40 minutes until the kernels bloom open.",
+      "Soak the guajillo, ancho and arbol chiles, then blend with roasted tomatoes, garlic and oregano and strain into the pot.",
+      "Return the shredded pork to the pot and simmer 15 minutes, adjusting salt.",
+      "Serve topped with shredded lettuce, onion, radishes, oregano and lime, with tostadas on the side."
+    ],
+    "source": "excelsior.com.mx"
+  },
+  {
+    "name": "Colima Tatemado (Tatemado de Colima)",
+    "meal": "dinner",
+    "cuisine": "mexican-colima",
+    "kcal": 510,
+    "protein_g": 38,
+    "carbs_g": 10,
+    "fat_g": 35,
+    "fiber_g": 3,
+    "proteins": [
+      "pork"
+    ],
+    "servings": 4,
+    "tags": [
+      "gluten-free",
+      "high-protein",
+      "low-carb"
+    ],
+    "emoji": "🐖",
+    "ingredients": [
+      {
+        "item": "pork leg",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "pork ribs",
+        "qty": 0.5,
+        "unit": "lb"
+      },
+      {
+        "item": "guajillo chiles",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "pasilla chiles",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "ancho chiles",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": 2,
+        "unit": "clove"
+      },
+      {
+        "item": "white vinegar",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "fresh ginger",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "bay leaves",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "thyme",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "cumin",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "dried oregano",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Devein and toast the guajillo, pasilla and ancho chiles, then soak until soft.",
+      "Blend the chiles with vinegar, garlic, thyme, cumin, oregano and salt into a dense adobo and strain.",
+      "Coat the pork in the adobo, top with bay leaves and sliced ginger, and marinate refrigerated at least 12 hours.",
+      "Cover and bake at low heat (about 120 to 150 C) for 3 hours until the meat is very soft and saucy.",
+      "Serve brothy, eaten with a spoon, alongside refried beans, red onion in lime and tortillas."
+    ],
+    "source": "megustamipiace.com"
+  },
+  {
+    "name": "Colima Sopitos (Sopitos colimenses)",
+    "meal": "snack",
+    "cuisine": "mexican-colima",
+    "kcal": 380,
+    "protein_g": 22,
+    "carbs_g": 38,
+    "fat_g": 16,
+    "fiber_g": 6,
+    "proteins": [
+      "pork",
+      "ground pork"
+    ],
+    "servings": 6,
+    "tags": [
+      "gluten-free"
+    ],
+    "emoji": "🫓",
+    "ingredients": [
+      {
+        "item": "masa harina",
+        "qty": 4,
+        "unit": "cup"
+      },
+      {
+        "item": "ground pork",
+        "qty": 1.5,
+        "unit": "lb"
+      },
+      {
+        "item": "garlic",
+        "qty": 2,
+        "unit": "clove"
+      },
+      {
+        "item": "bay leaves",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "roma tomatoes",
+        "qty": 3,
+        "unit": null
+      },
+      {
+        "item": "dried oregano",
+        "qty": 1.5,
+        "unit": "tbsp"
+      },
+      {
+        "item": "cumin seeds",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "refried beans",
+        "qty": 1.5,
+        "unit": "cup"
+      },
+      {
+        "item": "cabbage",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "white onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "cotija cheese",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "lard or oil",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Boil the ground pork in salted water with garlic and bay leaves, then crumble it finely, reserving the broth.",
+      "Blend cooked tomatoes with garlic, oregano, cumin and a cup of the meat broth, then simmer the sauce about 10 minutes.",
+      "Mix masa harina with water, form small balls, flatten into thick discs and cook on a griddle, pinching the edges to make a rim.",
+      "Fry the masa discs in lard or oil until golden.",
+      "Layer each sopito with refried beans, the shredded pork, onion and cabbage, bathe in the warm tomato-oregano sauce and top with cotija."
+    ],
+    "source": "maricruzavalos.com"
+  },
+  {
+    "name": "Nikujaga (肉じゃが)",
+    "meal": "dinner",
+    "cuisine": "japanese",
+    "kcal": 410,
+    "protein_g": 18,
+    "carbs_g": 45,
+    "fat_g": 16,
+    "fiber_g": 5,
+    "proteins": [
+      "beef"
+    ],
+    "servings": 4,
+    "tags": [
+      "one-pot"
+    ],
+    "emoji": "🥔",
+    "ingredients": [
+      {
+        "item": "thinly sliced beef",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "item": "potato",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "carrot",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "shirataki noodles",
+        "qty": 1,
+        "unit": "can"
+      },
+      {
+        "item": "dashi",
+        "qty": 2,
+        "unit": "cup"
+      },
+      {
+        "item": "soy sauce",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "mirin",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "sake",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "sugar",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "vegetable oil",
+        "qty": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cut potatoes, carrot and onion into bite-size chunks. Heat oil in a pot and stir-fry the beef until it changes color.",
+      "Add potatoes, carrot, onion and shirataki and stir to coat, then pour in dashi and bring to a boil.",
+      "Skim off scum, add sugar, sake, mirin and soy sauce, and cover with a drop-lid.",
+      "Simmer over medium-low heat about 15 to 20 minutes until the potatoes are tender and the liquid has reduced.",
+      "Let it rest a few minutes so the flavors soak in, then serve."
+    ],
+    "source": "kurashiru.com"
+  },
+  {
+    "name": "Oyakodon (親子丼)",
+    "meal": "lunch",
+    "cuisine": "japanese",
+    "kcal": 580,
+    "protein_g": 34,
+    "carbs_g": 78,
+    "fat_g": 14,
+    "fiber_g": 2,
+    "proteins": [
+      "chicken",
+      "egg"
+    ],
+    "servings": 2,
+    "tags": [
+      "high-protein"
+    ],
+    "emoji": "🍚",
+    "ingredients": [
+      {
+        "item": "chicken thigh",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "egg",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "dashi",
+        "qty": 0.75,
+        "unit": "cup"
+      },
+      {
+        "item": "soy sauce",
+        "qty": 2.5,
+        "unit": "tbsp"
+      },
+      {
+        "item": "mirin",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "sugar",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "cooked rice",
+        "qty": 2,
+        "unit": "cup"
+      },
+      {
+        "item": "mitsuba or green onion",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Slice onion thinly and cut chicken into bite-size pieces. Beat the eggs loosely in a bowl.",
+      "In a small pan, combine dashi, soy sauce, mirin and sugar and bring to a simmer, then add the onion.",
+      "Add the chicken and simmer about 5 to 6 minutes until cooked through.",
+      "Pour about three-quarters of the egg over the surface, cover and cook 1 minute, then add the rest and cook 30 seconds until just set.",
+      "Slide over a bowl of hot rice and top with mitsuba or green onion."
+    ],
+    "source": "kurashiru.com"
+  },
+  {
+    "name": "Grilled Salted Mackerel (鯖の塩焼き)",
+    "meal": "dinner",
+    "cuisine": "japanese",
+    "kcal": 280,
+    "protein_g": 25,
+    "carbs_g": 1,
+    "fat_g": 20,
+    "fiber_g": 0,
+    "proteins": [
+      "fish"
+    ],
+    "servings": 2,
+    "tags": [
+      "gluten-free",
+      "high-protein",
+      "low-carb"
+    ],
+    "emoji": "🐟",
+    "ingredients": [
+      {
+        "item": "mackerel fillet",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "salt",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "sake",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "grated daikon",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "lemon wedge",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Score the skin of each mackerel fillet, sprinkle salt over both sides, and let sit about 10 minutes.",
+      "Pat off the moisture that has drawn out, then optionally brush lightly with sake.",
+      "Grill skin-side up under a preheated broiler about 6 to 7 minutes until golden and cooked through.",
+      "Serve with grated daikon and a lemon wedge."
+    ],
+    "source": "sirogohan.com"
+  },
+  {
+    "name": "Gyudon (牛丼)",
+    "meal": "lunch",
+    "cuisine": "japanese",
+    "kcal": 620,
+    "protein_g": 26,
+    "carbs_g": 82,
+    "fat_g": 20,
+    "fiber_g": 2,
+    "proteins": [
+      "beef"
+    ],
+    "servings": 2,
+    "tags": [
+      "high-protein"
+    ],
+    "emoji": "🍚",
+    "ingredients": [
+      {
+        "item": "thinly sliced beef",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "ginger",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "water",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "soy sauce",
+        "qty": 4,
+        "unit": "tbsp"
+      },
+      {
+        "item": "sake",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "mirin",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "sugar",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "cooked rice",
+        "qty": 2,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Cut onion into 1cm wedges and julienne the ginger.",
+      "In a pot combine water, sugar, soy sauce, sake, mirin, onion and ginger, and bring to a simmer.",
+      "Once boiling, add the beef, loosening the slices with chopsticks, and skim off the scum.",
+      "Simmer over medium-low heat about 20 minutes until the onion is soft and the sauce has reduced.",
+      "Spoon the beef and some broth over bowls of hot rice."
+    ],
+    "source": "sirogohan.com"
+  },
+  {
+    "name": "Japanese Beef Curry (カレー)",
+    "meal": "dinner",
+    "cuisine": "japanese",
+    "kcal": 650,
+    "protein_g": 24,
+    "carbs_g": 85,
+    "fat_g": 24,
+    "fiber_g": 5,
+    "proteins": [
+      "beef"
+    ],
+    "servings": 4,
+    "tags": [
+      "one-pot"
+    ],
+    "emoji": "🍛",
+    "ingredients": [
+      {
+        "item": "cubed beef",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "item": "onion",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "potato",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "carrot",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "japanese curry roux",
+        "qty": 115,
+        "unit": "g"
+      },
+      {
+        "item": "vegetable oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "water",
+        "qty": 3.5,
+        "unit": "cup"
+      },
+      {
+        "item": "cooked rice",
+        "qty": 4,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Cut onion into wedges and chop potato and carrot into chunks. Brown the beef with the onion in oil until softened.",
+      "Add the carrot and potato, stir briefly, then pour in the water and bring to a boil.",
+      "Skim off scum and simmer over low heat about 20 minutes until the vegetables are tender.",
+      "Turn off the heat, break in the curry roux and stir until dissolved, then simmer a few more minutes until thickened.",
+      "Serve ladled over hot rice."
+    ],
+    "source": "housefoods.jp"
+  },
+  {
+    "name": "Chawanmushi (茶碗蒸し)",
+    "meal": "dinner",
+    "cuisine": "japanese",
+    "kcal": 110,
+    "protein_g": 10,
+    "carbs_g": 3,
+    "fat_g": 6,
+    "fiber_g": 1,
+    "proteins": [
+      "egg",
+      "chicken"
+    ],
+    "servings": 4,
+    "tags": [
+      "gluten-free",
+      "low-carb",
+      "high-protein"
+    ],
+    "emoji": "🍮",
+    "ingredients": [
+      {
+        "item": "egg",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "dashi",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "item": "soy sauce",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "chicken thigh",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "item": "shiitake mushroom",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "kamaboko",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "mitsuba",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Cool the dashi, mix with salt and light soy sauce. Beat the eggs and stir in the dashi at a 1:3 egg-to-dashi ratio, then strain.",
+      "Blanch the chicken, slice the shiitake and kamaboko, and divide among cups with the egg mixture.",
+      "Steam over strong heat 2 to 3 minutes until steam rises steadily.",
+      "Vent the lid, then steam over low heat 23 to 25 minutes until set.",
+      "When a skewer in the center releases clear liquid, top with mitsuba and serve."
+    ],
+    "source": "sirogohan.com"
+  },
+  {
+    "name": "Doenjang-jjigae (된장찌개)",
+    "meal": "dinner",
+    "cuisine": "korean",
+    "kcal": 190,
+    "protein_g": 13,
+    "carbs_g": 14,
+    "fat_g": 9,
+    "fiber_g": 4,
+    "proteins": [
+      "tofu"
+    ],
+    "servings": 4,
+    "tags": [
+      "one-pot",
+      "vegetarian",
+      "high-protein"
+    ],
+    "emoji": "🍲",
+    "ingredients": [
+      {
+        "item": "doenjang",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "firm tofu",
+        "qty": 0.5,
+        "unit": "lb"
+      },
+      {
+        "item": "zucchini",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "potato",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "onion",
+        "qty": 0.5,
+        "unit": null
+      },
+      {
+        "item": "green chili",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "green onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": 2,
+        "unit": "clove"
+      },
+      {
+        "item": "anchovy kelp stock",
+        "qty": 4,
+        "unit": "cup"
+      },
+      {
+        "item": "gochugaru",
+        "qty": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Bring anchovy and kelp stock to a boil, then dissolve the doenjang into it.",
+      "Add potato and onion and simmer until starting to soften, about 5 minutes.",
+      "Add zucchini, tofu, garlic and gochugaru and simmer another 5 minutes.",
+      "Stir in sliced green chili and green onion, simmer 1 to 2 minutes, and serve hot with rice."
+    ],
+    "source": "10000recipe.com"
+  },
+  {
+    "name": "Kimchi-jjigae (김치찌개)",
+    "meal": "dinner",
+    "cuisine": "korean",
+    "kcal": 320,
+    "protein_g": 20,
+    "carbs_g": 12,
+    "fat_g": 21,
+    "fiber_g": 4,
+    "proteins": [
+      "pork",
+      "tofu"
+    ],
+    "servings": 4,
+    "tags": [
+      "one-pot",
+      "high-protein",
+      "low-carb"
+    ],
+    "emoji": "🍲",
+    "ingredients": [
+      {
+        "item": "napa cabbage kimchi",
+        "qty": 3,
+        "unit": "cup"
+      },
+      {
+        "item": "pork shoulder",
+        "qty": 0.5,
+        "unit": "lb"
+      },
+      {
+        "item": "firm tofu",
+        "qty": 0.5,
+        "unit": "lb"
+      },
+      {
+        "item": "onion",
+        "qty": 0.5,
+        "unit": null
+      },
+      {
+        "item": "green onion",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "gochugaru",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "kimchi brine",
+        "qty": 0.25,
+        "unit": "cup"
+      },
+      {
+        "item": "sesame oil",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "water",
+        "qty": 3,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Saute chopped pork and sliced kimchi with sesame oil over low heat for 3 to 5 minutes.",
+      "Add water, kimchi brine, garlic and gochugaru and bring to a boil.",
+      "Simmer covered for 20 to 25 minutes until the pork and kimchi are tender.",
+      "Add sliced tofu and onion, simmer 5 more minutes, top with green onion, and serve."
+    ],
+    "source": "10000recipe.com"
+  },
+  {
+    "name": "Bibimbap (비빔밥)",
+    "meal": "lunch",
+    "cuisine": "korean",
+    "kcal": 560,
+    "protein_g": 22,
+    "carbs_g": 78,
+    "fat_g": 18,
+    "fiber_g": 7,
+    "proteins": [
+      "beef",
+      "ground beef",
+      "egg"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein"
+    ],
+    "emoji": "🍚",
+    "ingredients": [
+      {
+        "item": "cooked rice",
+        "qty": 4,
+        "unit": "cup"
+      },
+      {
+        "item": "ground beef",
+        "qty": 0.5,
+        "unit": "lb"
+      },
+      {
+        "item": "spinach",
+        "qty": 2,
+        "unit": "cup"
+      },
+      {
+        "item": "soybean sprouts",
+        "qty": 2,
+        "unit": "cup"
+      },
+      {
+        "item": "carrot",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "zucchini",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "shiitake mushroom",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "egg",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "gochujang",
+        "qty": 4,
+        "unit": "tbsp"
+      },
+      {
+        "item": "sesame oil",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "garlic",
+        "qty": 2,
+        "unit": "clove"
+      },
+      {
+        "item": "soy sauce",
+        "qty": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Blanch spinach and soybean sprouts separately, then season each with sesame oil, garlic and salt.",
+      "Saute the carrot, zucchini and shiitake separately, and stir-fry the beef with soy sauce and garlic.",
+      "Mix gochujang with a little sesame oil and sugar to make the bibimbap sauce.",
+      "Mound rice in each bowl, arrange the seasoned vegetables and beef on top, add a fried egg, and serve with the sauce to mix in."
+    ],
+    "source": "maangchi.com"
+  },
+  {
+    "name": "Bulgogi (불고기)",
+    "meal": "dinner",
+    "cuisine": "korean",
+    "kcal": 350,
+    "protein_g": 28,
+    "carbs_g": 16,
+    "fat_g": 19,
+    "fiber_g": 1,
+    "proteins": [
+      "beef"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein"
+    ],
+    "emoji": "🥩",
+    "ingredients": [
+      {
+        "item": "thinly sliced beef",
+        "qty": 1.5,
+        "unit": "lb"
+      },
+      {
+        "item": "soy sauce",
+        "qty": 6,
+        "unit": "tbsp"
+      },
+      {
+        "item": "sugar",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "Asian pear",
+        "qty": 0.5,
+        "unit": null
+      },
+      {
+        "item": "onion",
+        "qty": 0.5,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "ginger",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "sesame oil",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "green onion",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "black pepper",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Blend or grate the pear, onion, garlic and ginger and mix with soy sauce, sugar, sesame oil and black pepper.",
+      "Coat the thinly sliced beef in the marinade and rest at least 30 minutes.",
+      "Sear the beef in a hot pan or grill over high heat until caramelized and just cooked through.",
+      "Toss with sliced green onion and serve with rice."
+    ],
+    "source": "10000recipe.com"
+  },
+  {
+    "name": "Dak-bokkeum-tang (닭볶음탕)",
+    "meal": "dinner",
+    "cuisine": "korean",
+    "kcal": 430,
+    "protein_g": 30,
+    "carbs_g": 28,
+    "fat_g": 21,
+    "fiber_g": 4,
+    "proteins": [
+      "chicken"
+    ],
+    "servings": 4,
+    "tags": [
+      "one-pot",
+      "high-protein"
+    ],
+    "emoji": "🍗",
+    "ingredients": [
+      {
+        "item": "chicken pieces",
+        "qty": 2.5,
+        "unit": "lb"
+      },
+      {
+        "item": "potato",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "carrot",
+        "qty": 0.5,
+        "unit": null
+      },
+      {
+        "item": "green onion",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "gochugaru",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "gochujang",
+        "qty": 4,
+        "unit": "tbsp"
+      },
+      {
+        "item": "soy sauce",
+        "qty": 6,
+        "unit": "tbsp"
+      },
+      {
+        "item": "garlic",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "sugar",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "ginger",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "water",
+        "qty": 2.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Parboil the chicken pieces briefly and drain to remove excess fat and impurities.",
+      "Mix gochugaru, gochujang, soy sauce, garlic, sugar and ginger into a sauce.",
+      "Combine chicken, sauce and water in a pot and simmer 15 minutes, then add potato and carrot.",
+      "Add onion and continue simmering until the chicken is tender and the sauce thickens, finishing with green onion."
+    ],
+    "source": "10000recipe.com"
+  },
+  {
+    "name": "Japchae (잡채)",
+    "meal": "dinner",
+    "cuisine": "korean",
+    "kcal": 410,
+    "protein_g": 14,
+    "carbs_g": 62,
+    "fat_g": 12,
+    "fiber_g": 4,
+    "proteins": [
+      "beef"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein"
+    ],
+    "emoji": "🍜",
+    "ingredients": [
+      {
+        "item": "sweet potato glass noodles",
+        "qty": 0.5,
+        "unit": "lb"
+      },
+      {
+        "item": "beef",
+        "qty": 0.5,
+        "unit": "lb"
+      },
+      {
+        "item": "spinach",
+        "qty": 2,
+        "unit": "cup"
+      },
+      {
+        "item": "carrot",
+        "qty": 0.5,
+        "unit": null
+      },
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "shiitake mushroom",
+        "qty": 3,
+        "unit": null
+      },
+      {
+        "item": "soy sauce",
+        "qty": 4,
+        "unit": "tbsp"
+      },
+      {
+        "item": "sugar",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "sesame oil",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "garlic",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "sesame seeds",
+        "qty": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Soak the glass noodles, then boil until tender and toss with soy sauce and sesame oil.",
+      "Saute the onion, carrot, mushroom and seasoned beef separately, and blanch and season the spinach.",
+      "Combine the noodles, vegetables and beef in a large pan with soy sauce, sugar, garlic and sesame oil.",
+      "Toss over low heat until evenly mixed and glossy, finish with sesame seeds, and serve warm."
+    ],
+    "source": "10000recipe.com"
+  },
+  {
+    "name": "Mapo Tofu (麻婆豆腐)",
+    "meal": "dinner",
+    "cuisine": "chinese",
+    "kcal": 320,
+    "protein_g": 18,
+    "carbs_g": 12,
+    "fat_g": 23,
+    "fiber_g": 2,
+    "proteins": [
+      "tofu",
+      "ground beef"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein"
+    ],
+    "emoji": "🌶️",
+    "ingredients": [
+      {
+        "item": "silken tofu",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "ground beef",
+        "qty": 4,
+        "unit": "oz"
+      },
+      {
+        "item": "doubanjiang",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "fermented black beans",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "Sichuan peppercorns",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "chili powder",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "garlic",
+        "qty": 3,
+        "unit": "clove"
+      },
+      {
+        "item": "ginger",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "scallions",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "light soy sauce",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "cornstarch",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "cooking oil",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Cut tofu into 1 cm cubes and blanch in lightly salted boiling water, then drain gently.",
+      "Heat oil and fry the ground beef until crisp and browned, then push aside.",
+      "Add doubanjiang, mashed black beans, chili powder, garlic and ginger; fry until the oil turns red and fragrant.",
+      "Add a little water and soy sauce, slide in the tofu, and simmer briefly, thickening in additions of cornstarch slurry.",
+      "Finish on high heat, top with scallions and ground roasted Sichuan peppercorn, and serve hot."
+    ],
+    "source": "xiachufang.com"
+  },
+  {
+    "name": "Red-Braised Pork Belly (红烧肉)",
+    "meal": "dinner",
+    "cuisine": "chinese",
+    "kcal": 540,
+    "protein_g": 22,
+    "carbs_g": 10,
+    "fat_g": 46,
+    "fiber_g": 0,
+    "proteins": [
+      "pork belly",
+      "pork"
+    ],
+    "servings": 6,
+    "tags": [
+      "one-pot"
+    ],
+    "emoji": "🥩",
+    "ingredients": [
+      {
+        "item": "pork belly",
+        "qty": 2,
+        "unit": "lb"
+      },
+      {
+        "item": "rock sugar",
+        "qty": 1,
+        "unit": "oz"
+      },
+      {
+        "item": "light soy sauce",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "dark soy sauce",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "Shaoxing wine",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "ginger",
+        "qty": 5,
+        "unit": "clove"
+      },
+      {
+        "item": "star anise",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "cinnamon stick",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "bay leaves",
+        "qty": 3,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Cut pork belly into 3 cm cubes, soak briefly to remove blood, then drain and pat dry.",
+      "In a dry pan toast ginger, star anise, cinnamon and bay, then sear the pork until lightly browned.",
+      "Add Shaoxing wine, both soy sauces and rock sugar; stir to coat the meat in deep red color.",
+      "Pour in boiling water to just cover, skim the foam, cover, and braise on low heat about 1 hour.",
+      "Uncover, raise the heat and reduce until the sauce is thick and glossy; no extra salt is needed."
+    ],
+    "source": "meishichina.com"
+  },
+  {
+    "name": "Century Egg and Pork Congee (皮蛋瘦肉粥)",
+    "meal": "breakfast",
+    "cuisine": "chinese",
+    "kcal": 260,
+    "protein_g": 14,
+    "carbs_g": 38,
+    "fat_g": 6,
+    "fiber_g": 1,
+    "proteins": [
+      "pork",
+      "century egg"
+    ],
+    "servings": 4,
+    "tags": [
+      "one-pot"
+    ],
+    "emoji": "🥣",
+    "ingredients": [
+      {
+        "item": "white rice",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "lean pork",
+        "qty": 6,
+        "unit": "oz"
+      },
+      {
+        "item": "century eggs",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "ginger",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "scallions",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "salt",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "cooking oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "white pepper",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Rinse the rice, toss with a little oil and salt, then bring to a boil with water at about 10:1 and simmer 40 minutes into a smooth congee.",
+      "Marinate thinly sliced lean pork with salt, a little starch and water until silky.",
+      "Dice the century eggs and add with shredded ginger to the congee, simmering until the rice fully breaks down.",
+      "Stir the pork slices through the hot congee until just cooked and tender.",
+      "Season with salt and white pepper and finish with chopped scallions."
+    ],
+    "source": "xiachufang.com"
+  },
+  {
+    "name": "Tomato and Egg Stir-Fry (番茄炒蛋)",
+    "meal": "lunch",
+    "cuisine": "chinese",
+    "kcal": 210,
+    "protein_g": 12,
+    "carbs_g": 9,
+    "fat_g": 14,
+    "fiber_g": 2,
+    "proteins": [
+      "egg"
+    ],
+    "servings": 2,
+    "tags": [
+      "vegetarian",
+      "gluten-free",
+      "low-carb"
+    ],
+    "emoji": "🍅",
+    "ingredients": [
+      {
+        "item": "eggs",
+        "qty": 3,
+        "unit": null
+      },
+      {
+        "item": "tomatoes",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "scallions",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "sugar",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "salt",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "cooking oil",
+        "qty": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Beat the eggs well with a splash of water until frothy.",
+      "Heat plenty of oil over medium-high and scramble the eggs until just set, then remove.",
+      "Stir-fry the tomato wedges until softened and saucy, adding a little sugar to balance the acidity.",
+      "Return the eggs, toss to combine, and add salt only at the end so the dish does not weep liquid.",
+      "Finish with chopped scallion and serve."
+    ],
+    "source": "meishichina.com"
+  },
+  {
+    "name": "Cumin Lamb (孜然羊肉)",
+    "meal": "dinner",
+    "cuisine": "chinese",
+    "kcal": 330,
+    "protein_g": 26,
+    "carbs_g": 5,
+    "fat_g": 23,
+    "fiber_g": 1,
+    "proteins": [
+      "lamb"
+    ],
+    "servings": 3,
+    "tags": [
+      "high-protein",
+      "low-carb",
+      "gluten-free"
+    ],
+    "emoji": "🍖",
+    "ingredients": [
+      {
+        "item": "lamb leg or loin",
+        "qty": 0.75,
+        "unit": "lb"
+      },
+      {
+        "item": "cumin seeds",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "chili powder",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "sesame seeds",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": 2,
+        "unit": "clove"
+      },
+      {
+        "item": "ginger",
+        "qty": 3,
+        "unit": "clove"
+      },
+      {
+        "item": "scallions",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "cilantro",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "Shaoxing wine",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "salt",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "cooking oil",
+        "qty": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Slice the lamb thin against the grain and marinate briefly with wine.",
+      "Sear the lamb in hot oil over high heat with ginger and scallion until it changes color and the edges crisp.",
+      "Add coarsely crushed cumin seeds and chili powder, tossing quickly so the spices toast and coat the meat.",
+      "Stir through sliced onion, garlic and sesame seeds, season with salt, and reduce any liquid.",
+      "Turn off the heat, fold in cilantro, and serve immediately."
+    ],
+    "source": "xiachufang.com"
+  },
+  {
+    "name": "Lion's Head Meatballs (狮子头)",
+    "meal": "dinner",
+    "cuisine": "chinese",
+    "kcal": 430,
+    "protein_g": 24,
+    "carbs_g": 8,
+    "fat_g": 33,
+    "fiber_g": 1,
+    "proteins": [
+      "ground pork",
+      "pork"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein"
+    ],
+    "emoji": "🍲",
+    "ingredients": [
+      {
+        "item": "ground pork",
+        "qty": 1.5,
+        "unit": "lb"
+      },
+      {
+        "item": "water chestnuts",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "ginger",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "scallions",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "egg",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "cornstarch",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "light soy sauce",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "Shaoxing wine",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "rock sugar",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "salt",
+        "qty": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Hand-chop the pork to rice-grain size so it stays loose, then mix in diced water chestnut, ginger, scallion, egg and a little starch.",
+      "Whip the mixture and shape into large balls, throwing them between the hands to firm them up.",
+      "Brown the meatballs in oil, then transfer to a pot with water, soy sauce, wine, ginger, scallion and rock sugar.",
+      "Cover and braise gently over low heat for 2 to 3 hours until meltingly tender.",
+      "Lift out the meatballs, thicken a little braising liquid into a glaze, and pour it over to serve."
+    ],
+    "source": "xiachufang.com"
+  },
+  {
+    "name": "Louisiana Red Beans and Rice",
+    "meal": "dinner",
+    "cuisine": "black-american",
+    "kcal": 560,
+    "protein_g": 28,
+    "carbs_g": 62,
+    "fat_g": 22,
+    "fiber_g": 12,
+    "proteins": [
+      "andouille",
+      "ham",
+      "beans"
+    ],
+    "servings": 8,
+    "tags": [
+      "one-pot",
+      "high-protein"
+    ],
+    "emoji": "🫘",
+    "ingredients": [
+      {
+        "item": "dried red kidney beans",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "andouille sausage",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "smoked ham hocks",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "yellow onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "green bell pepper",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "celery",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": 4,
+        "unit": "clove"
+      },
+      {
+        "item": "Creole seasoning",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "bay leaves",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "chicken stock",
+        "qty": 10,
+        "unit": "cup"
+      },
+      {
+        "item": "long-grain white rice",
+        "qty": 3,
+        "unit": "cup"
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Soak the red beans overnight, then drain.",
+      "Simmer the ham hocks in stock with bay leaves and garlic for about 1 hour to build the base.",
+      "Saute the onion, bell pepper and celery (the holy trinity) in fat until soft, then add to the pot with the beans, sliced andouille and Creole seasoning.",
+      "Simmer uncovered 2 to 3 hours until the beans are creamy, mashing some against the pot to thicken.",
+      "Pull the ham from the hocks back into the pot and serve over hot white rice."
+    ],
+    "source": "cookswithsoul.com"
+  },
+  {
+    "name": "Creole Gumbo",
+    "meal": "dinner",
+    "cuisine": "black-american",
+    "kcal": 480,
+    "protein_g": 32,
+    "carbs_g": 30,
+    "fat_g": 24,
+    "fiber_g": 4,
+    "proteins": [
+      "chicken",
+      "shrimp",
+      "andouille"
+    ],
+    "servings": 8,
+    "tags": [
+      "one-pot",
+      "high-protein"
+    ],
+    "emoji": "🍲",
+    "ingredients": [
+      {
+        "item": "vegetable oil",
+        "qty": 0.75,
+        "unit": "cup"
+      },
+      {
+        "item": "all-purpose flour",
+        "qty": 0.75,
+        "unit": "cup"
+      },
+      {
+        "item": "andouille sausage",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "chicken thighs",
+        "qty": 1.5,
+        "unit": "lb"
+      },
+      {
+        "item": "shrimp",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "okra",
+        "qty": 2,
+        "unit": "cup"
+      },
+      {
+        "item": "yellow onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "green bell pepper",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "celery",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": 4,
+        "unit": "clove"
+      },
+      {
+        "item": "diced tomatoes",
+        "qty": 1,
+        "unit": "can"
+      },
+      {
+        "item": "chicken stock",
+        "qty": 8,
+        "unit": "cup"
+      },
+      {
+        "item": "Creole seasoning",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "file powder",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "cooked white rice",
+        "qty": 4,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Make a dark roux by stirring the oil and flour constantly over medium heat 30 to 45 minutes until chocolate-colored.",
+      "Stir the onion, bell pepper, celery and garlic into the roux and cook until softened.",
+      "Add stock, tomatoes, browned andouille, chicken, okra and Creole seasoning, then simmer 1 hour.",
+      "Add the shrimp and cook 7 to 10 minutes until pink, then remove from heat and stir in file powder.",
+      "Serve over hot white rice."
+    ],
+    "source": "cravingsomecreativity.com"
+  },
+  {
+    "name": "Southern Smothered Chicken",
+    "meal": "dinner",
+    "cuisine": "black-american",
+    "kcal": 520,
+    "protein_g": 35,
+    "carbs_g": 18,
+    "fat_g": 34,
+    "fiber_g": 2,
+    "proteins": [
+      "chicken"
+    ],
+    "servings": 4,
+    "tags": [
+      "one-pot",
+      "high-protein"
+    ],
+    "emoji": "🍗",
+    "ingredients": [
+      {
+        "item": "bone-in chicken thighs",
+        "qty": 2,
+        "unit": "lb"
+      },
+      {
+        "item": "all-purpose flour",
+        "qty": 0.75,
+        "unit": "cup"
+      },
+      {
+        "item": "yellow onion",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": 3,
+        "unit": "clove"
+      },
+      {
+        "item": "chicken broth",
+        "qty": 2.5,
+        "unit": "cup"
+      },
+      {
+        "item": "vegetable oil",
+        "qty": 0.25,
+        "unit": "cup"
+      },
+      {
+        "item": "butter",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "smoked paprika",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "poultry seasoning",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "black pepper",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Season the chicken, dredge in seasoned flour, and pan-fry in oil until golden on all sides, then set aside.",
+      "Add butter and sliced onions to the pan and cook 8 to 10 minutes until softened and caramelized, then stir in the garlic.",
+      "Sprinkle in reserved flour and stir 2 to 3 minutes, then whisk in the chicken broth to form a smooth gravy.",
+      "Return the chicken to the pan, cover, and simmer 30 to 35 minutes until tender.",
+      "Serve over rice or mashed potatoes with the onion gravy spooned over."
+    ],
+    "source": "grandbaby-cakes.com"
+  },
+  {
+    "name": "Collard Greens with Smoked Turkey",
+    "meal": "dinner",
+    "cuisine": "black-american",
+    "kcal": 210,
+    "protein_g": 18,
+    "carbs_g": 12,
+    "fat_g": 10,
+    "fiber_g": 6,
+    "proteins": [
+      "turkey"
+    ],
+    "servings": 6,
+    "tags": [
+      "one-pot",
+      "gluten-free",
+      "low-carb"
+    ],
+    "emoji": "🥬",
+    "ingredients": [
+      {
+        "item": "collard greens",
+        "qty": 2,
+        "unit": "lb"
+      },
+      {
+        "item": "smoked turkey",
+        "qty": 1.5,
+        "unit": "lb"
+      },
+      {
+        "item": "yellow onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": 4,
+        "unit": "clove"
+      },
+      {
+        "item": "chicken broth",
+        "qty": 6,
+        "unit": "cup"
+      },
+      {
+        "item": "apple cider vinegar",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "red pepper flakes",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "black pepper",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Simmer the smoked turkey in broth with onion and garlic for about 1 hour to build the pot likker.",
+      "Wash, stem and chop the collard greens.",
+      "Add the greens to the pot with vinegar and red pepper flakes, pushing them down into the liquid.",
+      "Simmer low and slow 2 to 3 hours until very tender, then pull the turkey meat from the bone back into the pot.",
+      "Season with salt and pepper and serve with the pot likker and cornbread."
+    ],
+    "source": "cookswithsoul.com"
+  },
+  {
+    "name": "Lowcountry Shrimp and Grits",
+    "meal": "breakfast",
+    "cuisine": "black-american",
+    "kcal": 540,
+    "protein_g": 30,
+    "carbs_g": 40,
+    "fat_g": 28,
+    "fiber_g": 3,
+    "proteins": [
+      "shrimp",
+      "andouille",
+      "bacon"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein"
+    ],
+    "emoji": "🍤",
+    "ingredients": [
+      {
+        "item": "stone-ground grits",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "shrimp",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "andouille sausage",
+        "qty": 0.5,
+        "unit": "lb"
+      },
+      {
+        "item": "bacon",
+        "qty": 4,
+        "unit": "oz"
+      },
+      {
+        "item": "sharp cheddar cheese",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "yellow onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": 3,
+        "unit": "clove"
+      },
+      {
+        "item": "chicken stock",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "butter",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "Creole seasoning",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "milk",
+        "qty": 2,
+        "unit": "cup"
+      },
+      {
+        "item": "water",
+        "qty": 2,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Cook the stone-ground grits low and slow in the milk and water until creamy, then stir in butter and cheddar.",
+      "Render the bacon and andouille in a skillet until crisp, then remove and reserve.",
+      "Saute the onion and garlic in the drippings, then add the shrimp and Creole seasoning and cook until just pink.",
+      "Pour in the stock to make a light brown gravy and return the bacon and sausage to the pan.",
+      "Spoon the shrimp and gravy over the creamy grits and serve."
+    ],
+    "source": "butterbeready.com"
+  },
+  {
+    "name": "Chicken, Andouille and Shrimp Jambalaya",
+    "meal": "dinner",
+    "cuisine": "black-american",
+    "kcal": 590,
+    "protein_g": 36,
+    "carbs_g": 58,
+    "fat_g": 22,
+    "fiber_g": 3,
+    "proteins": [
+      "chicken",
+      "shrimp",
+      "andouille"
+    ],
+    "servings": 12,
+    "tags": [
+      "one-pot",
+      "high-protein"
+    ],
+    "emoji": "🍚",
+    "ingredients": [
+      {
+        "item": "vegetable oil",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "andouille sausage",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "chicken thighs",
+        "qty": 2,
+        "unit": "lb"
+      },
+      {
+        "item": "shrimp",
+        "qty": 1.5,
+        "unit": "lb"
+      },
+      {
+        "item": "long-grain rice",
+        "qty": 3,
+        "unit": "cup"
+      },
+      {
+        "item": "yellow onion",
+        "qty": 1.5,
+        "unit": "cup"
+      },
+      {
+        "item": "celery",
+        "qty": 1.5,
+        "unit": "cup"
+      },
+      {
+        "item": "green bell pepper",
+        "qty": 1.5,
+        "unit": "cup"
+      },
+      {
+        "item": "garlic",
+        "qty": 3,
+        "unit": "clove"
+      },
+      {
+        "item": "diced tomatoes",
+        "qty": 1,
+        "unit": "can"
+      },
+      {
+        "item": "chicken broth",
+        "qty": 5,
+        "unit": "cup"
+      },
+      {
+        "item": "smoked paprika",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "cayenne pepper",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "bay leaves",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "thyme",
+        "qty": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Brown the andouille and chicken thighs in oil, then saute the onion, celery, bell pepper and garlic.",
+      "Toast the rice in the pot, then stir in the diced tomatoes.",
+      "Add the broth, thyme, bay leaves, paprika and cayenne and bring to a boil.",
+      "Cover and simmer until the rice is tender and has absorbed the liquid.",
+      "Stir in the seasoned shrimp and cook a few minutes until pink, then garnish with green onion and parsley."
+    ],
+    "source": "explorelouisiana.com"
+  },
+  {
+    "name": "Chicken and Dumplings",
+    "meal": "dinner",
+    "cuisine": "country-us",
+    "kcal": 480,
+    "protein_g": 34,
+    "carbs_g": 38,
+    "fat_g": 20,
+    "fiber_g": 2,
+    "proteins": [
+      "chicken"
+    ],
+    "servings": 5,
+    "tags": [
+      "one-pot",
+      "high-protein"
+    ],
+    "emoji": "🍲",
+    "ingredients": [
+      {
+        "item": "whole chicken",
+        "qty": 3.5,
+        "unit": "lb"
+      },
+      {
+        "item": "celery",
+        "qty": 3,
+        "unit": null
+      },
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "chicken base",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "salt",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "item": "black pepper",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "cream of chicken soup",
+        "qty": 1,
+        "unit": "can"
+      },
+      {
+        "item": "cornstarch",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "item": "all-purpose flour",
+        "qty": 2,
+        "unit": "cup"
+      },
+      {
+        "item": "ice water",
+        "qty": 0.75,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Simmer the whole chicken with celery, onion, chicken base, salt and pepper in about 12 cups water for 1 hour, then remove the chicken and strain the broth.",
+      "Mix flour with the ice water until shaggy, knead briefly, roll out thin, and cut into roughly 2-inch dumpling strips.",
+      "Shred the cooled chicken, discarding bones and skin.",
+      "Whisk the cream of chicken soup and a cornstarch slurry into the broth and bring to a rolling boil.",
+      "Drop in the dumplings one at a time, simmer about 5 minutes until tender, then stir the shredded chicken back in to heat through."
+    ],
+    "source": "southernbite.com"
+  },
+  {
+    "name": "Pot Roast",
+    "meal": "dinner",
+    "cuisine": "country-us",
+    "kcal": 520,
+    "protein_g": 38,
+    "carbs_g": 30,
+    "fat_g": 26,
+    "fiber_g": 4,
+    "proteins": [
+      "beef"
+    ],
+    "servings": 6,
+    "tags": [
+      "crockpot",
+      "one-pot",
+      "high-protein"
+    ],
+    "emoji": "🥩",
+    "ingredients": [
+      {
+        "item": "beef chuck roast",
+        "qty": 3,
+        "unit": "lb"
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "black pepper",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "vegetable oil",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "yellow onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": 4,
+        "unit": "clove"
+      },
+      {
+        "item": "beef broth",
+        "qty": 2,
+        "unit": "cup"
+      },
+      {
+        "item": "carrots",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "Yukon gold potatoes",
+        "qty": 1.5,
+        "unit": "lb"
+      },
+      {
+        "item": "fresh thyme",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "cornstarch",
+        "qty": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Season the chuck roast generously with salt and pepper and sear on all sides in hot oil.",
+      "Place the roast in the slow cooker with onion, garlic, thyme and beef broth.",
+      "Cook on low until tender, about 8 to 9 hours, adding the carrots and potatoes during the final 1.5 to 2 hours.",
+      "Remove the meat and vegetables, then whisk a cornstarch slurry into the cooking liquid and simmer briefly to make gravy.",
+      "Shred or slice the roast and serve with the vegetables and gravy."
+    ],
+    "source": "tastesbetterfromscratch.com"
+  },
+  {
+    "name": "Beef Stew",
+    "meal": "dinner",
+    "cuisine": "country-us",
+    "kcal": 430,
+    "protein_g": 32,
+    "carbs_g": 28,
+    "fat_g": 19,
+    "fiber_g": 5,
+    "proteins": [
+      "beef"
+    ],
+    "servings": 6,
+    "tags": [
+      "crockpot",
+      "one-pot",
+      "high-protein"
+    ],
+    "emoji": "🍲",
+    "ingredients": [
+      {
+        "item": "beef chuck",
+        "qty": 2,
+        "unit": "lb"
+      },
+      {
+        "item": "salt",
+        "qty": 1.75,
+        "unit": "tsp"
+      },
+      {
+        "item": "black pepper",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "all-purpose flour",
+        "qty": 0.33,
+        "unit": "cup"
+      },
+      {
+        "item": "vegetable oil",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "butter",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "yellow onion",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "garlic",
+        "qty": 3,
+        "unit": "clove"
+      },
+      {
+        "item": "dry red wine",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "beef broth",
+        "qty": 4,
+        "unit": "cup"
+      },
+      {
+        "item": "tomato paste",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "carrots",
+        "qty": 3,
+        "unit": null
+      },
+      {
+        "item": "celery",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "potatoes",
+        "qty": 3,
+        "unit": null
+      },
+      {
+        "item": "button mushrooms",
+        "qty": 6,
+        "unit": "oz"
+      },
+      {
+        "item": "frozen peas",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "dried thyme",
+        "qty": 0.75,
+        "unit": "tsp"
+      },
+      {
+        "item": "bay leaves",
+        "qty": 2,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Coat the beef chunks in salt, pepper and flour, then brown in batches in hot oil and butter and set aside.",
+      "Soften the onion in the same pot, add garlic, then pour in the red wine and scrape up the browned bits.",
+      "Return the beef, add broth, tomato paste, thyme, bay leaves and seasonings, bring to a boil, then cover and simmer 90 minutes.",
+      "Add the carrots, celery, potatoes and mushrooms; cover and simmer another hour until tender.",
+      "Stir in the frozen peas, adjust seasoning, and serve hot with parsley."
+    ],
+    "source": "daringgourmet.com"
+  },
+  {
+    "name": "Meatloaf",
+    "meal": "dinner",
+    "cuisine": "country-us",
+    "kcal": 290,
+    "protein_g": 19,
+    "carbs_g": 16,
+    "fat_g": 16,
+    "fiber_g": 1,
+    "proteins": [
+      "ground beef"
+    ],
+    "servings": 5,
+    "tags": [
+      "high-protein"
+    ],
+    "emoji": "🍖",
+    "ingredients": [
+      {
+        "item": "ground beef",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "dried bread crumbs",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "yellow onion",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "milk",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "egg",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "ketchup",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "Worcestershire sauce",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "dried parsley",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "salt",
+        "qty": 0.75,
+        "unit": "tsp"
+      },
+      {
+        "item": "garlic powder",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "black pepper",
+        "qty": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "item": "brown sugar",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "red wine vinegar",
+        "qty": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 350 F.",
+      "Mix the ground beef, bread crumbs, onion, milk, egg, 2 tablespoons ketchup, Worcestershire, parsley and seasonings by hand until just combined.",
+      "Press the mixture into a loaf pan in an even layer.",
+      "Whisk the remaining ketchup, brown sugar and vinegar into a glaze and spread it over the top.",
+      "Bake uncovered about 55 minutes, then rest 8 to 10 minutes before slicing."
+    ],
+    "source": "thewholesomedish.com"
+  },
+  {
+    "name": "Chicken-Fried Steak with Cream Gravy",
+    "meal": "dinner",
+    "cuisine": "country-us",
+    "kcal": 620,
+    "protein_g": 33,
+    "carbs_g": 35,
+    "fat_g": 38,
+    "fiber_g": 1,
+    "proteins": [
+      "beef"
+    ],
+    "servings": 4,
+    "tags": [
+      "high-protein"
+    ],
+    "emoji": "🥩",
+    "ingredients": [
+      {
+        "item": "cube steak",
+        "qty": 4,
+        "unit": null
+      },
+      {
+        "item": "all-purpose flour",
+        "qty": 2,
+        "unit": "cup"
+      },
+      {
+        "item": "salt",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "black pepper",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "paprika",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "cayenne pepper",
+        "qty": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "item": "buttermilk",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "egg",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "vegetable oil",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "milk",
+        "qty": 2,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Stir the salt, pepper, paprika and cayenne into the flour, and whisk the buttermilk with the eggs in a second bowl.",
+      "Dredge each cube steak in the seasoned flour, dip in the buttermilk-egg, then back into the flour for a thick crust.",
+      "Shallow-fry the steaks in about an inch of hot oil until golden and crisp on both sides, then drain.",
+      "Pour off all but a few tablespoons of the drippings, sprinkle in seasoned flour, and stir to brown into a roux.",
+      "Gradually whisk in the milk and simmer until thickened; season the cream gravy and spoon over the steaks."
+    ],
+    "source": "texascooking.com"
+  },
+  {
+    "name": "Biscuits and Sausage Gravy",
+    "meal": "breakfast",
+    "cuisine": "country-us",
+    "kcal": 540,
+    "protein_g": 17,
+    "carbs_g": 42,
+    "fat_g": 34,
+    "fiber_g": 1,
+    "proteins": [
+      "pork sausage"
+    ],
+    "servings": 6,
+    "tags": [
+      "one-pot",
+      "high-protein"
+    ],
+    "emoji": "🥐",
+    "ingredients": [
+      {
+        "item": "pork breakfast sausage",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "butter",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "all-purpose flour",
+        "qty": 0.33,
+        "unit": "cup"
+      },
+      {
+        "item": "milk",
+        "qty": 3,
+        "unit": "cup"
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "black pepper",
+        "qty": null,
+        "unit": null
+      },
+      {
+        "item": "biscuits",
+        "qty": 6,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Cook the pork sausage over medium heat, breaking it into crumbles, until no longer pink.",
+      "Add the butter to melt, then stir in the flour, salt and pepper and cook into a roux.",
+      "Gradually pour in the milk, stirring constantly, and bring to a boil.",
+      "Cook and stir until the gravy thickens, about 2 minutes, then adjust salt and plenty of black pepper.",
+      "Split warm biscuits and ladle the sausage gravy generously over the top."
+    ],
+    "source": "tasteofhome.com"
+  },
+  {
+    "name": "Chana Masala (छोले)",
+    "meal": "lunch",
+    "cuisine": "indian",
+    "kcal": 350,
+    "protein_g": 14,
+    "carbs_g": 52,
+    "fat_g": 10,
+    "fiber_g": 12,
+    "proteins": [
+      "chickpeas"
+    ],
+    "servings": 4,
+    "tags": [
+      "one-pot",
+      "gluten-free",
+      "high-protein",
+      "vegetarian",
+      "vegan"
+    ],
+    "emoji": "🍛",
+    "ingredients": [
+      {
+        "item": "dried chickpeas",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "onion",
+        "qty": 1.5,
+        "unit": "cup"
+      },
+      {
+        "item": "tomatoes",
+        "qty": 1.5,
+        "unit": "cup"
+      },
+      {
+        "item": "ginger garlic paste",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "oil",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "turmeric",
+        "qty": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "item": "Kashmiri red chili powder",
+        "qty": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "coriander powder",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "item": "cumin powder",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "garam masala",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "dried mango powder",
+        "qty": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "item": "dried fenugreek leaves",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Soak chickpeas overnight, then pressure cook until tender and soft.",
+      "Heat oil and saute onions until golden, then add ginger garlic paste and chopped tomatoes with salt; cook until mushy.",
+      "Stir in turmeric, chili powder, coriander, cumin and garam masala; cook 3 to 4 minutes until aromatic.",
+      "Add cooked chickpeas with their stock plus water; cover and simmer about 15 minutes until thick.",
+      "Finish with dried fenugreek and mango powder, garnish with cilantro and serve with rice or roti."
+    ],
+    "source": "indianhealthyrecipes.com"
+  },
+  {
+    "name": "Rajma (राजमा)",
+    "meal": "lunch",
+    "cuisine": "indian",
+    "kcal": 330,
+    "protein_g": 14,
+    "carbs_g": 50,
+    "fat_g": 9,
+    "fiber_g": 13,
+    "proteins": [
+      "kidney beans"
+    ],
+    "servings": 4,
+    "tags": [
+      "one-pot",
+      "gluten-free",
+      "high-protein",
+      "vegetarian",
+      "vegan"
+    ],
+    "emoji": "🫘",
+    "ingredients": [
+      {
+        "item": "dried kidney beans",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "onion",
+        "qty": 1.5,
+        "unit": "cup"
+      },
+      {
+        "item": "tomatoes",
+        "qty": 1.5,
+        "unit": "cup"
+      },
+      {
+        "item": "ginger garlic paste",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "oil",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "cumin seeds",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "turmeric",
+        "qty": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "item": "Kashmiri red chili powder",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "coriander powder",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "item": "garam masala",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Soak kidney beans overnight, then pressure cook until soft and creamy.",
+      "Heat oil, crackle cumin seeds, then saute onions until golden and add ginger garlic paste.",
+      "Add pureed tomatoes with turmeric, chili powder and coriander; cook until oil separates.",
+      "Add the boiled beans with their water, mash a few for body, and simmer 15 to 20 minutes until thick.",
+      "Stir in garam masala, garnish with cilantro and serve with steamed rice (rajma chawal)."
+    ],
+    "source": "indianhealthyrecipes.com"
+  },
+  {
+    "name": "Dal Tadka (दाल तड़का)",
+    "meal": "dinner",
+    "cuisine": "indian",
+    "kcal": 280,
+    "protein_g": 13,
+    "carbs_g": 38,
+    "fat_g": 9,
+    "fiber_g": 9,
+    "proteins": [
+      "lentils"
+    ],
+    "servings": 4,
+    "tags": [
+      "one-pot",
+      "gluten-free",
+      "high-protein",
+      "vegetarian"
+    ],
+    "emoji": "🍲",
+    "ingredients": [
+      {
+        "item": "toor dal",
+        "qty": 0.75,
+        "unit": "cup"
+      },
+      {
+        "item": "moong dal",
+        "qty": 0.25,
+        "unit": "cup"
+      },
+      {
+        "item": "chana dal",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "onion",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "tomatoes",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "ginger",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "garlic",
+        "qty": 4,
+        "unit": "clove"
+      },
+      {
+        "item": "ghee",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "cumin seeds",
+        "qty": 0.75,
+        "unit": "tsp"
+      },
+      {
+        "item": "dried red chilies",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "turmeric",
+        "qty": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "item": "red chili powder",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "garam masala",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "dried fenugreek leaves",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Pressure cook the lentil mix with water and turmeric until soft and mushy.",
+      "Saute cumin, ginger garlic, onions and spices in a little ghee, add tomatoes and cook until soft.",
+      "Stir the cooked lentils into the masala and simmer 6 to 7 minutes, adjusting consistency with water.",
+      "Make the tadka: heat ghee, fry cumin seeds, dried chilies and garlic, then add chili powder.",
+      "Pour the sizzling tadka over the dal, stir in fenugreek, garnish with cilantro and serve."
+    ],
+    "source": "indianhealthyrecipes.com"
+  },
+  {
+    "name": "Saag Paneer (साग पनीर)",
+    "meal": "dinner",
+    "cuisine": "indian",
+    "kcal": 320,
+    "protein_g": 15,
+    "carbs_g": 16,
+    "fat_g": 22,
+    "fiber_g": 5,
+    "proteins": [
+      "paneer"
+    ],
+    "servings": 4,
+    "tags": [
+      "gluten-free",
+      "high-protein",
+      "low-carb",
+      "vegetarian"
+    ],
+    "emoji": "🥬",
+    "ingredients": [
+      {
+        "item": "spinach",
+        "qty": 1,
+        "unit": "lb"
+      },
+      {
+        "item": "paneer",
+        "qty": 8,
+        "unit": "oz"
+      },
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "tomato",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "ginger garlic paste",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "green chilies",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "oil",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "cumin seeds",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "coriander powder",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "garam masala",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "cream",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Blanch the spinach briefly, refresh in cold water, then puree with green chilies.",
+      "Saute cumin seeds, onions and ginger garlic paste in oil until golden, then add tomato and spices.",
+      "Add the spinach puree, season with salt, and simmer a few minutes until cooked and thickened.",
+      "Stir in cubed paneer and a splash of cream, simmer gently so paneer softens in the sauce.",
+      "Finish with garam masala and serve hot with naan or roti."
+    ],
+    "source": "vegrecipesofindia.com"
+  },
+  {
+    "name": "Aloo Gobi (आलू गोभी)",
+    "meal": "lunch",
+    "cuisine": "indian",
+    "kcal": 220,
+    "protein_g": 5,
+    "carbs_g": 30,
+    "fat_g": 9,
+    "fiber_g": 6,
+    "proteins": [],
+    "servings": 4,
+    "tags": [
+      "gluten-free",
+      "vegetarian",
+      "vegan"
+    ],
+    "emoji": "🥔",
+    "ingredients": [
+      {
+        "item": "cauliflower",
+        "qty": 1,
+        "unit": null
+      },
+      {
+        "item": "potatoes",
+        "qty": 2,
+        "unit": null
+      },
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "tomato",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "ginger garlic paste",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "oil",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "cumin seeds",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "turmeric",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "red chili powder",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "coriander powder",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "garam masala",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "dried mango powder",
+        "qty": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Heat oil, temper cumin seeds, then saute onions and ginger garlic paste.",
+      "Add tomato, turmeric, chili and coriander powder and cook into a thick masala.",
+      "Add potato and cauliflower florets, toss to coat, season with salt.",
+      "Cover and cook on low heat, stirring occasionally, until the vegetables are tender but not mushy.",
+      "Sprinkle garam masala and dried mango powder, garnish with cilantro and serve with roti."
+    ],
+    "source": "indianhealthyrecipes.com"
+  },
+  {
+    "name": "Chicken Tikka Masala (चिकन टिक्का मसाला)",
+    "meal": "dinner",
+    "cuisine": "indian",
+    "kcal": 450,
+    "protein_g": 32,
+    "carbs_g": 14,
+    "fat_g": 28,
+    "fiber_g": 3,
+    "proteins": [
+      "chicken"
+    ],
+    "servings": 4,
+    "tags": [
+      "gluten-free",
+      "high-protein",
+      "low-carb"
+    ],
+    "emoji": "🍗",
+    "ingredients": [
+      {
+        "item": "boneless chicken",
+        "qty": 1.5,
+        "unit": "lb"
+      },
+      {
+        "item": "plain yogurt",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "ginger garlic paste",
+        "qty": 1.5,
+        "unit": "tbsp"
+      },
+      {
+        "item": "Kashmiri red chili powder",
+        "qty": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "garam masala",
+        "qty": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "turmeric",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "item": "dried fenugreek leaves",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "onion",
+        "qty": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "tomato puree",
+        "qty": 1.5,
+        "unit": "cup"
+      },
+      {
+        "item": "heavy cream",
+        "qty": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "butter",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "coriander powder",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "salt",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Marinate chicken in yogurt, ginger garlic paste, chili powder, turmeric and garam masala for a few hours.",
+      "Grill or pan-roast the chicken tikka until charred and just cooked, then set aside.",
+      "Saute onions in butter, add ginger garlic, tomato puree and ground spices; cook until oil separates.",
+      "Stir in cream and crushed dried fenugreek, then add the grilled chicken and simmer until the sauce thickens.",
+      "Adjust salt, finish with garam masala and serve with naan or rice."
+    ],
+    "source": "indianhealthyrecipes.com"
+  }
 ]
