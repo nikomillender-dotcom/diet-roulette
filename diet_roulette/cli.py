@@ -86,24 +86,38 @@ def cmd_spin(args: argparse.Namespace) -> int:
         if not candidates:
             return 1
 
-    winner = pick(candidates, seed=args.seed)
-    if not args.no_anim:
-        spin_animation(candidates, winner)
+    # Spin (and re-spin) until the user accepts a meal or bows out.
+    while True:
+        winner = pick(candidates, seed=args.seed)
+        if not args.no_anim:
+            spin_animation(candidates, winner)
 
-    print(f"\n{CYAN}🎯 The wheel landed on:{RESET}\n")
-    print(format_recipe(winner))
+        print(f"\n{CYAN}🎯 The wheel landed on:{RESET}\n")
+        print(format_recipe(winner))
 
-    if args.accept:
-        day = tracker.accept(winner)
-        print(f"\n{GREEN}✓ Added to today's plan ({len(day)} meal(s) so far).{RESET}")
-    elif interactive:
+        if args.accept:
+            day = tracker.accept(winner)
+            print(f"\n{GREEN}✓ Added to today's plan ({len(day)} meal(s) so far).{RESET}")
+            return 0
+        if not interactive:
+            return 0
+
         ans = input(f"\n{BOLD}Accept this meal? [y/N]{RESET} ").strip().lower()
         if ans in ("y", "yes"):
             day = tracker.accept(winner)
             print(f"{GREEN}✓ Added to today's plan ({len(day)} meal(s) so far).{RESET}")
-        else:
+            return 0
+
+        # Declined. Offer another spin (only worthwhile if there's more than one option).
+        if len(candidates) < 2:
+            print(f"{DIM}That's the only meal matching your filters. Maybe next time!{RESET}")
+            return 0
+        again = input(f"{BOLD}Re-spin the wheel? [Y/n]{RESET} ").strip().lower()
+        if again in ("n", "no"):
             print(f"{DIM}No worries, spin again anytime.{RESET}")
-    return 0
+            return 0
+        # A fixed seed would just land on the same meal, so drop it on re-spins.
+        args.seed = None
 
 
 def _find_meal(foods: list[dict], query: str) -> dict | list[dict]:

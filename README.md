@@ -71,6 +71,9 @@ The protein picker is free text and forgiving: `beef` matches everything beefy, 
 `ground beef` only spins meals that actually use ground beef. Odd inputs like `paneer`
 or `oxtail` work too (it checks the ingredient lists).
 
+Don't like what it landed on? Say `n` to "Accept this meal?" and it asks **"Re-spin the
+wheel?"**, so you can keep spinning until something sounds good (no need to re-run anything).
+
 ### Weekly plan + shopping list
 
 ```bash
@@ -101,20 +104,28 @@ diet-roulette recipe "dal tadka" --save dal.html
 
 ## Cuisines
 
-The database has ~70 meals: everyday healthy staples plus non-standard, culture-specific
-dishes, each fact-checked against authentic (often native-language) sources:
+The database has **130+ meals**: everyday healthy staples plus non-standard,
+culture-specific dishes, fact-checked against authentic (often native-language) sources
+and built out from a shelf of real cookbooks:
 
 - **Mexican** (Guadalajara/Jalisco + Colima): birria, torta ahogada, carne en su jugo,
   pozole rojo, tatemado de Colima, sopitos colimenses
-- **Japanese**: nikujaga, oyakodon, saba shioyaki, gyudon, Japanese curry, chawanmushi
+- **Japanese**: nikujaga, oyakodon, gyudon, Japanese curry, plus takeout favorites
+  (tonkotsu ramen, katsudon, gyoza, chicken teriyaki, yaki udon, tempura) and miso dishes
 - **Korean**: doenjang-jjigae, kimchi-jjigae, bibimbap, bulgogi, dak-bokkeum-tang, japchae
-- **Chinese**: mapo tofu, hong shao rou, century-egg congee, tomato & egg, cumin lamb,
-  lion's head meatballs
+- **Chinese**: mapo tofu, hong shao rou, beef & broccoli, cashew chicken, mu shu pork,
+  scallops in black bean sauce, lo mein, and more
+- **African** (Congolese): moambe chicken, egusi soup, madesu stew, eggplant curry,
+  coupe coupe, plantains in coconut milk
 - **Black American (soul)**: red beans & rice, gumbo, smothered chicken, collard greens,
   shrimp & grits, jambalaya
 - **Country US (Southern)**: chicken & dumplings, pot roast, beef stew, meatloaf,
   chicken-fried steak, biscuits & gravy
 - **Indian**: chana masala, rajma, dal tadka, saag paneer, aloo gobi, chicken tikka masala
+
+Plus loads of **everyday** dishes drawn from air-fryer, high-protein/bodybuilding, and
+sugar-free cookbooks, tagged so you can filter for them (`--tag air-fryer`,
+`--tag sugar-free`, `--tag high-protein`, `--tag keto`).
 
 Filter any command with `--cuisine`, and browse with `diet-roulette list --cuisine indian`.
 
